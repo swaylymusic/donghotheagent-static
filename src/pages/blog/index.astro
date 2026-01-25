@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog"))
+  .filter(p => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+<BaseLayout title="Blog | Dongho The Agent" description="Real estate insights and guides.">
+  <h1>Blog</h1>
+
+  {posts.map(post => (
+    <article class="card">
+      <h2>
+        <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+      </h2>
+      <p class="meta">
+        {post.data.pubDate.toLocaleDateString()} · {post.data.category}
+      </p>
+      <p>{post.data.description}</p>
+    </article>
+  ))}
+</BaseLayout>
