@@ -12,6 +12,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# local migration working notes
+docs/
+migration-drafts/
 
 # environment variables
 .env

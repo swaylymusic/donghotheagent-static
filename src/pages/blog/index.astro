@@ -12,7 +12,7 @@ const posts = (await getCollection("blog"))
   {posts.map(post => (
     <article class="card">
       <h2>
-        <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+        <a href={`/${post.slug}/`}>{post.data.title}</a>
       </h2>
       <p class="meta">
         {post.data.pubDate.toLocaleDateString()} · {post.data.category}
