@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = (await getCollection("blog")).filter(post => !post.data.draft);
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<BaseLayout
+  title={`${post.data.title} | Dongho The Agent`}
+  description={post.data.description}
+>
+  <article>
+    <h1>{post.data.title}</h1>
+    <p class="meta">
+      {post.data.pubDate.toLocaleDateString()} · {post.data.category}
+    </p>
+    <Content />
+  </article>
+</BaseLayout>

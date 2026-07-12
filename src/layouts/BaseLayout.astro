@@ -1,0 +1,51 @@
+---
+const {
+  title = "Dongho The Agent",
+  description = "Toronto real estate blog and services.",
+  canonical,
+} = Astro.props;
+
+const canonicalUrl =
+  canonical ??
+  new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="/">Dongho The Agent</a>
+        <nav class="nav">
+          <a href="/about/">About</a>
+          <a href="/services/">Services</a>
+          <a href="/blog/">Blog</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <a href="/privacy-policy/">Privacy Policy</a>
+          <a href="/terms-and-conditions/">Terms & Conditions</a>
+          <a href="/disclaimer/">Disclaimer</a>
+          <a href="/cookie-policy/">Cookie Policy</a>
+        </nav>
+        <p class="fineprint">© {new Date().getFullYear()} Dongho The Agent.</p>
+      </div>
+    </footer>
+  </body>
+</html>
