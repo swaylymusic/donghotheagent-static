@@ -33,6 +33,7 @@ const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
 <BaseLayout
   title={`${post.data.title} | Dongho, The Agent`}
   description={post.data.description}
+  canonical={new URL(`/${post.slug}/`, Astro.site ?? Astro.url).toString()}
 >
   <article class="blog-article">
     <header class="blog-article-header">

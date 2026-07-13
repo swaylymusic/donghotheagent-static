@@ -28,7 +28,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 
     <aside class="contact-card highlight">
       <p class="page-kicker">Office Location</p>
-      <h2>HomeLife Frontier Realty Inc.</h2>
+      <h2>HomeLife Frontier Realty Inc., Brokerage</h2>
       <p>7620 Yonge St #400<br />Thornhill, ON L4J 1V9</p>
     </aside>
   </section>
@@ -80,6 +80,16 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       <label class="message-field">
         <span>용건 <strong>*</strong></span>
         <textarea name="message" rows="7" required placeholder="문의 사항을 간단히 적어 주세요."></textarea>
+      </label>
+
+      <label class="consent-field">
+        <input type="checkbox" name="privacyConsent" value="yes" required />
+        <span>
+          I consent to Don Lee 이동호, Broker, REALTOR®, and HomeLife Frontier Realty Inc., Brokerage
+          collecting and using the information I submit for the purpose of responding to my inquiry.
+          문의 답변을 위해 제출한 개인정보를 수집·이용하는 것에 동의합니다.
+          <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
+        </span>
       </label>
 
       <div class="form-footer">

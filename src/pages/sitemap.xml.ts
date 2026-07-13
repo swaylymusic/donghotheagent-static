@@ -29,18 +29,13 @@ const normalizeDate = (date: Date) => date.toISOString().slice(0, 10);
 export async function GET() {
   const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
 
-  const postRoutes = posts.flatMap((post) => [
+  const postRoutes = posts.map((post) => (
     {
       path: `/${post.slug}/`,
       lastmod: normalizeDate(post.data.pubDate),
       priority: "0.8",
-    },
-    {
-      path: `/blog/${post.slug}/`,
-      lastmod: normalizeDate(post.data.pubDate),
-      priority: "0.5",
-    },
-  ]);
+    }
+  ));
 
   const categoryRoutes = blogCategories
     .filter((category) =>

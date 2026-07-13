@@ -146,10 +146,15 @@ export async function onRequestPost({ request, env }) {
     phone: clean(payload.phone, 80),
     area: clean(payload.area, 160),
     message: clean(payload.message, 3000),
+    privacyConsent: clean(payload.privacyConsent, 20),
   };
 
   if (!data.clientType || !data.name || !data.email || !data.message) {
     return jsonResponse({ message: "필수 항목을 모두 입력해 주세요." }, 400);
+  }
+
+  if (data.privacyConsent !== "yes") {
+    return jsonResponse({ message: "개인정보 수집 및 이용 동의가 필요합니다." }, 400);
   }
 
   if (!EMAIL_PATTERN.test(data.email)) {
