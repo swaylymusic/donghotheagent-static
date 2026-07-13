@@ -2,42 +2,12 @@
 title: "다운사이징, 언제 시작해야 할까? 60대 은퇴 전 반드시 점검해야 할 기준들"
 description: "집이 커서 부담되기 시작했다면 다운사이징을 고민할 시점입니다. 60대 은퇴 전 최적 시기, 신호, 준비 단계까지 한인 가정을 위한 현실 가이드."
 pubDate: "2026-02-03"
-category: "Buying/Selling"
+category: "Investment"
 tags: ["Buying/Selling", "Newcomer", "Investment"]
-draft: true
+draft: false
 originalUrl: "https://donghotheagent.com/downsizing-when-to-start-retirement-60s/"
 featuredImage: "/uploads/2026/02/downsizing-hero.jpg"
 ---
-
-<!-- Migrated draft from WordPress. Review formatting and image paths before publishing. -->
-
-<div>
-
-	
-	
-		<header>
-
-			
-			<h1 itemprop="headline">다운사이징, 언제 시작해야 할까? 60대 은퇴 전 반드시 점검해야 할 기준들</h1><div><span></span>By<span itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">			<a title="View all posts by DONGHO LEE"
-				href="https://donghotheagent.com/author/dongho_admin/" rel="author"
-			 itemprop="url"				>
-				<span
-			 itemprop="name"				>
-				DONGHO LEE			</span>
-			</a>
-		</span>
-
-		 / <span><span itemprop="datePublished"> February 3, 2026 </span></span></div>
-			
-		</header>
-
-	
-	
-	<div
- itemprop="text"	>
-
-		
-		
 <article>
 
 <img decoding="async" src="/uploads/2026/02/downsizing-hero.jpg"
@@ -219,7 +189,7 @@ loading="lazy" />
   <p>
     은퇴를 앞둔 한인 가정을 위해  
     이 세 가지를 하나의 흐름으로 정리해 드리는  
-    <strong>2026 통합 은퇴 재정 세미나</strong>를 준비했습니다.
+<strong>2026 통합 은퇴 재정 세미나</strong>를 준비했습니다.
   </p>
 
   <p>
@@ -229,18 +199,18 @@ loading="lazy" />
 
   <div>
 
-    <a href="https://donghotheagent.com/retirement-financial-seminar-2026/"
+<a href="https://donghotheagent.com/retirement-financial-seminar-2026/"
        target="_blank"
        rel="noopener"
       >
        👉 세미나 상세 안내 &#038; 일정 보기
-    </a>
+</a>
 
-    <br/><br/>
+<br/><br/>
 
-    <a href="https://forms.gle/f8Rp4ikejJUZN1a47" target="_blank" rel="noopener nofollow">
+<a href="https://forms.gle/f8Rp4ikejJUZN1a47" target="_blank" rel="noopener nofollow">
        ✍️ 세미나 참가 신청하기
-    </a>
+</a>
 
   </div>
 

@@ -1,7 +1,134 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
-<BaseLayout title="Services | Dongho The Agent" description="Real estate services for buyers, sellers, and investors.">
-  <h1>Services</h1>
-  <p>Placeholder. We will paste your existing Services content later.</p>
+<BaseLayout
+  title="Services | Dongho, The Agent"
+  description="Professional, data-driven, and client-focused real estate services for buyers, sellers, renters, and investors in Ontario."
+>
+  <section class="services-hero">
+    <div>
+      <p class="page-kicker">Services</p>
+      <h1>Real Estate Services</h1>
+      <p class="lead">
+        Professional, data-driven, and client-focused real estate services
+        tailored for buyers, sellers, renters, and investors.
+      </p>
+      <p class="lead ko">
+        구매 · 판매 · 렌탈 · 투자 전 과정을 책임지는 전문적이고 신뢰 기반의
+        부동산 서비스 제공
+      </p>
+      <a class="button primary" href="/contact/">상담 신청하기</a>
+    </div>
+  </section>
+
+  <section class="services-grid" aria-label="Real estate services">
+    <article class="service-card">
+      <div class="service-icon">🏠</div>
+      <h2>Buying <span>구매</span></h2>
+      <h3>Personalized Home Search & Buyer Strategy</h3>
+      <p>맞춤형 매물 탐색 + 전략적인 구매 절차 안내</p>
+      <ul>
+        <li>지역·학군·시세 기반 맞춤 매물 추천</li>
+        <li>신규 이민자 & 첫 주택 구매자 전문 지원</li>
+        <li>예산·대출 구조 상담 (모기지 Broker 연계)</li>
+        <li>실시간 신규 매물 업데이트</li>
+        <li>오퍼 전략 수립 & 전문 협상</li>
+        <li>변호사·인스펙션·이사 전체 과정 관리</li>
+      </ul>
+      <a class="text-link" href="/contact/">Learn More →</a>
+    </article>
+
+    <article class="service-card">
+      <div class="service-icon">📣</div>
+      <h2>Selling <span>판매</span></h2>
+      <h3>Premium Listing & High-Impact Marketing</h3>
+      <p>정확한 가격 전략 + 프리미엄 마케팅 제공</p>
+      <ul>
+        <li>CMA 기반 정밀 가격 전략</li>
+        <li>홈스테이징 · 전문 촬영 · 3D 투어 제작</li>
+        <li>유튜브·SNS·웹 전 채널 마케팅</li>
+        <li>오픈하우스 & 프라이빗 쇼잉 운영</li>
+        <li>멀티 오퍼 최적 협상</li>
+        <li>컨디션·클로징까지 전체 관리</li>
+      </ul>
+      <a class="text-link" href="/contact/">Learn More →</a>
+    </article>
+
+    <article class="service-card">
+      <div class="service-icon">🔑</div>
+      <h2>Renting <span>렌탈</span></h2>
+      <h3>Tenant & Landlord Focused Rental Guidance</h3>
+      <p>온타리오 법 기반 안전한 임대 전략</p>
+      <ul>
+        <li>세입자 Screening (신용·소득·레퍼런스)</li>
+        <li>온타리오 법규 기반 계약 및 문서 안내</li>
+        <li>N-Forms 법적 문서 처리</li>
+        <li>입주·퇴거 프로세스 전 과정 지원</li>
+        <li>Landlord 리스크 컨트롤(연체·분쟁 예방)</li>
+        <li>Tenant 집 찾기 & 안정적 계약 지원</li>
+      </ul>
+      <a class="text-link" href="/contact/">Learn More →</a>
+    </article>
+
+    <article class="service-card">
+      <div class="service-icon">📊</div>
+      <h2>Investing <span>투자</span></h2>
+      <h3>Ontario Real Estate Investment Advisory</h3>
+      <p>프리콘·리셀·어사인먼트·렌탈 투자 전략</p>
+      <ul>
+        <li>프리콘·리셀 투자 타이밍 분석</li>
+        <li>Assignment 구매·판매 전략</li>
+        <li>Rental Income & Cashflow 분석</li>
+        <li>ROI 기반 포트폴리오 설계</li>
+        <li>개발·교통·인구 데이터 분석</li>
+        <li>한인 투자자 맞춤 리스크 관리</li>
+      </ul>
+      <a class="text-link" href="/contact/">Learn More →</a>
+    </article>
+  </section>
+
+  <section class="process-section">
+    <div class="section-heading">
+      <p class="page-kicker">Process</p>
+      <h2>Clear Guidance From First Call to Closing</h2>
+      <p>
+        Every service begins with understanding your timeline, budget, family
+        needs, and risk tolerance. From there, we build a practical plan.
+      </p>
+    </div>
+    <div class="process-steps">
+      <article>
+        <strong>01</strong>
+        <h3>Consultation</h3>
+        <p>목표, 예산, 지역, 일정, 우선순위를 먼저 정리합니다.</p>
+      </article>
+      <article>
+        <strong>02</strong>
+        <h3>Strategy</h3>
+        <p>시장 데이터와 비교 매물을 바탕으로 현실적인 전략을 세웁니다.</p>
+      </article>
+      <article>
+        <strong>03</strong>
+        <h3>Execution</h3>
+        <p>오퍼, 마케팅, 협상, 서류, 전문가 연결까지 함께 관리합니다.</p>
+      </article>
+      <article>
+        <strong>04</strong>
+        <h3>Closing</h3>
+        <p>클로징 전후 체크리스트와 다음 단계까지 꼼꼼히 챙깁니다.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="services-cta">
+    <div>
+      <p class="page-kicker">Start Here</p>
+      <h2>Not sure which service fits your situation?</h2>
+      <p>
+        지금 매수, 매도, 렌트, 투자 중 어느 방향이 맞는지 고민 중이라면
+        먼저 현재 상황을 같이 정리해 보겠습니다.
+      </p>
+      <a class="button primary" href="/contact/">상담 문의하기</a>
+    </div>
+  </section>
 </BaseLayout>

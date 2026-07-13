@@ -1,21 +1,95 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { categoryByKey } from "../data/blogCategories";
+
+const latestPosts = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 3);
+
+const formatDate = (date) =>
+  date.toLocaleDateString("en-US", {
+    timeZone: "UTC",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
 ---
 <BaseLayout
-  title="Dongho The Agent | Toronto Real Estate"
-  description="Real estate services and practical blog insights for Toronto and the GTA."
+  title="Dongho Lee | Toronto & GTA Real Estate Broker"
+  description="Ontario and Toronto real estate guidance by Don Lee 이동호 for families, newcomers, investors, buyers, and sellers."
 >
-  <h1>Toronto Real Estate, With Clarity</h1>
-  <p class="meta">Luxury | Modern | Realtor Premium Identity</p>
+  <section class="home-hero">
+    <div class="hero-copy">
+      <h1>Ontario · Toronto<br />Luxury Real Estate<br />By Don Lee 이동호</h1>
+      <p class="lead">
+        Helping families, newcomers, and investors make confident and informed
+        real estate decisions in Ontario & Toronto.
+      </p>
+      <p class="lead ko">
+        온타리오 · 토론토 지역에서 가족, 신규 이민자, 투자자분들의
+        신뢰할 수 있는 부동산 결정을 돕는 리얼터 이동호입니다.
+      </p>
+      <a class="button primary" href="/contact/">무료 상담 신청하기</a>
+      <div class="trust-stats" aria-label="Professional highlights">
+        <div>
+          <span class="stat-icon">🏆</span>
+          <strong>12+ Yrs Experience</strong>
+          <span>12년 Realtor 경력</span>
+        </div>
+        <div>
+          <span class="stat-icon">📊</span>
+          <strong>Data-Driven Insights</strong>
+          <span>데이터 기반 분석</span>
+        </div>
+        <div>
+          <span class="stat-icon">🇨🇦</span>
+          <strong>22 Yrs in Canada</strong>
+          <span>캐나다 22년 거주</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <img
+        src="/uploads/2025/10/JPhotography2-819x1024.jpg"
+        alt="Don Lee, Ontario · Toronto Realtor"
+        loading="eager"
+      />
+    </div>
+  </section>
 
-  <div class="card">
-    <h2>Blog</h2>
-    <p>Market updates, buying/selling guides, and neighbourhood insights.</p>
-    <p><a href="/blog/">Go to Blog →</a></p>
-  </div>
+  <section class="home-blog-section" aria-label="Latest blog posts">
+    <div class="home-section-heading">
+      <div>
+        <p class="page-kicker">Blog</p>
+        <h2>Latest Ontario Real Estate Insights</h2>
+      </div>
+      <a class="text-link" href="/blog/">전체 글 보기</a>
+    </div>
 
-  <div class="card">
-    <h2>Brand Slogan</h2>
-    <p><a href="/no-deal-is-too-small-every-deal-matters/">No Deal is Too Small. Every Deal Matters. →</a></p>
-  </div>
+    <div class="home-posts">
+      {latestPosts.map((post) => (
+        <article class="post-card">
+          <p class="post-date">
+            {formatDate(post.data.pubDate)} · {categoryByKey[post.data.category]?.label || post.data.category}
+          </p>
+          <h2>
+            <a href={`/${post.slug}/`}>{post.data.title}</a>
+          </h2>
+          <p>{post.data.description}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="awards">
+    <h2>Awards & Recognition</h2>
+    <div class="award-list">
+      <span>⭐ Gold Club 2019</span>
+      <span>⭐ Premier Club 2020</span>
+      <span>⭐ Grand Master Club 2021</span>
+    </div>
+    <p>2015–2024 HomeLife Award Recipient (Bronze, Silver, Gold, Premier & Grand Master)</p>
+  </section>
 </BaseLayout>

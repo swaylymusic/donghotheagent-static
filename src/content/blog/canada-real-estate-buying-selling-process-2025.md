@@ -4,40 +4,10 @@ description: "캐나다에서 주택을 사고파는 과정은 법적으로 보�
 pubDate: "2025-10-15"
 category: "Buying/Selling"
 tags: ["Buying/Selling"]
-draft: true
+draft: false
 originalUrl: "https://donghotheagent.com/%ec%ba%90%eb%82%98%eb%8b%a4-%eb%b6%80%eb%8f%99%ec%82%b0-%eb%a7%a4%eb%a7%a4-%ec%a0%88%ec%b0%a8-2025/"
 featuredImage: "/uploads/2025/10/suburban-house.png"
 ---
-
-<!-- Migrated draft from WordPress. Review formatting and image paths before publishing. -->
-
-<div>
-
-	
-	
-		<header>
-
-			
-			<h1 itemprop="headline">🏡 캐나다 부동산 매매 시 알아두어야 할 최신 절차 및 법적 사항 (2025년 기준)</h1><div><span></span>By<span itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">			<a title="View all posts by DONGHO LEE"
-				href="https://donghotheagent.com/author/dongho_admin/" rel="author"
-			 itemprop="url"				>
-				<span
-			 itemprop="name"				>
-				DONGHO LEE			</span>
-			</a>
-		</span>
-
-		 / <span><span itemprop="datePublished"> October 15, 2025 </span></span></div>
-			
-		</header>
-
-	
-	
-	<div
- itemprop="text"	>
-
-		
-		
 <h2>📝 목차</h2>
 
 <ol>
@@ -175,8 +145,3 @@ featuredImage: "/uploads/2025/10/suburban-house.png"
 <blockquote>
 <p><code>캐나다 부동산</code>, <code>온타리오 주택 매매</code>, <code>캐나다 주택 절차</code>, <code>외국인 부동산 규제</code>, <code>부동산 세금 2025</code>, <code>Ontario Real Estate 2025</code>, <code>Digital Closing</code>, <code>Remote Signing</code></p>
 </blockquote>
-
-		
-		
-			</div>
-</div>

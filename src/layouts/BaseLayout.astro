@@ -1,6 +1,6 @@
 ---
 const {
-  title = "Dongho The Agent",
+  title = "Dongho, The Agent",
   description = "Toronto real estate blog and services.",
   canonical,
 } = Astro.props;
@@ -8,9 +8,13 @@ const {
 const canonicalUrl =
   canonical ??
   new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString();
+
+const currentPath = Astro.url.pathname;
+const isActive = (href) =>
+  href === "/" ? currentPath === "/" : currentPath.startsWith(href);
 ---
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,30 +25,70 @@ const canonicalUrl =
   </head>
   <body>
     <header class="site-header">
-      <div class="container header-row">
-        <a class="brand" href="/">Dongho The Agent</a>
+      <div class="header-contact-strip">
+        <div>
+          <span>Ontario & GTA Real Estate Guidance</span>
+          <a href="tel:4166258241">416-625-8241</a>
+          <a href="mailto:contact@donlee.realtor">contact@donlee.realtor</a>
+        </div>
+      </div>
+      <div class="header-inner">
+        <a class="brand-lockup" href="/" aria-label="Dongho, The Agent home">
+          <img
+            src="/uploads/2025/10/HomeLife-Modern-LOGO-Standard-no-background.png"
+            alt="HomeLife Higher Standards"
+          />
+          <span>
+            <strong>Dongho, The Agent</strong>
+            <small>Don Lee 이동호 · Realtor®</small>
+          </span>
+        </a>
         <nav class="nav">
+          <a class:list={[{ active: isActive("/about/") }]} href="/about/">About</a>
+          <a class:list={[{ active: isActive("/services/") }]} href="/services/">Services</a>
+          <a class:list={[{ active: isActive("/blog/") || isActive("/category/") }]} href="/blog/">Blog</a>
+          <a class:list={[{ active: isActive("/contact/") }]} href="/contact/">Contact</a>
+        </nav>
+        <a class="nav-cta" href="/contact/">상담 신청</a>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img
+            src="/uploads/2025/10/HomeLife-Modern-LOGO-Standard-no-background.png"
+            alt="HomeLife Realty"
+          />
+          <strong>Dongho, The Agent</strong>
+        </div>
+        <nav class="footer-menu" aria-label="Footer navigation">
+          <h2>Navigation</h2>
           <a href="/about/">About</a>
           <a href="/services/">Services</a>
           <a href="/blog/">Blog</a>
           <a href="/contact/">Contact</a>
         </nav>
-      </div>
-    </header>
-
-    <main class="container">
-      <slot />
-    </main>
-
-    <footer class="site-footer">
-      <div class="container">
-        <nav class="footer-nav">
+        <div class="footer-contact">
+          <h2>Contact</h2>
+          <p><span>Mobile</span> <a href="tel:4166258241">416-625-8241</a></p>
+          <p><span>Office</span> <a href="tel:4162188800">416-218-8800</a></p>
+          <p><span>Fax</span> 416-218-8807</p>
+          <p><span>Email</span> <a href="mailto:contact@donlee.realtor">contact@donlee.realtor</a></p>
+        </div>
+        <nav class="legal-nav" aria-label="Legal navigation">
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
           <a href="/privacy-policy/">Privacy Policy</a>
           <a href="/terms-and-conditions/">Terms & Conditions</a>
-          <a href="/disclaimer/">Disclaimer</a>
           <a href="/cookie-policy/">Cookie Policy</a>
+          <a href="/disclaimer/">Disclaimer</a>
         </nav>
-        <p class="fineprint">© {new Date().getFullYear()} Dongho The Agent.</p>
+        <p class="fineprint">&copy; 2026 Dongho, The Agent. All Rights Reserved.</p>
       </div>
     </footer>
   </body>

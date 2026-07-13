@@ -1,0 +1,78 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { blogCategories, categoryByKey } from "../../data/blogCategories";
+
+export async function getStaticPaths() {
+  const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
+
+  return blogCategories
+    .map((category) => {
+      const categoryPosts = posts
+        .filter((post) => post.data.category === category.key)
+        .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+      return {
+        params: { slug: category.slug },
+        props: { category, posts: categoryPosts },
+      };
+    })
+    .filter((path) => path.props.posts.length > 0);
+}
+
+const { category, posts } = Astro.props;
+const featuredPost = posts[0];
+const otherPosts = posts.slice(1);
+
+const formatDate = (date) =>
+  date.toLocaleDateString("en-US", {
+    timeZone: "UTC",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
+---
+<BaseLayout
+  title={`${category.label} | Blog | Dongho, The Agent`}
+  description={category.description}
+>
+  <section class="category-archive-hero">
+    <p class="page-kicker">Category</p>
+    <h1>{category.label}</h1>
+    <p>{category.description}</p>
+    <div class="category-archive-actions">
+      <a class="button secondary" href="/blog/">전체 최신 글 보기</a>
+      <span>{posts.length} posts</span>
+    </div>
+  </section>
+
+  {featuredPost && (
+    <section class="category-featured" aria-label="Featured category post">
+      <article class="featured-post-card">
+        <p class="blog-meta">
+          {formatDate(featuredPost.data.pubDate)} · {categoryByKey[featuredPost.data.category]?.label || featuredPost.data.category}
+        </p>
+        <h2>
+          <a href={`/${featuredPost.slug}/`}>{featuredPost.data.title}</a>
+        </h2>
+        <p>{featuredPost.data.description}</p>
+        <a class="text-link" href={`/${featuredPost.slug}/`}>Read More →</a>
+      </article>
+    </section>
+  )}
+
+  <section class="category-post-grid" aria-label={`${category.label} posts`}>
+    {otherPosts.map((post) => (
+      <article class="compact-post-card">
+        <p class="blog-meta">
+          {formatDate(post.data.pubDate)} · {category.label}
+        </p>
+        <h2>
+          <a href={`/${post.slug}/`}>{post.data.title}</a>
+        </h2>
+        <p>{post.data.description}</p>
+        <a class="text-link" href={`/${post.slug}/`}>Read More →</a>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

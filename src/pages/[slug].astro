@@ -3,8 +3,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  const posts = (await getCollection("blog")).filter(post => !post.data.draft);
-  return posts.map(post => ({
+  const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
+  return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },
   }));
@@ -12,16 +12,43 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+
+const categoryLabel = {
+  "Newcomer": "캐나다 이민 & 생활 정보",
+  "Buying/Selling": "부동산 매매 팁",
+  "Market": "시장 분석",
+  "Rental Guide": "임대 가이드",
+  "Mortgage": "모기지 정보",
+  "Investment": "투자 전략",
+  "Uncategorized": "기타",
+};
+
+const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
+  timeZone: "UTC",
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+});
 ---
 <BaseLayout
-  title={`${post.data.title} | Dongho The Agent`}
+  title={`${post.data.title} | Dongho, The Agent`}
   description={post.data.description}
 >
-  <article>
-    <h1>{post.data.title}</h1>
-    <p class="meta">
-      {post.data.pubDate.toLocaleDateString()} · {post.data.category}
-    </p>
-    <Content />
+  <article class="blog-article">
+    <header class="blog-article-header">
+      <p class="page-kicker">{categoryLabel[post.data.category] || post.data.category}</p>
+      <h1>{post.data.title}</h1>
+      <p class="blog-meta">{formattedDate} · Dongho Lee 이동호</p>
+      <p class="blog-description">{post.data.description}</p>
+    </header>
+
+    <div class="blog-content">
+      <Content />
+    </div>
+
+    <footer class="blog-article-footer">
+      <a class="button secondary" href="/blog/">← Back to Blog</a>
+      <a class="button primary" href="/contact/">상담 문의하기</a>
+    </footer>
   </article>
 </BaseLayout>

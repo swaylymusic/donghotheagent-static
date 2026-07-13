@@ -1,43 +1,28 @@
-# Astro Starter Kit: Minimal
+# Dongho, The Agent Static Site
+
+Static Astro site for `donghotheagent.com`, designed for GitHub and Cloudflare Pages.
+
+## Commands
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npm run dev
+npm run build
+npm run preview
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Contact Form
 
-## 🚀 Project Structure
+The Contact page posts to the Cloudflare Pages Function at `/api/contact`.
 
-Inside of your Astro project, you'll see the following folders and files:
+Required for live email delivery:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- `RESEND_API_KEY`: Resend API key used to send contact form emails.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Optional:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- `CONTACT_TO_EMAIL`: recipient address. Defaults to `contact@donlee.realtor`.
+- `CONTACT_FROM_EMAIL`: sender identity. Defaults to `Dongho The Agent <onboarding@resend.dev>`.
+- `TURNSTILE_SECRET_KEY`: enables Cloudflare Turnstile verification when a Turnstile widget is added to the form.
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Without `RESEND_API_KEY`, local submissions to `127.0.0.1` return a successful preview response so the form logic can be tested safely.

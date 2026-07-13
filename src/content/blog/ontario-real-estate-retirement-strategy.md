@@ -2,42 +2,12 @@
 title: "온타리오 은퇴자금, 부동산에서 답을 찾다"
 description: "캐나다 온타리오에 사는 많은 한인분들이 이런 질문을 하십니다. “집 한 채 말고는 자산이 거의 없는데, 이걸로 은퇴 준비가 가능할까요?”"
 pubDate: "2025-12-12"
-category: "Mortgage"
+category: "Investment"
 tags: ["Mortgage", "Newcomer", "Investment"]
-draft: true
+draft: false
 originalUrl: "https://donghotheagent.com/ontario-real-estate-retirement-strategy/"
 featuredImage: "/uploads/2025/12/ontario-retirement-real-estate-hero.jpg"
 ---
-
-<!-- Migrated draft from WordPress. Review formatting and image paths before publishing. -->
-
-<div>
-
-	
-	
-		<header>
-
-			
-			<h1 itemprop="headline">온타리오 은퇴자금, 부동산에서 답을 찾다</h1><div><span></span>By<span itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">			<a title="View all posts by DONGHO LEE"
-				href="https://donghotheagent.com/author/dongho_admin/" rel="author"
-			 itemprop="url"				>
-				<span
-			 itemprop="name"				>
-				DONGHO LEE			</span>
-			</a>
-		</span>
-
-		 / <span><span itemprop="datePublished"> December 12, 2025 </span></span></div>
-			
-		</header>
-
-	
-	
-	<div
- itemprop="text"	>
-
-		
-		
 <p>캐나다 온타리오에 사는 많은 한인분들이 이런 질문을 하십니다. <strong>“집 한 채 말고는 자산이 거의 없는데, 이걸로 은퇴 준비가 가능할까요?”</strong></p>
 
 <p>이 글에서는 온타리오 부동산을 중심으로 은퇴자금을 준비하는 주요 전략들을 정리했습니다. 다만, 모든 내용은 <strong>일반적인 정보 제공</strong>을 위한 것이며, 각자의 상황에 따라 결과는 달라질 수 있습니다.</p>
@@ -149,8 +119,3 @@ featuredImage: "/uploads/2025/12/ontario-retirement-real-estate-hero.jpg"
 <p>상황에 따라 최적의 은퇴 전략은 달라집니다. 편하게 상담 주세요.</p>
 
 <p><strong>Dongho Lee | 이동호</strong><br>Real Estate Broker (Ontario)<br>📱 416-625-8241<br>📧 <a href="/cdn-cgi/l/email-protection#197a76776d787a6d597d7677757c7c376b7c78756d766b"><span>[email&#160;protected]</span></a><br>🌐 <a href="https://donghotheagent.com/" target="_blank" rel="noreferrer noopener">https://donghotheagent.com/</a></p>
-
-		
-		
-			</div>
-</div>

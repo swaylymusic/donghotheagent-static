@@ -4,40 +4,10 @@ description: "CREA·CMHC 최신 데이터 기반 완벽 분석"
 pubDate: "2025-10-22"
 category: "Market"
 tags: ["Market"]
-draft: true
+draft: false
 originalUrl: "https://donghotheagent.com/%f0%9f%8f%a0-%ec%ba%90%eb%82%98%eb%8b%a4-%ec%a3%bc%ed%83%9d%ec%8b%9c%ec%9e%a5-%ec%a0%84%eb%a7%9d-2025/"
 featuredImage: ""
 ---
-
-<!-- Migrated draft from WordPress. Review formatting and image paths before publishing. -->
-
-<div>
-
-	
-	
-		<header>
-
-			
-			<h1 itemprop="headline">🏠 캐나다 주택시장 전망 2025</h1><div><span></span>By<span itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">			<a title="View all posts by DONGHO LEE"
-				href="https://donghotheagent.com/author/dongho_admin/" rel="author"
-			 itemprop="url"				>
-				<span
-			 itemprop="name"				>
-				DONGHO LEE			</span>
-			</a>
-		</span>
-
-		 / <span><span itemprop="datePublished"> October 22, 2025 </span></span></div>
-			
-		</header>
-
-	
-	
-	<div
- itemprop="text"	>
-
-		
-		
 <p>CREA·CMHC 최신 데이터 기반 완벽 분석</p>
 
 <p>📸 이미지 프롬프트: 현대적인 캐나다 주거 단지 – 콘도, 타운하우스, 단독주택이 어우러진 풍경. 전면에 &#8220;For Sale&#8221; 표지판. (따뜻한 자연광, 고해상도)</p>
@@ -165,8 +135,3 @@ featuredImage: ""
 <p><strong>최종 업데이트:</strong> 2025년 10월</p>
 
 <p><em>본 콘텐츠는 정보 제공 목적이며 투자 조언이 아닙니다. 부동산 결정을 내리기 전 전문가와 상담하십시오.</em></p>
-
-		
-		
-			</div>
-</div>

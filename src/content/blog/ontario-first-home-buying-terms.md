@@ -4,42 +4,10 @@ description: "캐나다 온타리오에서 첫 집을 구매하려면 낯선 영
 pubDate: "2025-10-27"
 category: "Buying/Selling"
 tags: ["Buying/Selling"]
-draft: true
+draft: false
 originalUrl: "https://donghotheagent.com/ontario-first-home-buying-terms/"
 featuredImage: "/uploads/2025/10/ontario-map-house.png"
 ---
-
-<!-- Migrated draft from WordPress. Review formatting and image paths before publishing. -->
-
-<div>
-
-	
-	
-		<header>
-
-			
-			<h1 itemprop="headline">캐나다 온타리오에서 처음 집을 살 때 꼭 알아야 할 용어 10가지 | 초보자 필수 부동산 용어 완벽 정리</h1><div><span></span>By<span itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">			<a title="View all posts by DONGHO LEE"
-				href="https://donghotheagent.com/author/dongho_admin/" rel="author"
-			 itemprop="url"				>
-				<span
-			 itemprop="name"				>
-				DONGHO LEE			</span>
-			</a>
-		</span>
-
-		 / <span><span itemprop="datePublished"> October 27, 2025 </span></span></div>
-			
-		</header>
-
-	
-	
-	<div
- itemprop="text"	>
-
-		
-		
-<h1>캐나다 온타리오에서 처음 집을 살 때 꼭 알아야 할 용어 10가지</h1>
-
 <figure><img fetchpriority="high" decoding="async" width="1024" height="1024" src="/uploads/2025/10/ontario-map-house.png" alt=""   /></figure>
 
 <p>캐나다 온타리오에서 첫 집을 구매하려면 낯선 영어 용어들이 쏟아집니다. <em>Offer</em>, <em>Closing</em>, <em>Land Transfer Tax</em>, <em>Mortgage Insurance</em> 같은 단어들이 이해되지 않으면 계약 과정에서 혼란을 겪기 쉽죠. 이 글에서는 <strong>온타리오 주에서 집을 처음 사는 사람</strong>이 반드시 알아야 할 <strong>핵심 부동산 용어 10가지</strong>를 쉽게 정리했습니다.</p>
@@ -187,8 +155,3 @@ featuredImage: "/uploads/2025/10/ontario-map-house.png"
 <p>처음 집을 살 때는 용어부터 익히는 것이 첫걸음입니다. 캐나다 온타리오의 부동산 거래는 한국과 달리 <strong>법무 절차와 세금, 대출 시스템</strong>이 다르기 때문에, 이 10가지 핵심 용어를 알면 불필요한 실수 없이 안전하게 내 집 마련이 가능합니다.</p>
 
 <p>🔗 참고: <a href="https://www.ontario.ca/page/what-know-before-buying-home" target="_blank" rel="noreferrer noopener nofollow">Government of Ontario-What to know before buying a home</a></p>
-
-		
-		
-			</div>
-</div>

@@ -4,40 +4,10 @@ description: "RRSP · RRIF · TFSA 절세와 현금흐름 관리 가이드"
 pubDate: "2025-10-23"
 category: "Mortgage"
 tags: ["Mortgage"]
-draft: true
+draft: false
 originalUrl: "https://donghotheagent.com/2025-%ec%ba%90%eb%82%98%eb%8b%a4-%ec%9d%80%ed%87%b4%ec%9e%90%ea%b8%88-%ed%99%9c%ec%9a%a9-%ec%a0%84%eb%9e%b5/"
 featuredImage: "/uploads/2025/10/happy-retired-couple.png"
 ---
-
-<!-- Migrated draft from WordPress. Review formatting and image paths before publishing. -->
-
-<div>
-
-	
-	
-		<header>
-
-			
-			<h1 itemprop="headline">🍁 2025 캐나다 은퇴자금 활용 전략</h1><div><span></span>By<span itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">			<a title="View all posts by DONGHO LEE"
-				href="https://donghotheagent.com/author/dongho_admin/" rel="author"
-			 itemprop="url"				>
-				<span
-			 itemprop="name"				>
-				DONGHO LEE			</span>
-			</a>
-		</span>
-
-		 / <span><span itemprop="datePublished"> October 23, 2025 </span></span></div>
-			
-		</header>
-
-	
-	
-	<div
- itemprop="text"	>
-
-		
-		
 <p><strong>RRSP · RRIF · TFSA 절세와 현금흐름 관리 가이드</strong></p>
 
 <figure><img fetchpriority="high" decoding="async" width="1024" height="1024" src="/uploads/2025/10/happy-retired-couple.png" alt=""   /></figure>
@@ -143,8 +113,3 @@ featuredImage: "/uploads/2025/10/happy-retired-couple.png"
 <h2>📌 유의사항</h2>
 
 <p>본 글은 일반 정보를 제공합니다. 세법은 매년 변경될 수 있으므로, 실행 전에는 반드시 전문가와 상의하시기 바랍니다.</p>
-
-		
-		
-			</div>
-</div>

@@ -1,7 +1,208 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
-<BaseLayout title="About | Dongho The Agent" description="About Dongho Lee and the approach to real estate.">
-  <h1>About</h1>
-  <p>Placeholder. We will paste your existing About content later.</p>
+<BaseLayout
+  title="About | Dongho Lee 이동호 Realtor®"
+  description="Learn about Dongho Lee 이동호, a bilingual Ontario Realtor helping families, newcomers, investors, and first-time buyers."
+>
+  <section class="about-hero">
+    <div class="about-portrait">
+      <img
+        src="/uploads/2025/10/profile_dongholee-819x1024.jpg"
+        alt="Dongho Lee 이동호 Realtor"
+        loading="eager"
+      />
+    </div>
+    <div class="about-intro">
+      <p class="page-kicker">About</p>
+      <h1>
+        <span class="name-line">Don Lee</span>
+        <span class="name-line korean-name">이동호</span>
+        <span class="title-line">Realtor®</span>
+      </h1>
+      <div class="intro-tags">
+        <span>Toronto · Ontario Realtor®</span>
+        <span>Data-Driven Market Insight</span>
+      </div>
+      <div class="language-grid">
+        <article>
+          <h2>English</h2>
+          <p>
+            With over 22 years in Canada and 12 years as a licensed REALTOR®, I
+            help families, newcomers, and investors make confident and informed
+            real estate decisions. With transparent communication and
+            data-driven insight, I guide clients through every step of buying,
+            selling, or investing with clarity and trust.
+          </p>
+        </article>
+        <article>
+          <h2>한국어</h2>
+          <p>
+            캐나다 생활 22년차, 온타리오 부동산 중개인으로 12년 이상
+            활동하며 한국어·영어 이중 언어 고객, 신규 이민자, 실거주자,
+            투자자분들께 올바른 부동산 결정을 내릴 수 있도록 돕고 있습니다.
+            투명한 소통과 정확한 분석을 기반으로 고객 중심의 맞춤형 프리미엄
+            부동산 서비스를 제공합니다.
+          </p>
+        </article>
+      </div>
+      <a class="button primary" href="/contact/">상담 신청하기</a>
+    </div>
+  </section>
+
+  <section class="awards about-awards">
+    <h2>Awards & Recognition</h2>
+    <div class="award-list">
+      <span>⭐ Gold Club 2019</span>
+      <span>⭐ Premier Club 2020</span>
+      <span>⭐ Grand Master Club 2021</span>
+    </div>
+    <p>2015–2024 HomeLife Award Recipient (Bronze, Silver, Gold, Premier & Grand Master)</p>
+  </section>
+
+  <section class="about-content">
+    <div class="section-heading">
+      <p class="page-kicker">More About Don Lee / 이동호 소개</p>
+      <h2>Profile</h2>
+    </div>
+
+    <div class="content-columns">
+      <article>
+        <p class="page-kicker">Profile</p>
+        <h3>Who I Work With</h3>
+        <p>
+          I mainly work with families, newcomers to Canada, and long-term
+          investors who are looking for a trusted guide in the Ontario real
+          estate market. Many of my clients are making one of the biggest
+          decisions of their lives, and they want someone who will be honest,
+          patient, and data-driven.
+        </p>
+        <p>
+          With over 12 years as a licensed REALTOR® in Ontario, I combine local
+          market knowledge with clear explanations so that you can make informed
+          decisions without feeling rushed or pressured.
+        </p>
+      </article>
+
+      <article>
+        <p class="page-kicker">How I Work</p>
+        <h3>My Approach to Real Estate</h3>
+        <p>
+          My philosophy is simple: “No Deal is Too Small. Every Deal Matters.”
+          Whether you are buying your first condo or selling a long-held family
+          home, you deserve the same level of care and attention.
+        </p>
+        <ul>
+          <li>Transparent communication – every step and every form explained in plain language.</li>
+          <li>Market-driven advice – current data, comparables, and trends guide pricing and strategy.</li>
+          <li>Solution-focused mindset – mortgage brokers, lawyers, and inspectors coordinated early.</li>
+          <li>Long-term relationship – guidance for this decision and the next ones in your life.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="content-columns korean">
+      <article>
+        <p class="page-kicker">소개</p>
+        <h3>어떤 분들과 함께 일하나요?</h3>
+        <p>
+          저는 주로 가족 단위 실거주 고객, 캐나다 신규 이민자, 그리고 장기
+          투자자 분들과 함께 일하고 있습니다. 많은 분들에게 부동산 거래는
+          인생에서 가장 큰 결정 중 하나이기 때문에, 솔직한 조언과 충분한 설명,
+          그리고 데이터에 기반한 컨설팅을 가장 중요하게 생각합니다.
+        </p>
+        <p>
+          온타리오에서 12년 이상 활동해 온 리얼터로서 지역 시장에 대한 경험과
+          정보, 그리고 한국어·영어 이중 언어 서비스를 바탕으로 처음 집을
+          구입하시는 분들도 편안하게 거래를 마칠 수 있도록 돕고 있습니다.
+        </p>
+      </article>
+
+      <article>
+        <h3>제가 일하는 방식</h3>
+        <p>
+          저의 기본 원칙은 변하지 않습니다. “작은 거래는 없습니다. 모든 거래가
+          중요합니다.”
+        </p>
+        <ul>
+          <li>고객 중심 – 빠른 거래보다 고객에게 맞는 결정인지 먼저 생각합니다.</li>
+          <li>투명한 소통 – 오퍼, 조건, 서류 한 장까지 이해하실 때까지 설명해 드립니다.</li>
+          <li>체계적인 프로세스 – 모기지, 변호사, 검사 등 필요한 전문가들을 연결해 드립니다.</li>
+          <li>장기적인 관점 – 단기 시세만이 아니라 향후 5년, 10년 뒤를 함께 고려합니다.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="service-area">
+    <div>
+      <p class="page-kicker">Service Areas</p>
+      <h2>Where I Help Clients</h2>
+      <p>I actively work in the following areas in Ontario:</p>
+      <ul class="area-list">
+        <li>Greater Toronto Area: Toronto, North York, Etobicoke, Scarborough</li>
+        <li>West GTA: Mississauga, Oakville, Burlington, Milton</li>
+        <li>London, Komoka, Kilworth, and surrounding communities</li>
+        <li>Brantford, Woodstock and nearby towns</li>
+      </ul>
+      <p>
+        If you are considering a move between the GTA and London / Southwestern
+        Ontario, I can help you compare neighborhoods, schools, commute, and
+        long-term value.
+      </p>
+    </div>
+  </section>
+
+  <section class="newcomer-help">
+    <div>
+      <h2>이민 / 유학생 / 처음 집 구매자를 위한 도움</h2>
+      <p>
+        캐나다에 처음 오신 분들은 신용 점수, 모기지 승인, 렌트 규정, 계약서
+        용어 자체가 낯설 수 있습니다. 저는 이 부분을 하나씩 정리해 드리며,
+        “한국어로 편하게 물어볼 수 있는 리얼터”가 되고자 합니다.
+      </p>
+      <p>
+        필요한 경우 세입자 권리(Residential Tenancies Act), N11·N12 등 각종
+        양식과 절차도 이해하기 쉽게 설명해 드립니다.
+      </p>
+      <p>현재 상황이 어떻든, 편하게 먼저 상담 요청을 남겨 주세요.</p>
+      <a class="button primary" href="/contact/">상담 문의하기</a>
+    </div>
+  </section>
+
+  <section class="why-work">
+    <div class="section-heading">
+      <h2>Why Work With Don Lee</h2>
+      <p>
+        A data-driven, bilingual REALTOR® with 12+ years of experience helping
+        families, newcomers, and investors succeed in Ontario real estate.
+      </p>
+      <p>
+        온타리오 부동산 시장에서 데이터를 기반으로 결과를 만들어내는 12년
+        경력의 이중언어(한국어·영어) 리얼터 이동호입니다.
+      </p>
+    </div>
+    <div class="why-grid">
+      <article>
+        <h3>12+ Years of Experience</h3>
+        <p>Over a decade of professional experience in the Ontario market.</p>
+        <p>온타리오 부동산 12년 전문 경력</p>
+      </article>
+      <article>
+        <h3>Data-Driven Market Insights</h3>
+        <p>Accurate analysis & clear guidance for buying, selling, and investing.</p>
+        <p>데이터 기반의 정확한 시장 분석 제공</p>
+      </article>
+      <article>
+        <h3>Bilingual Support (EN/KR)</h3>
+        <p>Seamless communication for all clients and families.</p>
+        <p>한국어·영어 완벽 지원</p>
+      </article>
+      <article>
+        <h3>Client-First Approach</h3>
+        <p>Transparent communication & tailored real estate service.</p>
+        <p>고객 중심의 투명하고 맞춤형 서비스</p>
+      </article>
+    </div>
+  </section>
 </BaseLayout>

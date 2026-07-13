@@ -1,8 +1,154 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
-<BaseLayout title="Contact | Dongho The Agent" description="Get in touch.">
-  <h1>Contact</h1>
-  <p>Email: contact@donlee.realtor</p>
-  <p>Phone: 416-625-8241</p>
+<BaseLayout
+  title="Contact | Dongho, The Agent"
+  description="Contact Dongho Lee 이동호 for buying, selling, renting, and investing guidance in Ontario real estate."
+>
+  <section class="contact-hero">
+    <div class="contact-copy">
+      <p class="page-kicker">Contact</p>
+      <h1>
+        <span class="contact-title-line">Contact</span>
+        <span class="contact-title-line korean-name">이동호</span>
+      </h1>
+      <p class="lead">
+        I’d love to hear from you. Whether you're buying, selling, investing,
+        or simply exploring your options, I’m here to help every step of the way.
+      </p>
+      <p class="lead ko">
+        부동산 매매, 임대, 투자 관련하여 도움이 필요하시면 언제든 편하게 문의해주세요.
+        정확한 분석과 투명한 소통으로 도와드리겠습니다.
+      </p>
+      <div class="contact-actions">
+        <a class="button primary" href="tel:14166258241">전화 상담하기</a>
+        <a class="button secondary" href="mailto:contact@donlee.realtor">이메일 보내기</a>
+      </div>
+    </div>
+
+    <aside class="contact-card highlight">
+      <p class="page-kicker">Office Location</p>
+      <h2>HomeLife Frontier Realty Inc.</h2>
+      <p>7620 Yonge St #400<br />Thornhill, ON</p>
+    </aside>
+  </section>
+
+  <section class="contact-form-section">
+    <div class="contact-form-intro">
+      <p class="page-kicker">Send Me A Message</p>
+      <h2>상담 요청을 남겨 주세요.</h2>
+      <p>
+        아래 양식을 작성해 주시면 가능한 한 빠르게 직접 연락드리겠습니다.
+      </p>
+    </div>
+
+    <form class="contact-form" id="contact-form" action="/api/contact" method="post">
+      <input type="text" name="company" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+      <fieldset>
+        <legend>사용자 유형 <span>*</span></legend>
+        <p>셀러인지 바이어인지 선택해 주세요.</p>
+        <div class="choice-row">
+          <label><input type="radio" name="clientType" value="Seller / Landlord" required /> Seller / Landlord</label>
+          <label><input type="radio" name="clientType" value="Buyer / Tenant" /> Buyer / Tenant</label>
+          <label><input type="radio" name="clientType" value="Both" /> Both</label>
+        </div>
+      </fieldset>
+
+      <div class="form-grid">
+        <label>
+          <span>이름 <strong>*</strong></span>
+          <input type="text" name="name" autocomplete="name" required placeholder="귀하의 이름을 입력해 주세요." />
+        </label>
+
+        <label>
+          <span>이메일 <strong>*</strong></span>
+          <input type="email" name="email" autocomplete="email" required placeholder="연락 가능한 이메일 주소를 입력해 주세요." />
+        </label>
+
+        <label>
+          <span>전화번호</span>
+          <input type="tel" name="phone" autocomplete="tel" placeholder="연락 가능한 전화번호를 입력해 주세요." />
+        </label>
+
+        <label>
+          <span>희망 지역</span>
+          <input type="text" name="area" placeholder="예: Toronto, North York, London" />
+        </label>
+      </div>
+
+      <label class="message-field">
+        <span>용건 <strong>*</strong></span>
+        <textarea name="message" rows="7" required placeholder="문의 사항을 간단히 적어 주세요."></textarea>
+      </label>
+
+      <div class="form-footer">
+        <button class="button primary" type="submit">Submit</button>
+        <p class="form-status" id="contact-form-status" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+  </section>
+
+  <section class="contact-methods" aria-label="Contact methods">
+    <article class="contact-card">
+      <span class="contact-icon">☎</span>
+      <p class="page-kicker">Mobile</p>
+      <h2><a href="tel:14166258241">416-625-8241</a></h2>
+      <p>가장 빠른 연락이 필요한 경우 휴대폰으로 연락 주세요.</p>
+    </article>
+
+    <article class="contact-card">
+      <span class="contact-icon">⌂</span>
+      <p class="page-kicker">Office</p>
+      <h2><a href="tel:14162188800">416-218-8800</a></h2>
+      <p>HomeLife Frontier Realty Inc. 사무실 연락처입니다.</p>
+    </article>
+
+    <article class="contact-card">
+      <span class="contact-icon">✉</span>
+      <p class="page-kicker">Email</p>
+      <h2><a href="mailto:contact@donlee.realtor">contact@donlee.realtor</a></h2>
+      <p>상황과 희망 지역을 간단히 적어 보내주시면 직접 연락드리겠습니다.</p>
+    </article>
+  </section>
+
+  <script>
+    const form = document.querySelector("#contact-form");
+    const status = document.querySelector("#contact-form-status");
+
+    form?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      const submitButton = form.querySelector("button[type='submit']");
+      const formData = new FormData(form);
+      const payload = Object.fromEntries(formData.entries());
+
+      status.textContent = "Sending...";
+      status.className = "form-status";
+      submitButton.disabled = true;
+
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+
+        const result = await response.json().catch(() => ({}));
+
+        if (!response.ok) {
+          throw new Error(result.message || "There was an error trying to submit your form. Please try again.");
+        }
+
+        form.reset();
+        status.textContent = result.message || "감사합니다. 상담 요청이 접수되었습니다.";
+        status.classList.add("success");
+      } catch (error) {
+        status.textContent = error.message || "There was an error trying to submit your form. Please try again.";
+        status.classList.add("error");
+      } finally {
+        submitButton.disabled = false;
+      }
+    });
+  </script>
 </BaseLayout>
