@@ -31,7 +31,7 @@ a:hover{text-decoration:underline;}
 .header-contact-strip{background:var(--deep);color:#dceaf4;font-size:12px;}
 .header-contact-strip > div{max-width:var(--container);margin:0 auto;padding:7px 18px;display:flex;justify-content:flex-end;gap:16px;align-items:center;min-height:32px;}
 .header-contact-strip span{margin-right:auto;font-weight:700;color:#fff;}
-.header-contact-strip a{color:#fff;font-weight:700;}
+.header-contact-strip a{color:#fff;font-weight:700;overflow-wrap:anywhere;}
 .header-inner{max-width:var(--container);margin:0 auto;min-height:86px;padding:14px 18px;display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:center;}
 .brand-lockup{display:flex;align-items:center;gap:18px;color:var(--navy);}
 .brand-lockup img{width:103px;height:auto;display:block;}
@@ -86,10 +86,10 @@ main{min-height:60vh;}
 .footer-brand strong{font-size:13px;}
 .footer-menu,.footer-contact{display:flex;flex-direction:column;align-items:center;gap:8px;}
 .footer-menu h2,.footer-contact h2{font-size:11px;text-transform:uppercase;letter-spacing:.02em;margin:0 0 8px;color:#d5e1ea;}
-.footer-menu a,.footer-contact a{color:#fff;}
+.footer-menu a,.footer-contact a{color:#fff;overflow-wrap:anywhere;}
 .footer-menu a,.footer-contact p{font-size:13px;line-height:1.2;margin:0;}
 .footer-contact{align-items:flex-end;}
-.footer-contact p{display:grid;grid-template-columns:56px 1fr;gap:12px;text-align:left;}
+.footer-contact p{display:grid;grid-template-columns:56px minmax(0,1fr);gap:12px;text-align:left;max-width:100%;}
 .footer-contact span{color:#fff;}
 .legal-nav{grid-column:1 / -1;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px;}
 .legal-nav a{color:#fff;font-size:12px;}
@@ -168,8 +168,8 @@ main{min-height:60vh;}
 .contact-card{border:1px solid var(--border);border-radius:8px;background:#fff;padding:28px;box-shadow:0 15px 32px rgba(15,23,42,.06);transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;}
 .contact-card:hover{transform:translateY(-2px);box-shadow:0 20px 38px rgba(8,59,92,.10);border-color:#c8d7e5;}
 .contact-card.highlight{background:#f8fbfd;padding:34px;}
-.contact-card h2{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.22;color:var(--navy);margin:0 0 12px;}
-.contact-card h2 a{color:var(--navy);}
+.contact-card h2{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.22;color:var(--navy);margin:0 0 12px;min-width:0;overflow-wrap:anywhere;}
+.contact-card h2 a{color:var(--navy);overflow-wrap:anywhere;word-break:break-word;}
 .contact-card p{font-size:15px;line-height:1.7;color:#17283a;margin:0;}
 .contact-methods{max-width:var(--container);margin:0 auto;padding:20px 18px 64px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
 .contact-icon{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#f2f7fb;border:1px solid var(--border);font-size:20px;color:var(--navy);margin-bottom:18px;}
@@ -287,6 +287,18 @@ main{min-height:60vh;}
 .not-found-page h1{font-family:Georgia,"Times New Roman",serif;font-size:46px;line-height:1.1;color:var(--navy);margin:0 0 14px;word-break:keep-all;}
 .not-found-page p:not(.page-kicker){max-width:620px;margin:0 auto;color:#17283a;font-size:16px;line-height:1.75;}
 .not-found-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:28px;border:1px solid var(--border);border-radius:8px;background:#fff;padding:20px;box-shadow:0 18px 36px rgba(15,23,42,.07);}
+.legal-page{max-width:880px;margin:0 auto;padding:70px 18px 84px;}
+.legal-page header{text-align:center;border-bottom:1px solid var(--border);padding-bottom:28px;margin-bottom:34px;}
+.legal-page h1{font-family:Georgia,"Times New Roman",serif;font-size:44px;line-height:1.1;color:var(--navy);margin:0 0 14px;word-break:keep-all;}
+.legal-page .updated{font-size:13px;color:var(--muted);margin:0;}
+.legal-content{display:grid;gap:24px;}
+.legal-content section{border:1px solid var(--border);border-radius:8px;background:#fff;padding:26px 28px;box-shadow:0 12px 26px rgba(15,23,42,.04);}
+.legal-content h2{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.2;color:var(--navy);margin:0 0 12px;}
+.legal-content p,.legal-content li{font-size:15px;line-height:1.78;color:#17283a;}
+.legal-content p{margin:0 0 12px;}
+.legal-content p:last-child{margin-bottom:0;}
+.legal-content ul{padding-left:22px;margin:0;}
+.legal-content a{overflow-wrap:anywhere;font-weight:800;}
 
 @media (max-width: 900px){
   .header-contact-strip > div{justify-content:center;gap:10px;flex-wrap:wrap;padding:7px 14px;}
@@ -313,7 +325,9 @@ main{min-height:60vh;}
   .post-card h2{font-size:21px;}
   .trust-stats{grid-template-columns:1fr;gap:16px;}
   .footer-inner{grid-template-columns:1fr;padding:36px 24px;}
-  .footer-contact{align-items:center;}
+  .footer-contact{align-items:center;width:100%;}
+  .footer-contact p{grid-template-columns:1fr;text-align:center;gap:4px;width:100%;}
+  .footer-contact a{max-width:100%;display:inline-block;}
   .about-hero{grid-template-columns:1fr;gap:24px;padding-top:34px;}
   .about-portrait{max-width:230px;margin:0 auto;padding:10px;border-radius:12px;}
   .about-portrait img{height:260px;border-radius:10px;object-position:center top;}
@@ -331,7 +345,9 @@ main{min-height:60vh;}
   .contact-title-line{display:block;}
   .contact-copy .page-kicker{text-align:center;}
   .contact-actions{justify-content:center;}
-  .contact-card h2{overflow-wrap:anywhere;}
+  .contact-card{min-width:0;padding:24px 22px;}
+  .contact-card h2{font-size:23px;overflow-wrap:anywhere;word-break:break-word;}
+  .contact-methods{padding-left:18px;padding-right:18px;}
   .contact-form-section{padding:46px 18px 56px;}
   .contact-form{padding:22px;}
   .choice-row{display:grid;grid-template-columns:1fr;}
@@ -358,6 +374,10 @@ main{min-height:60vh;}
   .not-found-page{padding-top:58px;padding-bottom:70px;}
   .not-found-page h1{font-size:36px;}
   .not-found-actions{display:grid;grid-template-columns:1fr;max-width:360px;margin-left:auto;margin-right:auto;}
+  .legal-page{padding-top:48px;padding-bottom:64px;}
+  .legal-page h1{font-size:34px;}
+  .legal-content section{padding:22px;}
+  .legal-content h2{font-size:22px;}
 }
 
 @media (max-width: 480px){
@@ -365,4 +385,9 @@ main{min-height:60vh;}
   .about-portrait img{height:232px;}
   .about-intro h1{font-size:34px;}
   .not-found-page h1{font-size:32px;}
+  .header-contact-strip a{font-size:11px;}
+  .contact-card h2{font-size:21px;}
+  .contact-card p{font-size:14px;}
+  .legal-page h1{font-size:30px;}
+  .legal-content p,.legal-content li{font-size:14px;}
 }
