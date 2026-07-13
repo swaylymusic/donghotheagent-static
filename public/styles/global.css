@@ -168,10 +168,12 @@ main{min-height:60vh;}
 .contact-card{border:1px solid var(--border);border-radius:8px;background:#fff;padding:28px;box-shadow:0 15px 32px rgba(15,23,42,.06);transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;}
 .contact-card:hover{transform:translateY(-2px);box-shadow:0 20px 38px rgba(8,59,92,.10);border-color:#c8d7e5;}
 .contact-card.highlight{background:#f8fbfd;padding:34px;}
-.contact-card h2{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.22;color:var(--navy);margin:0 0 12px;min-width:0;overflow-wrap:anywhere;}
-.contact-card h2 a{color:var(--navy);overflow-wrap:anywhere;word-break:break-word;}
+.contact-card h2{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.22;color:var(--navy);margin:0 0 12px;min-width:0;overflow-wrap:normal;}
+.contact-card h2 a{color:var(--navy);}
+.contact-card-email h2{font-size:22px;line-height:1.26;}
+.contact-card-email h2 a{display:block;max-width:100%;overflow-wrap:anywhere;word-break:normal;}
 .contact-card p{font-size:15px;line-height:1.7;color:#17283a;margin:0;}
-.contact-methods{max-width:var(--container);margin:0 auto;padding:20px 18px 64px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.contact-methods{max-width:var(--container);margin:0 auto;padding:20px 18px 64px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;}
 .contact-icon{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#f2f7fb;border:1px solid var(--border);font-size:20px;color:var(--navy);margin-bottom:18px;}
 .contact-form-section{background:var(--soft);padding:60px 18px 72px;}
 .contact-form-intro{max-width:760px;margin:0 auto 30px;text-align:center;}
@@ -347,6 +349,7 @@ main{min-height:60vh;}
   .contact-actions{justify-content:center;}
   .contact-card{min-width:0;padding:24px 22px;}
   .contact-card h2{font-size:23px;overflow-wrap:anywhere;word-break:break-word;}
+  .contact-card-email h2{font-size:23px;}
   .contact-methods{padding-left:18px;padding-right:18px;}
   .contact-form-section{padding:46px 18px 56px;}
   .contact-form{padding:22px;}
@@ -387,6 +390,7 @@ main{min-height:60vh;}
   .not-found-page h1{font-size:32px;}
   .header-contact-strip a{font-size:11px;}
   .contact-card h2{font-size:21px;}
+  .contact-card-email h2{font-size:20px;}
   .contact-card p{font-size:14px;}
   .legal-page h1{font-size:30px;}
   .legal-content p,.legal-content li{font-size:14px;}
