@@ -31,7 +31,10 @@ const formatDate = (date) =>
         온타리오 · 토론토 지역에서 가족, 신규 이민자, 투자자분들의
         신뢰할 수 있는 부동산 결정을 돕는 리얼터 이동호입니다.
       </p>
-      <a class="button primary" href="/contact/">무료 상담 신청하기</a>
+      <div class="hero-actions">
+        <a class="button primary" href="/contact/">무료 상담 신청하기</a>
+        <a class="button secondary" href="/category/market/">시장 업데이트 보기</a>
+      </div>
       <div class="trust-stats" aria-label="Professional highlights">
         <div>
           <span class="stat-icon">🏆</span>
@@ -44,7 +47,9 @@ const formatDate = (date) =>
           <span>데이터 기반 분석</span>
         </div>
         <div>
-          <span class="stat-icon">🇨🇦</span>
+          <span class="stat-icon canada-flag" aria-label="Canada flag">
+            <span class="flag-leaf">🍁</span>
+          </span>
           <strong>22 Yrs in Canada</strong>
           <span>캐나다 22년 거주</span>
         </div>
@@ -56,6 +61,43 @@ const formatDate = (date) =>
         alt="Don Lee 이동호, Ontario real estate broker"
         loading="eager"
       />
+    </div>
+  </section>
+
+  <section class="featured-guides" aria-label="Most popular real estate guides">
+    <div class="home-section-heading">
+      <div>
+        <p class="page-kicker">Guides</p>
+        <h2>Most Popular Guides</h2>
+      </div>
+      <a class="text-link" href="/blog/">전체 가이드 보기</a>
+    </div>
+    <div class="guide-grid">
+      <a href="/category/buying-selling/">
+        <span>01</span>
+        <strong>Buying a Home</strong>
+        <small>첫 주택 구매와 계약 절차</small>
+      </a>
+      <a href="/category/buying-selling/">
+        <span>02</span>
+        <strong>Selling a Home</strong>
+        <small>매도 준비와 가격 전략</small>
+      </a>
+      <a href="/downsizing-when-to-start-retirement-60s/">
+        <span>03</span>
+        <strong>Downsizing</strong>
+        <small>은퇴 전후 주거 계획</small>
+      </a>
+      <a href="/category/newcomer/">
+        <span>04</span>
+        <strong>Newcomers</strong>
+        <small>이민자와 한인 가정 안내</small>
+      </a>
+      <a href="/category/market/">
+        <span>05</span>
+        <strong>Market Updates</strong>
+        <small>온타리오 시장 흐름</small>
+      </a>
     </div>
   </section>
 

@@ -12,6 +12,14 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+const allPosts = (await getCollection("blog"))
+  .filter((entry) => !entry.data.draft && entry.slug !== post.slug)
+  .sort((a, b) => {
+    const categoryScore =
+      Number(b.data.category === post.data.category) -
+      Number(a.data.category === post.data.category);
+    return categoryScore || b.data.pubDate.getTime() - a.data.pubDate.getTime();
+  });
 
 const categoryLabel = {
   "Newcomer": "캐나다 이민 & 생활 정보",
@@ -29,6 +37,9 @@ const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
   day: "numeric",
   year: "numeric",
 });
+
+const lastUpdatedLabel = "Updated: July 2026";
+const relatedPosts = allPosts.slice(0, 3);
 ---
 <BaseLayout
   title={`${post.data.title} | Dongho, The Agent`}
@@ -36,16 +47,59 @@ const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
   canonical={new URL(`/${post.slug}/`, Astro.site ?? Astro.url).toString()}
 >
   <article class="blog-article">
+    <nav class="blog-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span>Blog</span>
+      <span>{categoryLabel[post.data.category] || post.data.category}</span>
+    </nav>
     <header class="blog-article-header">
       <p class="page-kicker">{categoryLabel[post.data.category] || post.data.category}</p>
       <h1>{post.data.title}</h1>
       <p class="blog-meta">{formattedDate} · Dongho Lee 이동호</p>
+      <p class="article-updated">{lastUpdatedLabel}</p>
       <p class="blog-description">{post.data.description}</p>
     </header>
 
     <div class="blog-content">
       <Content />
     </div>
+
+    <section class="author-box" aria-label="About the author">
+      <div>
+        <p class="page-kicker">About the Author</p>
+        <h2>Don Lee 이동호</h2>
+        <p>
+          Don Lee 이동호 is a licensed Broker with HomeLife Frontier Realty Inc.,
+          Brokerage. With over 12 years of real estate experience and more than
+          22 years living in Canada, he helps Korean families, newcomers,
+          investors, and downsizers make informed real estate decisions across
+          Ontario.
+        </p>
+      </div>
+      <a class="button primary" href="/contact/">Contact Don</a>
+    </section>
+
+    {relatedPosts.length > 0 && (
+      <section class="related-articles" aria-label="Related articles">
+        <div class="section-row-heading">
+          <div>
+            <p class="page-kicker">You May Also Like</p>
+            <h2>Related Articles</h2>
+          </div>
+        </div>
+        <div class="related-grid">
+          {relatedPosts.map((related) => (
+            <article>
+              <p class="blog-meta">
+                {categoryLabel[related.data.category] || related.data.category}
+              </p>
+              <h3><a href={`/${related.slug}/`}>{related.data.title}</a></h3>
+              <p>{related.data.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
 
     <footer class="blog-article-footer">
       <a class="button secondary" href="/blog/">← Back to Blog</a>
