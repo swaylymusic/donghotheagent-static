@@ -41,6 +41,9 @@ const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
 const lastUpdatedLabel = "Updated: July 2026";
 const relatedPosts = allPosts.slice(0, 3);
 const canonicalUrl = new URL(`/${post.slug}/`, Astro.site ?? Astro.url).toString();
+const featuredImageUrl = post.data.featuredImage
+  ? new URL(post.data.featuredImage, Astro.site ?? Astro.url).toString()
+  : undefined;
 const articleStructuredData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -50,6 +53,7 @@ const articleStructuredData = {
   url: canonicalUrl,
   datePublished: post.data.pubDate.toISOString(),
   dateModified: post.data.pubDate.toISOString(),
+  ...(featuredImageUrl ? { image: featuredImageUrl } : {}),
   inLanguage: ["en-CA", "ko-CA"],
   author: {
     "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
@@ -64,6 +68,7 @@ const articleStructuredData = {
   title={`${post.data.title} | Dongho, The Agent`}
   description={post.data.description}
   canonical={canonicalUrl}
+  image={post.data.featuredImage}
   structuredData={articleStructuredData}
 >
   <article class="blog-article">
