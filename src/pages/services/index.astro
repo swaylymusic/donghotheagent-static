@@ -1,9 +1,32 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const servicesStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": new URL("/services/#services", Astro.site ?? Astro.url).toString(),
+  name: "Ontario Real Estate Buying, Selling, Renting, and Investing Services",
+  serviceType: "Real estate brokerage services",
+  provider: {
+    "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
+  },
+  areaServed: ["Toronto", "Greater Toronto Area", "London Ontario", "Brantford", "Ontario"],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Real Estate Services",
+    itemListElement: [
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Buyer Representation" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Seller Representation" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Rental Guidance" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Real Estate Investment Guidance" } },
+    ],
+  },
+};
 ---
 <BaseLayout
   title="Services | Dongho, The Agent"
   description="Professional, data-driven, and client-focused real estate services for buyers, sellers, renters, and investors in Ontario."
+  structuredData={servicesStructuredData}
 >
   <section class="services-hero">
     <div>

@@ -40,11 +40,31 @@ const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
 
 const lastUpdatedLabel = "Updated: July 2026";
 const relatedPosts = allPosts.slice(0, 3);
+const canonicalUrl = new URL(`/${post.slug}/`, Astro.site ?? Astro.url).toString();
+const articleStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": `${canonicalUrl}#article`,
+  headline: post.data.title,
+  description: post.data.description,
+  url: canonicalUrl,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: post.data.pubDate.toISOString(),
+  inLanguage: ["en-CA", "ko-CA"],
+  author: {
+    "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
+  },
+  publisher: {
+    "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
+  },
+  mainEntityOfPage: canonicalUrl,
+};
 ---
 <BaseLayout
   title={`${post.data.title} | Dongho, The Agent`}
   description={post.data.description}
-  canonical={new URL(`/${post.slug}/`, Astro.site ?? Astro.url).toString()}
+  canonical={canonicalUrl}
+  structuredData={articleStructuredData}
 >
   <article class="blog-article">
     <nav class="blog-breadcrumbs" aria-label="Breadcrumb">

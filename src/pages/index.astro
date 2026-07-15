@@ -15,10 +15,37 @@ const formatDate = (date) =>
     day: "numeric",
     year: "numeric",
   });
+
+const homeStructuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": new URL("/#website", Astro.site ?? Astro.url).toString(),
+    name: "Dongho, The Agent",
+    url: new URL("/", Astro.site ?? Astro.url).toString(),
+    inLanguage: ["en-CA", "ko-CA"],
+    publisher: {
+      "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": new URL("/#real-estate-services", Astro.site ?? Astro.url).toString(),
+    name: "Ontario Real Estate Services by Don Lee 이동호",
+    url: new URL("/services/", Astro.site ?? Astro.url).toString(),
+    serviceType: ["Buying", "Selling", "Renting", "Real Estate Investment Guidance"],
+    areaServed: ["Toronto", "GTA", "London Ontario", "Brantford", "Ontario"],
+    provider: {
+      "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
+    },
+  },
+];
 ---
 <BaseLayout
   title="Dongho Lee | Toronto & GTA Real Estate Broker"
   description="Ontario and Toronto real estate guidance by Don Lee 이동호 for families, newcomers, investors, buyers, and sellers."
+  structuredData={homeStructuredData}
 >
   <section class="home-hero">
     <div class="hero-copy">
@@ -64,6 +91,22 @@ const formatDate = (date) =>
     </div>
   </section>
 
+  <section class="conversion-panel" aria-label="Start with a real estate consultation">
+    <div class="conversion-copy">
+      <p class="page-kicker">Start Here</p>
+      <h2>15분만 이야기해도 다음 결정이 더 선명해집니다.</h2>
+      <p>
+        지금 매수, 매도, 렌트, 투자 중 어디서 시작해야 할지 고민 중이라면
+        현재 상황과 지역, 예산, 일정부터 차분히 정리해 드립니다.
+      </p>
+    </div>
+    <div class="conversion-actions">
+      <a class="button primary" href="/contact/">무료 상담 신청하기</a>
+      <a class="button secondary" href="tel:14166258241">416-625-8241 전화하기</a>
+      <span>한국어 · English 상담 가능</span>
+    </div>
+  </section>
+
   <section class="featured-guides" aria-label="Most popular real estate guides">
     <div class="home-section-heading">
       <div>
@@ -101,6 +144,38 @@ const formatDate = (date) =>
     </div>
   </section>
 
+  <section class="decision-help" aria-label="Real estate situations Don Lee can help with">
+    <div class="home-section-heading">
+      <div>
+        <p class="page-kicker">How I Help</p>
+        <h2>상황별로 필요한 답부터 정리합니다</h2>
+      </div>
+      <a class="text-link" href="/services/">서비스 전체 보기</a>
+    </div>
+    <div class="decision-grid">
+      <article>
+        <span>Buyers</span>
+        <h3>첫 집 구매 또는 이사 준비</h3>
+        <p>예산, 지역, 모기지, 오퍼 조건을 한 번에 정리해 무리 없는 구매 전략을 세웁니다.</p>
+      </article>
+      <article>
+        <span>Sellers</span>
+        <h3>내 집 가격과 매도 타이밍</h3>
+        <p>CMA, 경쟁 매물, 지역 수요를 바탕으로 가격 전략과 마케팅 우선순위를 잡습니다.</p>
+      </article>
+      <article>
+        <span>Newcomers</span>
+        <h3>한국어로 이해하는 온타리오 거래</h3>
+        <p>계약서, 렌트 규정, 클로징 절차를 쉬운 언어로 설명해 불확실성을 줄입니다.</p>
+      </article>
+      <article>
+        <span>Investors</span>
+        <h3>장기 관점의 투자 판단</h3>
+        <p>현금흐름, 지역 성장성, 리스크를 함께 비교해 단기 시세보다 지속성을 봅니다.</p>
+      </article>
+    </div>
+  </section>
+
   <section class="home-blog-section" aria-label="Latest blog posts">
     <div class="home-section-heading">
       <div>
@@ -133,5 +208,19 @@ const formatDate = (date) =>
       <span>⭐ Grand Master Club 2021</span>
     </div>
     <p>2015–2024 HomeLife Award Recipient (Bronze, Silver, Gold, Premier & Grand Master)</p>
+  </section>
+
+  <section class="eeat-band" aria-label="Why clients trust Don Lee">
+    <div>
+      <p class="page-kicker">Trust</p>
+      <h2>경험, 데이터, 설명 책임을 기준으로 일합니다.</h2>
+      <ul>
+        <li>Broker, REALTOR® · HomeLife Frontier Realty Inc., Brokerage</li>
+        <li>온타리오 부동산 12년 이상, 캐나다 거주 22년 이상</li>
+        <li>한국어와 영어로 계약, 조건, 시장 데이터를 명확하게 설명</li>
+        <li>Toronto, GTA, London, Brantford 등 온타리오 주요 지역 상담</li>
+      </ul>
+    </div>
+    <a class="button primary" href="/about/">Don Lee 소개 보기</a>
   </section>
 </BaseLayout>

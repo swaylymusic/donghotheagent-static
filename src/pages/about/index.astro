@@ -1,9 +1,21 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const aboutStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": new URL("/about/#about", Astro.site ?? Astro.url).toString(),
+  url: new URL("/about/", Astro.site ?? Astro.url).toString(),
+  name: "About Don Lee 이동호",
+  mainEntity: {
+    "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
+  },
+};
 ---
 <BaseLayout
   title="About | Dongho Lee 이동호 Broker, REALTOR®"
   description="Learn about Dongho Lee 이동호, a bilingual Ontario Broker and REALTOR® helping families, newcomers, investors, and first-time buyers."
+  structuredData={aboutStructuredData}
 >
   <section class="about-hero">
     <div class="about-portrait">

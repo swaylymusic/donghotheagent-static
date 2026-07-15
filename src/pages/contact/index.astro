@@ -1,9 +1,29 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const contactStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": new URL("/contact/#contact", Astro.site ?? Astro.url).toString(),
+  url: new URL("/contact/", Astro.site ?? Astro.url).toString(),
+  name: "Contact Don Lee 이동호",
+  about: {
+    "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
+  },
+  mainEntity: {
+    "@type": "ContactPoint",
+    telephone: "+1-416-625-8241",
+    email: "contact@donlee.realtor",
+    contactType: "real estate consultation",
+    availableLanguage: ["English", "Korean"],
+    areaServed: "Ontario",
+  },
+};
 ---
 <BaseLayout
   title="Contact | Dongho, The Agent"
   description="Contact Dongho Lee 이동호 for buying, selling, renting, and investing guidance in Ontario real estate."
+  structuredData={contactStructuredData}
 >
   <section class="contact-hero">
     <div class="contact-copy">
@@ -153,6 +173,12 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
         form.reset();
         status.textContent = result.message || "감사합니다. 상담 요청이 접수되었습니다.";
         status.classList.add("success");
+        window.gtag?.("event", "generate_lead", {
+          event_category: "lead",
+          method: "contact_form",
+          client_type: payload.clientType || "unknown",
+          area: payload.area || "not provided",
+        });
       } catch (error) {
         status.textContent = error.message || "There was an error trying to submit your form. Please try again.";
         status.classList.add("error");
