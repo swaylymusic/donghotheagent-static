@@ -74,7 +74,7 @@ function extractTitle(html, fallback) {
   const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
   if (h1) return stripTags(h1[1]);
   const title = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
-  if (title) return stripTags(title[1]).replace(/\s+-\s+Dongho, The Agent$/i, "");
+  if (title) return stripTags(title[1]).replace(/\s+-\s+(?:Dongho, The Agent|Dongho Lee Real Estate)$/i, "");
   return fallback;
 }
 

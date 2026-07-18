@@ -137,7 +137,7 @@ featuredImage: "/uploads/2025/10/suburban-house.png"
 <p>2025년 현재 캐나다 부동산 시장은 여전히 <strong>지역별 격차가 큰 구조</strong>입니다.<br>GTA(Greater Toronto Area)는 고금리 영향으로 조정세를 보이지만,<br><strong>런던(London, Ontario)·브랜트퍼드(Brantford)</strong> 등은 <strong>가성비 좋은 투자처</strong>로 주목받고 있습니다.</p>
 
 <blockquote>
-<p>☕ <strong>전문가 상담이 필요하신가요?</strong><br>📞 Don Lee, REALTOR®<br>🌐 <a href="https://www.donleerealtor.com" rel="nofollow noopener" target="_blank">www.donleerealtor.com</a><br>📧 <a href="/cdn-cgi/l/email-protection">[email&#160;protected]</a></p>
+<p>☕ <strong>전문가 상담이 필요하신가요?</strong><br>📞 Dongho Lee, REALTOR®<br>🌐 <a href="https://donghotheagent.com" rel="nofollow noopener" target="_blank">donghotheagent.com</a><br>📧 <a href="mailto:contact@donlee.realtor">contact@donlee.realtor</a></p>
 </blockquote>
 
 <hr/>

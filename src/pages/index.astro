@@ -21,7 +21,7 @@ const homeStructuredData = [
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": new URL("/#website", Astro.site ?? Astro.url).toString(),
-    name: "Dongho, The Agent",
+    name: "Dongho Lee Real Estate",
     url: new URL("/", Astro.site ?? Astro.url).toString(),
     inLanguage: ["en-CA", "ko-CA"],
     publisher: {
@@ -32,7 +32,7 @@ const homeStructuredData = [
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "@id": new URL("/#real-estate-services", Astro.site ?? Astro.url).toString(),
-    name: "Ontario Real Estate Services by Don Lee 이동호",
+    name: "Ontario Real Estate Services by Dongho Lee 이동호",
     url: new URL("/services/", Astro.site ?? Astro.url).toString(),
     serviceType: ["Buying", "Selling", "Renting", "Real Estate Investment Guidance"],
     areaServed: ["Toronto", "GTA", "London Ontario", "Brantford", "Ontario"],
@@ -44,12 +44,12 @@ const homeStructuredData = [
 ---
 <BaseLayout
   title="Dongho Lee | Toronto & GTA Real Estate Broker"
-  description="Ontario and Toronto real estate guidance by Don Lee 이동호 for families, newcomers, investors, buyers, and sellers."
+  description="Ontario and Toronto real estate guidance by Dongho Lee 이동호 for families, newcomers, investors, buyers, and sellers."
   structuredData={homeStructuredData}
 >
   <section class="home-hero">
     <div class="hero-copy">
-      <h1>Ontario Real Estate,<br />Clearly Explained<br />By Don Lee 이동호</h1>
+      <h1>Ontario Real Estate,<br />Clearly Explained<br />By Dongho Lee 이동호</h1>
       <p class="lead">
         Helping families, newcomers, and investors make confident and informed
         real estate decisions in Ontario & Toronto.
@@ -85,7 +85,7 @@ const homeStructuredData = [
     <div class="hero-portrait">
       <img
         src="/uploads/2025/10/JPhotography2-819x1024.jpg"
-        alt="Don Lee 이동호, Ontario real estate broker"
+        alt="Dongho Lee 이동호, Ontario real estate broker"
         loading="eager"
       />
     </div>
@@ -144,7 +144,7 @@ const homeStructuredData = [
     </div>
   </section>
 
-  <section class="decision-help" aria-label="Real estate situations Don Lee can help with">
+  <section class="decision-help" aria-label="Real estate situations Dongho Lee can help with">
     <div class="home-section-heading">
       <div>
         <p class="page-kicker">How I Help</p>
@@ -210,7 +210,7 @@ const homeStructuredData = [
     <p>2015–2024 HomeLife Award Recipient (Bronze, Silver, Gold, Premier & Grand Master)</p>
   </section>
 
-  <section class="eeat-band" aria-label="Why clients trust Don Lee">
+  <section class="eeat-band" aria-label="Why clients trust Dongho Lee">
     <div>
       <p class="page-kicker">Trust</p>
       <h2>경험, 데이터, 설명 책임을 기준으로 일합니다.</h2>
@@ -221,6 +221,6 @@ const homeStructuredData = [
         <li>Toronto, GTA, London, Brantford 등 온타리오 주요 지역 상담</li>
       </ul>
     </div>
-    <a class="button primary" href="/about/">Don Lee 소개 보기</a>
+    <a class="button primary" href="/about/">Dongho Lee 소개 보기</a>
   </section>
 </BaseLayout>

@@ -22,8 +22,8 @@ async function avatar(size) {
 
   const base = Buffer.from(`
     <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
-      <rect width="100%" height="100%" rx="${Math.round(size * 0.18)}" fill="#083b5c"/>
-      <circle cx="${size / 2}" cy="${size / 2}" r="${inner / 2 + border / 2}" fill="#f5a623"/>
+      <rect width="100%" height="100%" rx="${Math.round(size * 0.18)}" fill="#1e2a3a"/>
+      <circle cx="${size / 2}" cy="${size / 2}" r="${inner / 2 + border / 2}" fill="#b08a4f"/>
     </svg>
   `);
 

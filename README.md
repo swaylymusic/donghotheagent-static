@@ -1,4 +1,4 @@
-# Dongho, The Agent Static Site
+# Dongho Lee Real Estate Static Site
 
 Static Astro site for `donghotheagent.com`, designed for GitHub and Cloudflare Pages.
 

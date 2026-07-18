@@ -1,6 +1,6 @@
 ---
 const {
-  title = "Dongho, The Agent",
+  title = "Dongho Lee Real Estate",
   description = "Toronto real estate blog and services.",
   canonical,
   image = "/uploads/2025/01/Dongho-The-realtor-Facebook-Cover.png",
@@ -19,7 +19,6 @@ const siteSchema = {
   "@type": "RealEstateAgent",
   "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
   name: "Dongho Lee 이동호",
-  alternateName: "Don Lee",
   url: new URL("/", Astro.site ?? Astro.url).toString(),
   image: new URL("/uploads/2025/10/profile_dongholee.jpg", Astro.site ?? Astro.url).toString(),
   telephone: "+1-416-625-8241",
@@ -74,7 +73,7 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Dongho, The Agent" />
+    <meta property="og:site_name" content="Dongho Lee Real Estate" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
@@ -93,7 +92,11 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
       function gtag(){dataLayer.push(arguments);}
       window.gtag = gtag;
       gtag("js", new Date());
-      gtag("config", "G-H1TPFXTMXJ");
+      gtag("config", "G-H1TPFXTMXJ", {
+        linker: {
+          domains: ["dongholee.ca", "donghotheagent.com"],
+        },
+      });
     </script>
     <script type="application/ld+json" set:html={JSON.stringify(siteSchema)} />
     {structuredDataItems.map((item) => (
@@ -110,14 +113,14 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
         </div>
       </div>
       <div class="header-inner">
-        <a class="brand-lockup" href="/" aria-label="Dongho, The Agent home">
+        <a class="brand-lockup" href="/" aria-label="Dongho Lee Real Estate home">
           <img
             src="/uploads/2025/10/HomeLife-Modern-LOGO-Standard-no-background.png"
             alt="HomeLife Higher Standards"
           />
           <span>
-            <strong>Dongho, The Agent</strong>
-            <small>Don Lee 이동호 · Broker, REALTOR®</small>
+            <strong>Dongho Lee</strong>
+            <small>이동호 · Broker, REALTOR®</small>
           </span>
         </a>
         <nav class="nav">
@@ -141,17 +144,18 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
             src="/uploads/2025/10/HomeLife-Modern-LOGO-Standard-no-background.png"
             alt="HomeLife Realty"
           />
-          <strong>Dongho, The Agent</strong>
-          <span>Don Lee 이동호 · Broker, REALTOR®</span>
+          <strong>Dongho Lee</strong>
+          <span>이동호 · Broker, REALTOR®</span>
           <span>HomeLife Frontier Realty Inc., Brokerage</span>
         </div>
         <div class="footer-link-groups">
           <nav aria-label="Quick links">
             <h2>Quick Links</h2>
-            <a href="/about/">About Don</a>
+            <a href="/about/">About Dongho Lee</a>
             <a href="/services/">Services</a>
             <a href="/blog/">Latest Articles</a>
             <a href="/contact/">Contact</a>
+            <a href="https://dongholee.ca/" target="_blank" rel="noopener noreferrer">Dongho Lee Personal Site</a>
           </nav>
           <nav aria-label="Popular guides">
             <h2>Popular Guides</h2>
@@ -174,7 +178,7 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
           <a href="/cookie-policy/">Cookie Policy</a>
           <a href="/disclaimer/">Disclaimer</a>
         </nav>
-        <p class="fineprint">&copy; 2026 Dongho, The Agent. All Rights Reserved.</p>
+        <p class="fineprint">&copy; 2026 Dongho Lee Real Estate. All Rights Reserved.</p>
       </div>
     </footer>
 
@@ -211,6 +215,18 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
           }
 
           const targetUrl = new URL(href, window.location.href);
+
+          if (
+            targetUrl.hostname === "dongholee.ca" &&
+            targetUrl.hostname !== window.location.hostname
+          ) {
+            sendEvent("cross_site_navigation", {
+              link_url: targetUrl.href,
+              link_text: linkText,
+              destination_domain: targetUrl.hostname,
+            });
+          }
+
           if (targetUrl.pathname === "/contact/") {
             sendEvent("contact_cta_click", {
               event_category: "lead",

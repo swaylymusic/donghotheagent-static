@@ -6,7 +6,7 @@ const contactStructuredData = {
   "@type": "ContactPage",
   "@id": new URL("/contact/#contact", Astro.site ?? Astro.url).toString(),
   url: new URL("/contact/", Astro.site ?? Astro.url).toString(),
-  name: "Contact Don Lee 이동호",
+  name: "Contact Dongho Lee 이동호",
   about: {
     "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
   },
@@ -21,7 +21,7 @@ const contactStructuredData = {
 };
 ---
 <BaseLayout
-  title="Contact | Dongho, The Agent"
+  title="Contact | Dongho Lee Real Estate"
   description="Contact Dongho Lee 이동호 for buying, selling, renting, and investing guidance in Ontario real estate."
   structuredData={contactStructuredData}
 >
@@ -105,7 +105,7 @@ const contactStructuredData = {
       <label class="consent-field">
         <input type="checkbox" name="privacyConsent" value="yes" required />
         <span>
-          I consent to Don Lee 이동호, Broker, REALTOR®, and HomeLife Frontier Realty Inc., Brokerage
+          I consent to Dongho Lee 이동호, Broker, REALTOR®, and HomeLife Frontier Realty Inc., Brokerage
           collecting and using the information I submit for the purpose of responding to my inquiry.
           문의 답변을 위해 제출한 개인정보를 수집·이용하는 것에 동의합니다.
           <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
