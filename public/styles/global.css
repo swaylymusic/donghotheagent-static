@@ -164,10 +164,12 @@ main{min-height:60vh;}
 .why-built-site h3{font-family:Georgia,"Times New Roman",serif;font-size:28px;line-height:1.18;color:var(--navy);margin:0 0 14px;}
 .why-built-site p{max-width:900px;}
 .personal-site-bridge{max-width:var(--container);margin:0 auto;padding:12px 18px 68px;}
-.personal-site-bridge > div{border:1px solid var(--border);border-radius:8px;background:#f8fbfd;padding:36px;text-align:center;box-shadow:0 15px 32px rgba(15,23,42,.05);}
-.personal-site-bridge h2{font-family:Georgia,"Times New Roman",serif;font-size:32px;line-height:1.16;color:var(--navy);margin:0 auto 14px;max-width:720px;}
-.personal-site-bridge p{font-size:15px;line-height:1.75;color:#17283a;margin:0 auto 12px;max-width:760px;}
-.personal-site-bridge .button{margin-top:12px;}
+.personal-site-bridge > div{border:1px solid var(--border);border-radius:8px;background:#f8fbfd;padding:34px 36px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:42px;align-items:center;box-shadow:0 15px 32px rgba(15,23,42,.05);}
+.personal-site-copy{max-width:760px;}
+.personal-site-bridge h2{font-family:Georgia,"Times New Roman",serif;color:var(--navy);font-size:30px;line-height:1.2;letter-spacing:0;margin:0 0 14px;}
+.personal-site-bridge p:not(.page-kicker){font-size:15px;line-height:1.7;color:#17283a;margin:0 0 8px;}
+.personal-site-bridge p:last-child{margin-bottom:0;}
+.personal-site-button{min-width:250px;justify-content:center;white-space:nowrap;background:#fff;}
 .service-area{background:var(--soft);padding:58px 18px;}
 .service-area > div{max-width:860px;margin:0 auto;text-align:left;}
 .service-area h2,.newcomer-help h2,.why-work h2{font-size:34px;line-height:1.15;margin:0 0 16px;}
@@ -419,8 +421,10 @@ main{min-height:60vh;}
   .about-portrait img{height:260px;border-radius:10px;object-position:center top;}
   .about-intro h1{font-size:38px;line-height:1.08;text-align:center;}
   .about-intro .page-kicker,.intro-tags{justify-content:center;text-align:center;}
-  .personal-site-bridge > div{padding:30px 24px;}
-  .personal-site-bridge h2{font-size:28px;}
+  .personal-site-bridge{padding-top:4px;padding-bottom:48px;}
+  .personal-site-bridge > div{grid-template-columns:1fr;gap:24px;padding:28px 24px;}
+  .personal-site-bridge h2{font-size:26px;}
+  .personal-site-button{min-width:0;justify-self:start;}
   .name-line,.title-line{display:block;}
   .korean-name{font-size:.94em;}
   .language-grid,.content-columns,.area-list,.why-grid,.services-grid,.process-steps,.contact-hero,.contact-methods,.message-grid,.form-grid{grid-template-columns:1fr;}
@@ -494,6 +498,9 @@ main{min-height:60vh;}
   .about-portrait{max-width:205px;padding:9px;}
   .about-portrait img{height:232px;}
   .about-intro h1{font-size:32px;}
+  .personal-site-bridge > div{padding:24px 20px;}
+  .personal-site-bridge h2{font-size:24px;}
+  .personal-site-button{width:100%;white-space:normal;text-align:center;}
   .not-found-page h1{font-size:32px;}
   .header-contact-strip a{font-size:11px;}
   .nav{justify-content:center;gap:15px;}
