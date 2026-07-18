@@ -1,0 +1,3 @@
+/latest-posts.json
+  Access-Control-Allow-Origin: https://dongholee.ca
+  Cache-Control: public, max-age=300, s-maxage=3600
