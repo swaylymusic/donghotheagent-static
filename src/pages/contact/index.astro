@@ -107,7 +107,7 @@ const contactStructuredData = {
 
       <div class="form-grid lead-details-grid">
         <label>
-          <span>Expected transaction timeframe</span>
+          <span>Expected transaction timeframe <small>예상 거래 시점</small></span>
           <select name="timeframe">
             <option value="Not sure">Not sure yet</option>
             <option value="0-3 months">0-3 months</option>
@@ -118,7 +118,7 @@ const contactStructuredData = {
           </select>
         </label>
         <label>
-          <span>How did you find me?</span>
+          <span>How did you find me? <small>어떻게 알게 되셨나요?</small></span>
           <select name="discoverySource">
             <option value="Not provided">Please select</option>
             <option value="Google">Google search</option>
@@ -134,37 +134,38 @@ const contactStructuredData = {
 
       <label class="consent-field">
         <input type="checkbox" name="privacyConsent" value="yes" required />
-        <span>
-          I consent to Dongho Lee 이동호, Broker, REALTOR®, and HomeLife Frontier Realty Inc., Brokerage
-          collecting and using the information I submit for the purpose of responding to my inquiry.
-          문의 답변을 위해 제출한 개인정보를 수집·이용하는 것에 동의합니다.
-          <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
+        <span class="consent-copy">
+          <strong class="consent-title">Required · 필수 동의</strong>
+          <span>I consent to Dongho Lee 이동호, Broker, REALTOR®, and HomeLife Frontier Realty Inc., Brokerage collecting and using the information I submit to respond to my inquiry.</span>
+          <span class="consent-ko">문의 답변을 위해 제출한 개인정보를 수집·이용하는 것에 동의합니다.</span>
+          <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy · 개인정보처리방침</a>
         </span>
       </label>
 
       <label class="consent-field marketing-consent">
         <input type="checkbox" name="marketingConsent" value="yes" />
-        <span>
-          <strong>Optional:</strong> I expressly consent to receive real estate market updates, guides,
-          and follow-up commercial electronic messages from Dongho Lee, Broker, HomeLife Frontier Realty Inc., Brokerage.
-          I may withdraw consent at any time. HomeLife Frontier Realty Inc., Brokerage,
-          7620 Yonge St #400, Thornhill, ON L4J 1V9 · 416-625-8241 ·
-          <a href="mailto:contact@donlee.realtor">contact@donlee.realtor</a>.
+        <span class="consent-copy">
+          <strong class="consent-title">Optional · 선택 동의</strong>
+          <span>I expressly consent to receive real estate market updates, guides, and follow-up commercial electronic messages from Dongho Lee, Broker, HomeLife Frontier Realty Inc., Brokerage.</span>
+          <span class="consent-ko">부동산 시장 정보, 가이드 및 후속 안내 메시지를 받는 것에 명시적으로 동의합니다. 동의는 언제든 철회할 수 있습니다.</span>
+          <span class="consent-contact">HomeLife Frontier Realty Inc., Brokerage · 7620 Yonge St #400, Thornhill, ON L4J 1V9 · 416-625-8241 · <a href="mailto:contact@donlee.realtor">contact@donlee.realtor</a></span>
         </span>
       </label>
 
       <aside class="form-compliance-note">
-        <strong>Before real estate services begin</strong>
+        <span class="compliance-kicker">RECO Consumer Information · 소비자 안내</span>
+        <strong>Before real estate services begin <small>부동산 서비스 시작 전</small></strong>
         <p>
           Submitting this form does not create a representation relationship. Before providing real estate
           services or assistance, I will provide and explain the RECO Information Guide and clarify whether
           you will be represented or self-represented.
-          <a href="/consumer-information/">Learn about the process</a>.
         </p>
+        <p class="compliance-ko">이 양식을 제출하는 것만으로 대리 관계가 성립하지 않습니다. 실제 서비스나 도움을 제공하기 전 RECO Information Guide를 전달하고 설명한 뒤 대리 여부를 확인합니다.</p>
+        <a class="compliance-link" href="/consumer-information/">Learn about the process · 절차 자세히 보기 →</a>
       </aside>
 
       <div class="form-footer">
-        <button class="button primary" type="submit">Submit</button>
+        <button class="button primary" type="submit">Submit · 상담 요청 보내기</button>
         <p class="form-status" id="contact-form-status" role="status" aria-live="polite"></p>
       </div>
     </form>
