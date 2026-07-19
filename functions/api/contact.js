@@ -62,6 +62,13 @@ async function verifyTurnstile(token, env, request) {
 
 function buildEmailHtml(data) {
   const rows = [
+    ["Expected transaction timeframe", data.timeframe || "-"],
+    ["Discovery source", data.discoverySource || "-"],
+    ["Lead source", data.leadSource || "-"],
+    ["Landing page", data.landingPage || "-"],
+    ["Referrer", data.referrer || "-"],
+    ["CASL express marketing consent", data.marketingConsent === "yes" ? "YES" : "NO"],
+    ["Consent record time (UTC)", data.consentRecordedAt],
     ["사용자 유형", data.clientType],
     ["이름", data.name],
     ["이메일", data.email],
@@ -109,6 +116,7 @@ async function sendEmail(data, env, request) {
       html: buildEmailHtml(data),
       text: [
         "New Contact Form Submission",
+        `Lead metadata: ${JSON.stringify({ timeframe: data.timeframe, discoverySource: data.discoverySource, leadSource: data.leadSource, landingPage: data.landingPage, referrer: data.referrer, marketingConsent: data.marketingConsent === "yes", consentRecordedAt: data.consentRecordedAt })}`,
         `사용자 유형: ${data.clientType}`,
         `이름: ${data.name}`,
         `이메일: ${data.email}`,
@@ -145,6 +153,13 @@ export async function onRequestPost({ request, env }) {
     email: clean(payload.email, 180),
     phone: clean(payload.phone, 80),
     area: clean(payload.area, 160),
+    timeframe: clean(payload.timeframe, 80),
+    discoverySource: clean(payload.discoverySource, 120),
+    leadSource: clean(payload.leadSource, 160),
+    landingPage: clean(payload.landingPage, 500),
+    referrer: clean(payload.referrer, 500),
+    marketingConsent: clean(payload.marketingConsent, 20),
+    consentRecordedAt: new Date().toISOString(),
     message: clean(payload.message, 3000),
     privacyConsent: clean(payload.privacyConsent, 20),
   };

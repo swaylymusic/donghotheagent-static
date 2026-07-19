@@ -64,6 +64,9 @@ const contactStructuredData = {
 
     <form class="contact-form" id="contact-form" action="/api/contact" method="post">
       <input type="text" name="company" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <input type="hidden" name="leadSource" id="lead-source" value="website_contact" />
+      <input type="hidden" name="landingPage" id="landing-page" value="/contact/" />
+      <input type="hidden" name="referrer" id="lead-referrer" value="" />
 
       <fieldset>
         <legend>사용자 유형 <span>*</span></legend>
@@ -102,6 +105,33 @@ const contactStructuredData = {
         <textarea name="message" rows="7" required placeholder="문의 사항을 간단히 적어 주세요."></textarea>
       </label>
 
+      <div class="form-grid lead-details-grid">
+        <label>
+          <span>Expected transaction timeframe</span>
+          <select name="timeframe">
+            <option value="Not sure">Not sure yet</option>
+            <option value="0-3 months">0-3 months</option>
+            <option value="3-6 months">3-6 months</option>
+            <option value="6-12 months">6-12 months</option>
+            <option value="1-2 years">1-2 years</option>
+            <option value="2+ years">2+ years</option>
+          </select>
+        </label>
+        <label>
+          <span>How did you find me?</span>
+          <select name="discoverySource">
+            <option value="Not provided">Please select</option>
+            <option value="Google">Google search</option>
+            <option value="YouTube">YouTube</option>
+            <option value="Facebook / Instagram">Facebook / Instagram</option>
+            <option value="Open house">Open house / QR code</option>
+            <option value="Past client / referral">Past client / referral</option>
+            <option value="Community">Korean community</option>
+            <option value="Other">Other</option>
+          </select>
+        </label>
+      </div>
+
       <label class="consent-field">
         <input type="checkbox" name="privacyConsent" value="yes" required />
         <span>
@@ -111,6 +141,27 @@ const contactStructuredData = {
           <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
         </span>
       </label>
+
+      <label class="consent-field marketing-consent">
+        <input type="checkbox" name="marketingConsent" value="yes" />
+        <span>
+          <strong>Optional:</strong> I expressly consent to receive real estate market updates, guides,
+          and follow-up commercial electronic messages from Dongho Lee, Broker, HomeLife Frontier Realty Inc., Brokerage.
+          I may withdraw consent at any time. HomeLife Frontier Realty Inc., Brokerage,
+          7620 Yonge St #400, Thornhill, ON L4J 1V9 · 416-625-8241 ·
+          <a href="mailto:contact@donlee.realtor">contact@donlee.realtor</a>.
+        </span>
+      </label>
+
+      <aside class="form-compliance-note">
+        <strong>Before real estate services begin</strong>
+        <p>
+          Submitting this form does not create a representation relationship. Before providing real estate
+          services or assistance, I will provide and explain the RECO Information Guide and clarify whether
+          you will be represented or self-represented.
+          <a href="/consumer-information/">Learn about the process</a>.
+        </p>
+      </aside>
 
       <div class="form-footer">
         <button class="button primary" type="submit">Submit</button>
@@ -146,6 +197,14 @@ const contactStructuredData = {
     const form = document.querySelector("#contact-form");
     const status = document.querySelector("#contact-form-status");
 
+    const params = new URLSearchParams(window.location.search);
+    const sourceInput = document.querySelector("#lead-source");
+    const landingInput = document.querySelector("#landing-page");
+    const referrerInput = document.querySelector("#lead-referrer");
+    if (sourceInput) sourceInput.value = params.get("source") || params.get("utm_source") || "website_contact";
+    if (landingInput) landingInput.value = `${window.location.pathname}${window.location.search}`;
+    if (referrerInput) referrerInput.value = document.referrer || "direct";
+
     form?.addEventListener("submit", async (event) => {
       event.preventDefault();
 
@@ -178,6 +237,9 @@ const contactStructuredData = {
           method: "contact_form",
           client_type: payload.clientType || "unknown",
           area: payload.area || "not provided",
+          lead_source: payload.leadSource || "website_contact",
+          timeframe: payload.timeframe || "not provided",
+          marketing_consent: payload.marketingConsent === "yes",
         });
       } catch (error) {
         status.textContent = error.message || "There was an error trying to submit your form. Please try again.";

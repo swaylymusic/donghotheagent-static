@@ -365,6 +365,13 @@ main{min-height:60vh;}
 .legal-content p:last-child{margin-bottom:0;}
 .legal-content ul{padding-left:22px;margin:0;}
 .legal-content a{overflow-wrap:anywhere;font-weight:800;}
+.contact-form select{width:100%;min-height:48px;border:1px solid var(--border);border-radius:6px;background:#fff;color:#17283a;padding:10px 12px;font:inherit;}
+.lead-details-grid{margin-top:18px;}
+.marketing-consent{margin-top:12px;}
+.form-compliance-note{margin-top:18px;border:1px solid #c8d7e5;border-radius:8px;background:#f8fbfd;padding:18px 20px;color:#17283a;}
+.form-compliance-note strong{display:block;color:var(--navy);margin-bottom:6px;}
+.form-compliance-note p{margin:0;font-size:13px;line-height:1.7;}
+.seller-lead-hero{max-width:980px;margin:0 auto;}
 
 @media (max-width: 900px){
   .header-contact-strip > div{justify-content:center;gap:10px;flex-wrap:wrap;padding:7px 14px;}
