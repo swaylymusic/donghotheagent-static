@@ -1,0 +1,95 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const gumroadUrl = "https://dohlee.gumroad.com/l/ontario-realtor-client-communication";
+const productStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: "Ontario Realtor AI Client Communication Starter Pack",
+  description:
+    "A practical communication starter pack for Ontario realtors who want clearer, faster, and more consistent client communication.",
+  brand: { "@type": "Brand", name: "Dongho Lee" },
+  url: new URL("/ontario-realtor-client-communication/", Astro.site ?? Astro.url).toString(),
+  offers: {
+    "@type": "Offer",
+    url: gumroadUrl,
+    availability: "https://schema.org/InStock",
+  },
+};
+---
+
+<BaseLayout
+  title="Ontario Realtor AI Client Communication Starter Pack | Dongho Lee"
+  description="A practical AI communication starter pack for Ontario realtors. Get clearer client messages, follow-ups, and real estate conversations with the Ontario Realtor AI Client Communication Starter Pack."
+  canonical="/ontario-realtor-client-communication/"
+  image="/uploads/2026/07/ontario-home-search-tips.webp"
+  structuredData={productStructuredData}
+>
+  <section class="product-hero">
+    <div class="product-hero-copy">
+      <p class="page-kicker">New resource for Ontario realtors</p>
+      <h1>Communicate with clients clearly, confidently, and consistently.</h1>
+      <p class="product-lead">
+        The <strong>Ontario Realtor AI Client Communication Starter Pack</strong> helps realtors
+        turn everyday client conversations into polished, useful messages—without starting from
+        a blank page every time.
+      </p>
+      <div class="product-actions">
+        <a class="button primary" href={gumroadUrl} target="_blank" rel="noopener noreferrer">Get the Starter Pack on Gumroad</a>
+        <a class="button secondary" href="#inside">See what’s inside</a>
+      </div>
+      <p class="product-note">Built for Ontario real estate conversations · English resource · Instant access through Gumroad</p>
+    </div>
+    <div class="product-card" aria-label="Ontario Realtor AI Client Communication Starter Pack">
+      <span class="product-card-label">STARTER PACK</span>
+      <h2>Ontario Realtor<br /><em>AI Client Communication</em></h2>
+      <div class="product-card-line"></div>
+      <p>Practical prompts and communication support for real client work.</p>
+      <span class="product-card-mark">DL</span>
+    </div>
+  </section>
+
+  <section class="product-intro" id="inside">
+    <p class="page-kicker">Less time rewriting. More time serving clients.</p>
+    <h2>Make the next message easier to send.</h2>
+    <p>
+      Real estate communication happens all day: new inquiries, showing follow-ups, offer updates,
+      reminders, explanations, and difficult conversations. This starter pack gives you a practical
+      starting point so your messages sound professional, human, and aligned with the Ontario real
+      estate context.
+    </p>
+    <div class="benefit-grid">
+      <article><span>01</span><h3>Start faster</h3><p>Move from a rough thought to a usable client message in less time.</p></article>
+      <article><span>02</span><h3>Stay consistent</h3><p>Keep your tone clear and professional across email, text, and follow-up.</p></article>
+      <article><span>03</span><h3>Communicate with care</h3><p>Explain next steps and expectations in language clients can actually understand.</p></article>
+    </div>
+  </section>
+
+  <section class="product-split">
+    <div>
+      <p class="page-kicker">Made for the real work</p>
+      <h2>Useful when the conversation matters.</h2>
+      <p>Use it as a working reference when you are preparing a message, checking your tone, or looking for a better way to explain the next step.</p>
+    </div>
+    <ul>
+      <li>New-lead and consultation follow-ups</li>
+      <li>Showing confirmations and post-showing messages</li>
+      <li>Offer, negotiation, and transaction updates</li>
+      <li>Clearer explanations for buyers, sellers, and newcomers</li>
+      <li>AI-assisted drafting that still sounds like you</li>
+    </ul>
+  </section>
+
+  <section class="product-cta">
+    <div>
+      <p class="page-kicker">Available now</p>
+      <h2>Give your client communication a stronger starting point.</h2>
+      <p>Explore the Ontario Realtor AI Client Communication Starter Pack on Gumroad.</p>
+    </div>
+    <a class="button primary" href={gumroadUrl} target="_blank" rel="noopener noreferrer">View on Gumroad</a>
+  </section>
+
+  <style>
+    .product-hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:clamp(2rem,6vw,6rem);align-items:center;max-width:1180px;margin:0 auto;padding:clamp(4rem,9vw,8rem) 1.25rem 5rem}.product-hero h1{max-width:720px;font-size:clamp(2.7rem,6vw,5.5rem);line-height:.98;letter-spacing:-.055em;margin:.4rem 0 1.5rem}.product-lead{font-size:1.2rem;line-height:1.75;max-width:650px;color:#42505c}.product-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin:2rem 0 1rem}.product-note{font-size:.85rem;color:#687681}.product-card{min-height:390px;padding:2.4rem;background:linear-gradient(145deg,#162b3a,#3e6570);color:#fff;box-shadow:20px 24px 0 #e4ebea;display:flex;flex-direction:column;justify-content:space-between;transform:rotate(2deg)}.product-card-label{font-size:.72rem;letter-spacing:.2em}.product-card h2{font-size:clamp(2.2rem,4vw,4rem);line-height:1.02;margin:2rem 0}.product-card h2 em{color:#d3e4d9;font-style:normal}.product-card-line{height:1px;background:rgba(255,255,255,.4)}.product-card p{max-width:260px;line-height:1.6}.product-card-mark{font-size:1.8rem;font-weight:700;letter-spacing:.12em}.product-intro{max-width:920px;margin:0 auto;padding:5rem 1.25rem}.product-intro h2,.product-split h2,.product-cta h2{font-size:clamp(2rem,4vw,3.6rem);line-height:1.05;letter-spacing:-.04em;margin:.5rem 0 1.2rem}.product-intro>p:not(.page-kicker){font-size:1.1rem;line-height:1.8;color:#53616b;max-width:760px}.benefit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3rem}.benefit-grid article{padding:1.5rem;background:#f2f6f4;border-top:3px solid #5d8a78}.benefit-grid span{font-size:.8rem;color:#557b69;letter-spacing:.1em}.benefit-grid h3{margin:1.4rem 0 .5rem;font-size:1.2rem}.benefit-grid p{line-height:1.6;color:#5d6971}.product-split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,8vw,8rem);max-width:1180px;margin:0 auto;padding:6rem 1.25rem;background:#fbf8f2}.product-split p{line-height:1.7;color:#53616b}.product-split ul{margin:0;padding:0;list-style:none}.product-split li{padding:1rem 0;border-bottom:1px solid #d8dedb;font-size:1.05rem}.product-split li::before{content:'→';color:#5d8a78;margin-right:1rem}.product-cta{max-width:1180px;margin:0 auto;padding:5rem 1.25rem 7rem;display:flex;justify-content:space-between;align-items:center;gap:2rem}.product-cta p:not(.page-kicker){color:#53616b}.product-cta .button{white-space:nowrap}@media(max-width:760px){.product-hero{grid-template-columns:1fr;padding-top:3rem}.product-card{min-height:330px}.benefit-grid,.product-split{grid-template-columns:1fr}.product-cta{display:block}.product-cta .button{display:inline-block;margin-top:1rem}}
+  </style>
+</BaseLayout>
