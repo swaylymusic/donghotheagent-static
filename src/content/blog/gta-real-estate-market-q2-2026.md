@@ -36,7 +36,7 @@ imageAlt: "2026년 봄 GTA 주택시장과 교외 주거지역"
       <figcaption>2026년 2분기 GTA 시장은 봄철 거래 회복과 매물 감소가 함께 나타난 시기였습니다.</figcaption>
     </figure>
 
-<table>
+<table class="market-summary-table">
 <thead><tr><th>지표</th><th>4월</th><th>5월</th><th>6월</th><th>해석</th></tr></thead>
 <tbody>
 <tr><td>거래량</td><td>5,946</td><td>6,583</td><td>6,770</td><td>전년 대비 +7.0% → +6.3% → +9.4%</td></tr>
