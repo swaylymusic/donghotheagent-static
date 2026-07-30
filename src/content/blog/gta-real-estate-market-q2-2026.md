@@ -36,16 +36,25 @@ imageAlt: "2026년 봄 GTA 주택시장과 교외 주거지역"
       <figcaption>2026년 2분기 GTA 시장은 봄철 거래 회복과 매물 감소가 함께 나타난 시기였습니다.</figcaption>
     </figure>
 
-    <table>
-      <thead><tr><th>지표</th><th>4월</th><th>5월</th><th>6월</th><th>해석</th></tr></thead>
-      <tbody>
-        <tr><td>거래량</td><td>5,946</td><td>6,583</td><td>6,770</td><td>전년 대비 +7.0% → +6.3% → +9.4%</td></tr>
-        <tr><td>신규 매물</td><td>17,097</td><td>17,698</td><td>17,282</td><td>전년 대비 -9.3% → -18.9% → -12.9%</td></tr>
-        <tr><td>평균 가격</td><td>$1,051,969</td><td>$1,069,700</td><td>$1,058,658</td><td>전년 대비 -4.9% → -4.6% → -3.9%</td></tr>
-        <tr><td>Active Listings</td><td>25,110</td><td>26,927</td><td>27,329</td><td>재고는 늘었지만 신규 공급은 전년보다 적음</td></tr>
-        <tr><td>평균 LDOM</td><td>29일</td><td>27일</td><td>29일</td><td>5월에 빨라졌다가 6월 다시 29일</td></tr>
-      </tbody>
-    </table>
+<table>
+<thead><tr><th>지표</th><th>4월</th><th>5월</th><th>6월</th><th>해석</th></tr></thead>
+<tbody>
+<tr><td>거래량</td><td>5,946</td><td>6,583</td><td>6,770</td><td>전년 대비 +7.0% → +6.3% → +9.4%</td></tr>
+<tr><td>신규 매물</td><td>17,097</td><td>17,698</td><td>17,282</td><td>전년 대비 -9.3% → -18.9% → -12.9%</td></tr>
+<tr><td>평균 가격</td><td>$1,051,969</td><td>$1,069,700</td><td>$1,058,658</td><td>전년 대비 -4.9% → -4.6% → -3.9%</td></tr>
+<tr><td>Active Listings</td><td>25,110</td><td>26,927</td><td>27,329</td><td>재고는 늘었지만 신규 공급은 전년보다 적음</td></tr>
+<tr><td>평균 LDOM</td><td>29일</td><td>27일</td><td>29일</td><td>5월에 빨라졌다가 6월 다시 29일</td></tr>
+</tbody>
+</table>
+
+<figure>
+<img src="/uploads/2026/07/gta-q2-sales-trend.svg" alt="2026년 4월부터 6월까지 GTA 주택 거래량 상승 추이 그래프" loading="lazy" decoding="async" />
+<figcaption>그래프 1. GTA 전체 주택 거래량은 4월 5,946건에서 6월 6,770건으로 증가했습니다.</figcaption>
+</figure>
+<figure>
+<img src="/uploads/2026/07/gta-q2-average-price-trend.svg" alt="2026년 4월부터 6월까지 GTA 평균 매매가격 추이 그래프" loading="lazy" decoding="async" />
+<figcaption>그래프 2. 평균 가격은 5월에 상승한 뒤 6월 $1.059M으로 소폭 조정됐습니다.</figcaption>
+</figure>
     <p>표의 핵심은 <strong>거래량이 늘었다는 사실만으로 강한 상승장이라고 단정할 수 없다는 점</strong>입니다. 거래는 회복되고 있지만 평균 가격은 여전히 전년보다 낮고, 매물의 종류와 위치에 따라 체감 시장은 크게 다를 수 있습니다.</p>
   </section>
 

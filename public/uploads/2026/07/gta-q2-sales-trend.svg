@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">GTA home sales trend, April to June 2026</title>
+  <desc id="desc">Sales rose from 5,946 in April to 6,583 in May and 6,770 in June.</desc>
+  <rect width="1200" height="650" fill="#f8fbfd"/>
+  <text x="80" y="74" fill="#123b5d" font-family="Arial, sans-serif" font-size="30" font-weight="700">GTA Home Sales · Q2 2026</text>
+  <text x="80" y="112" fill="#526b80" font-family="Arial, sans-serif" font-size="18">TRREB MLS sales, all home types</text>
+  <g stroke="#d8e1e8" stroke-width="2">
+    <line x1="130" y1="520" x2="1110" y2="520"/><line x1="130" y1="400" x2="1110" y2="400"/><line x1="130" y1="280" x2="1110" y2="280"/><line x1="130" y1="160" x2="1110" y2="160"/>
+  </g>
+  <g fill="#526b80" font-family="Arial, sans-serif" font-size="16" text-anchor="end"><text x="112" y="526">5,500</text><text x="112" y="406">6,000</text><text x="112" y="286">6,500</text><text x="112" y="166">7,000</text></g>
+  <polyline points="220,413 620,260 1020,215" fill="none" stroke="#0b4f78" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#c59b4a" stroke="#fff" stroke-width="5"><circle cx="220" cy="413" r="13"/><circle cx="620" cy="260" r="13"/><circle cx="1020" cy="215" r="13"/></g>
+  <g fill="#123b5d" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle"><text x="220" y="375">5,946</text><text x="620" y="222">6,583</text><text x="1020" y="177">6,770</text></g>
+  <g fill="#526b80" font-family="Arial, sans-serif" font-size="18" text-anchor="middle"><text x="220" y="565">April</text><text x="620" y="565">May</text><text x="1020" y="565">June</text></g>
+</svg>
