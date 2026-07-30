@@ -2,7 +2,7 @@
 title: "2026년 2분기 GTA 부동산 시장 분석: 거래 회복과 공급 감소가 만든 전환 구간"
 description: "TRREB Market Watch 2026년 4월, 5월, 6월 자료를 바탕으로 GTA 거래량, 신규 매물, 재고, 평균 가격, 체류기간의 흐름과 매수자·매도자 전략을 정리했습니다."
 pubDate: "2026-07-29"
-category: "Buying/Selling"
+category: "시장분석"
 tags: ["Buying/Selling", "Market", "Newcomer"]
 draft: false
 originalUrl: "https://donghotheagent.com/gta-real-estate-market-q2-2026/"
