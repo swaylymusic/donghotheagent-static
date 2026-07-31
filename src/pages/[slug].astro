@@ -38,7 +38,14 @@ const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
   year: "numeric",
 });
 
-const lastUpdatedLabel = "Updated: July 2026";
+const updatedDate = post.data.updatedDate ?? post.data.pubDate;
+const formattedUpdatedDate = updatedDate.toLocaleDateString("en-US", {
+  timeZone: "UTC",
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+});
+const lastUpdatedLabel = `Updated: ${formattedUpdatedDate}`;
 const relatedPosts = allPosts.slice(0, 3);
 const canonicalUrl = new URL(`/${post.slug}/`, Astro.site ?? Astro.url).toString();
 const featuredImageUrl = post.data.featuredImage
@@ -52,7 +59,7 @@ const articleStructuredData = {
   description: post.data.description,
   url: canonicalUrl,
   datePublished: post.data.pubDate.toISOString(),
-  dateModified: post.data.pubDate.toISOString(),
+  dateModified: updatedDate.toISOString(),
   ...(featuredImageUrl ? { image: featuredImageUrl } : {}),
   inLanguage: ["en-CA", "ko-CA"],
   author: {
