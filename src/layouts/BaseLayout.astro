@@ -3,6 +3,7 @@ const {
   title = "Dongho Lee Real Estate",
   description = "Toronto real estate blog and services.",
   canonical,
+  noindex = false,
   image = "/uploads/2025/01/Dongho-The-realtor-Facebook-Cover.png",
   structuredData = [],
 } = Astro.props;
@@ -72,6 +73,7 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonicalUrl} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Dongho Lee Real Estate" />
@@ -239,6 +241,19 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
               page_path: window.location.pathname,
             });
           }
+        });
+
+        // Track the first meaningful interaction with the inquiry form so GA4
+        // can distinguish interest from a completed lead submission.
+        const contactForm = document.querySelector("#contact-form");
+        let formStarted = false;
+        contactForm?.addEventListener("focusin", () => {
+          if (formStarted) return;
+          formStarted = true;
+          sendEvent("contact_form_start", {
+            event_category: "lead",
+            page_path: window.location.pathname,
+          });
         });
       })();
     </script>

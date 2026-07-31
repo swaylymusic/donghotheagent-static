@@ -213,6 +213,12 @@ const contactStructuredData = {
       const formData = new FormData(form);
       const payload = Object.fromEntries(formData.entries());
 
+      window.gtag?.("event", "contact_form_submit_attempt", {
+        event_category: "lead",
+        client_type: payload.clientType || "unknown",
+        page_path: window.location.pathname,
+      });
+
       status.textContent = "Sending...";
       status.className = "form-status";
       submitButton.disabled = true;
