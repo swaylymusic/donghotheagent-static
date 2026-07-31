@@ -4,7 +4,7 @@ description: "온타리오에서 세입자가 집을 장기간 비우거나 갑�
 pubDate: "2025-11-18"
 category: "Rental Guide"
 tags: ["Rental Guide"]
-draft: false
+draft: true
 originalUrl: "https://donghotheagent.com/sublet-vs-assignment-ontario-rental-guide/"
 featuredImage: "/uploads/2025/11/Main_Sublet.png"
 ---

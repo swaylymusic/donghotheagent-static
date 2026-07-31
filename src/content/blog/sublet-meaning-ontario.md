@@ -1,13 +1,15 @@
 ---
-title: "서브렛 뜻 완벽 정리: Sublet과 Assignment 차이, 온타리오 렌트 주의사항"
-description: "서브렛(Sublet)의 뜻부터 Assignment와의 차이, 집주인 동의, 계약 기간과 책임까지 온타리오 렌트 기준으로 쉽게 정리했습니다."
+title: "서브렛 뜻과 Assignment 차이: 온타리오 렌트 2026 완벽 가이드"
+description: "서브렛·서블렛(Sublet, Sublease)의 뜻과 Assignment 차이를 온타리오 렌트 기준으로 설명합니다. 집주인 동의, 책임, 기간, 체크리스트까지 한 번에 확인하세요."
 pubDate: "2026-07-15"
+updatedDate: "2026-07-30"
 category: "Rental Guide"
 tags:
   - 서브렛
   - 서블렛
   - sublet 뜻
   - sublet
+  - sublease 뜻
   - assignment
   - 온타리오 렌트
   - 캐나다 렌트
@@ -101,7 +103,7 @@ imageAlt: "온타리오 아파트에서 서브렛 계약서를 확인하며 열�
 | 집주인과 기존 세입자의 관계 | 계속 유지 | 양도 시점 이후 관계 변경 |
 | 적합한 상황 | 일시적으로 집을 비울 때 | 완전히 이사할 때 |
 
-더 넓은 비교는 기존 글인 [온타리오 렌트: Sublet vs Assignment 완벽 비교 가이드](/sublet-vs-assignment-ontario-rental-guide/)도 함께 참고하실 수 있습니다.
+이 글에서 서브렛의 기본 개념부터 Assignment와의 차이, 실제 진행 전 체크리스트까지 함께 설명합니다.
 
 <figure>
   <img
