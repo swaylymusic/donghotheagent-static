@@ -6,6 +6,8 @@ category: "Market"
 tags: ["Buying/Selling", "Market", "Newcomer"]
 draft: false
 originalUrl: "https://donghotheagent.com/gta-real-estate-market-july-2026/"
+featuredImage: "/uploads/2026/08/gta-july-2026-yoy-change.png"
+imageAlt: "2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가격의 전년 대비 변화 그래프"
 ---
 
 <article>
@@ -40,6 +42,10 @@ originalUrl: "https://donghotheagent.com/gta-real-estate-market-july-2026/"
         <tr><td>평균 PDOM</td><td>45일</td><td>+12.5%</td><td>재등록 등을 포함한 실제 판매 기간 증가</td></tr>
       </tbody>
     </table>
+    <figure>
+      <img src="/uploads/2026/08/gta-july-2026-yoy-change.png" alt="2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가격의 전년 대비 변화 그래프" loading="lazy" decoding="async" />
+      <figcaption>그래프 1. 거래량은 전년과 비슷했지만 신규 매물과 전체 재고는 두 자릿수 감소했습니다.</figcaption>
+    </figure>
     <p>이번 달의 핵심은 거래량 감소 폭보다 <strong>신규 매물과 전체 재고의 감소 폭이 훨씬 컸다는 점</strong>입니다. 수요가 크게 줄지 않은 상황에서 공급이 빠르게 감소하면, 잘 준비되고 적정 가격에 나온 매물부터 협상력이 달라질 수 있습니다.</p>
   </section>
 
@@ -68,6 +74,10 @@ originalUrl: "https://donghotheagent.com/gta-real-estate-market-july-2026/"
         <tr><td>Condo Apartment</td><td>1,564건</td><td>$636,323</td><td>-2.3%</td></tr>
       </tbody>
     </table>
+    <figure>
+      <img src="/uploads/2026/08/gta-july-2026-home-type-prices.png" alt="2026년 7월 GTA 주택 유형별 평균 가격과 월간 거래량 비교 그래프" loading="lazy" decoding="async" />
+      <figcaption>그래프 2. Detached, Semi-Detached, Townhouse, Condo Apartment의 평균 가격과 7월 거래량 비교입니다.</figcaption>
+    </figure>
     <p>Detached는 전체 거래의 46.5%를 차지했고 Condo Apartment는 26.1%를 차지했습니다. 가격대 차이가 큰 만큼 “GTA 시장이 올랐다 또는 내렸다”는 한 문장보다 내가 찾는 주택 유형의 거래량과 재고를 따로 보는 것이 중요합니다.</p>
     <p>특히 콘도와 타운하우스는 단독주택보다 낮은 진입 가격대로 인해 첫 주택 구매자와 다운사이징 수요가 함께 움직일 수 있습니다. 반면 Detached는 지역별 가격 차이와 유지비, 모기지 부담을 함께 계산해야 합니다.</p>
   </section>
