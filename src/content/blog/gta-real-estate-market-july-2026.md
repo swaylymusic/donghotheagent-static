@@ -31,7 +31,8 @@ imageAlt: "2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가�
 
   <section id="overview">
     <h2>1) 2026년 7월 GTA 시장 핵심 지표</h2>
-    <table class="market-summary-table">
+    <div class="table-scroll" role="region" aria-label="2026년 7월 GTA 시장 핵심 지표" tabindex="0">
+    <table class="market-summary-table market-summary-table--four">
       <thead><tr><th>지표</th><th>2026년 7월</th><th>전년 대비</th><th>해석</th></tr></thead>
       <tbody>
         <tr><td>거래량</td><td>5,995건</td><td>-0.9%</td><td>수요는 지난해와 비슷한 수준</td></tr>
@@ -42,6 +43,7 @@ imageAlt: "2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가�
         <tr><td>평균 PDOM</td><td>45일</td><td>+12.5%</td><td>재등록 등을 포함한 실제 판매 기간 증가</td></tr>
       </tbody>
     </table>
+    </div>
     <figure>
       <img src="/uploads/2026/08/gta-july-2026-yoy-change.png" alt="2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가격의 전년 대비 변화 그래프" loading="lazy" decoding="async" />
       <figcaption>그래프 1. 거래량은 전년과 비슷했지만 신규 매물과 전체 재고는 두 자릿수 감소했습니다.</figcaption>
@@ -65,7 +67,8 @@ imageAlt: "2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가�
 
   <section id="types">
     <h2>4) 주택 유형별 거래량과 평균 가격</h2>
-    <table class="market-summary-table">
+    <div class="table-scroll" role="region" aria-label="2026년 7월 GTA 주택 유형별 가격" tabindex="0">
+    <table class="market-summary-table market-summary-table--four">
       <thead><tr><th>주택 유형</th><th>7월 거래량</th><th>평균 가격</th><th>전년 대비 가격 변화</th></tr></thead>
       <tbody>
         <tr><td>Detached</td><td>2,789건</td><td>$1,291,690</td><td>-5.1%</td></tr>
@@ -74,6 +77,7 @@ imageAlt: "2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가�
         <tr><td>Condo Apartment</td><td>1,564건</td><td>$636,323</td><td>-2.3%</td></tr>
       </tbody>
     </table>
+    </div>
     <figure>
       <img src="/uploads/2026/08/gta-july-2026-home-type-prices.png" alt="2026년 7월 GTA 주택 유형별 평균 가격과 월간 거래량 비교 그래프" loading="lazy" decoding="async" />
       <figcaption>그래프 2. Detached, Semi-Detached, Townhouse, Condo Apartment의 평균 가격과 7월 거래량 비교입니다.</figcaption>
