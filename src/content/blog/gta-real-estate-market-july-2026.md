@@ -1,75 +1,113 @@
 ---
-title: "GTA Real Estate Market Update: July 2026 Signals a Tighter Summer Market"
-description: "July 2026 TRREB statistics show fewer listings, slightly lower sales, and a GTA average price just above $1 million. Here is what the changing balance means for buyers and sellers."
+title: "2026년 7월 GTA 부동산 시장 분석: 신규 매물 급감이 만든 시장 변화"
+description: "TRREB 2026년 7월 Market Watch를 바탕으로 GTA 거래량, 신규 매물, 평균 가격, 재고, 주택 유형별 가격과 매수자·매도자 전략을 정리했습니다."
 pubDate: "2026-08-06"
 category: "Market"
-tags: ["GTA real estate", "Toronto real estate market", "July 2026", "TRREB"]
-originalUrl: "https://www.trreb.ca/market-news/market-watch/"
+tags: ["Buying/Selling", "Market", "Newcomer"]
+draft: false
+originalUrl: "https://donghotheagent.com/gta-real-estate-market-july-2026/"
 ---
 
-<p class="post-lede">The Greater Toronto Area resale market became more competitive in July 2026—not because sales surged, but because the supply of new listings contracted much faster than demand. For buyers, that means fewer opportunities to negotiate on well-priced homes. For sellers, it means preparation and pricing remain more important than simply waiting for the market to improve.</p>
+<article>
+  <header>
+    <p>2026년 7월 GTA 부동산 시장은 <strong>거래량은 거의 그대로였지만 신규 매물이 크게 줄면서 시장의 균형이 달라진 달</strong>로 요약할 수 있습니다.</p>
+    <p>TRREB의 <em>Market Watch - July 2026</em>에 따르면 7월 거래량은 전년 동월 대비 0.9% 감소하는 데 그쳤지만, 신규 매물은 17.8% 줄었습니다. 가격은 여전히 지난해보다 낮았지만, 매수자가 선택할 수 있는 새 매물이 빠르게 감소하면서 일부 지역과 주택 유형에서는 협상 환경이 달라질 가능성이 커졌습니다.</p>
+  </header>
 
-<p>According to the Toronto Regional Real Estate Board’s July 2026 Market Watch, GTA REALTORS® reported <strong>5,995 home sales</strong> through the TRREB MLS® System. That was a modest <strong>0.9% decrease</strong> from July 2025. At the same time, <strong>14,484 new listings</strong> came to market, down <strong>17.8%</strong> year over year.</p>
+  <nav>
+    <h2>목차</h2>
+    <ol>
+      <li><a href="#overview">7월 핵심 지표 한눈에 보기</a></li>
+      <li><a href="#supply">거래량보다 신규 매물 감소를 봐야 하는 이유</a></li>
+      <li><a href="#price">평균 가격은 100만 달러, 전년 대비 4.5% 하락</a></li>
+      <li><a href="#types">주택 유형별 거래량과 평균 가격</a></li>
+      <li><a href="#regions">지역별로 다른 시장 온도</a></li>
+      <li><a href="#strategy">매수자·매도자를 위한 실전 해석</a></li>
+      <li><a href="#faq">자주 묻는 질문</a></li>
+    </ol>
+  </nav>
 
-<h2>The headline: fewer listings changed the market balance</h2>
+  <section id="overview">
+    <h2>1) 2026년 7월 GTA 시장 핵심 지표</h2>
+    <table class="market-summary-table">
+      <thead><tr><th>지표</th><th>2026년 7월</th><th>전년 대비</th><th>해석</th></tr></thead>
+      <tbody>
+        <tr><td>거래량</td><td>5,995건</td><td>-0.9%</td><td>수요는 지난해와 비슷한 수준</td></tr>
+        <tr><td>신규 매물</td><td>14,484건</td><td>-17.8%</td><td>새로운 선택지가 빠르게 감소</td></tr>
+        <tr><td>Active Listings</td><td>26,098건</td><td>-10.1%</td><td>전체 재고도 전년보다 감소</td></tr>
+        <tr><td>평균 매매가격</td><td>$1,003,956</td><td>-4.5%</td><td>가격은 여전히 전년보다 낮음</td></tr>
+        <tr><td>평균 LDOM</td><td>32일</td><td>+6.7%</td><td>매물별 가격·상태 차이가 중요</td></tr>
+        <tr><td>평균 PDOM</td><td>45일</td><td>+12.5%</td><td>재등록 등을 포함한 실제 판매 기간 증가</td></tr>
+      </tbody>
+    </table>
+    <p>이번 달의 핵심은 거래량 감소 폭보다 <strong>신규 매물과 전체 재고의 감소 폭이 훨씬 컸다는 점</strong>입니다. 수요가 크게 줄지 않은 상황에서 공급이 빠르게 감소하면, 잘 준비되고 적정 가격에 나온 매물부터 협상력이 달라질 수 있습니다.</p>
+  </section>
 
-<p>Sales were nearly flat compared with last July, but new supply fell much more sharply. This pushed the sales-to-new-listings ratio to <strong>37.1%</strong> and left <strong>26,098 active listings</strong>, down 10.1% year over year. The average home was on the market for 32 days, while the average property took 45 days to sell firm.</p>
+  <section id="supply">
+    <h2>2) 거래량보다 신규 매물 감소를 봐야 하는 이유</h2>
+    <p>7월 GTA 거래량은 5,995건으로 지난해 6,047건보다 0.9% 적었습니다. 사실상 전년과 비슷한 수준입니다. 반면 신규 매물은 17,623건에서 14,484건으로 17.8% 감소했습니다.</p>
+    <p>계절 조정 기준으로도 7월 거래량은 6월보다 증가했고 신규 매물은 감소했습니다. 즉, 여름 동안 시장의 수급 조건이 조금씩 타이트해졌다는 뜻입니다.</p>
+    <p>다만 이를 곧바로 “셀러 마켓 복귀”로 해석해서는 안 됩니다. 전체 TRREB 지역의 Sales-to-New-Listings Ratio는 37.1%였고 평균 LDOM은 32일이었습니다. 시장 전체는 여전히 매수자가 비교하고 협상할 시간이 있지만, <strong>선호 지역·적정 가격·좋은 상태를 갖춘 매물은 경쟁이 빨라질 수 있는 환경</strong>입니다.</p>
+  </section>
 
-<p>In practical terms, the market is not back to the bidding-war conditions seen during the pandemic. However, the direction of travel matters: buyers may have less room to negotiate when a home is accurately priced, move-in ready, and located in a high-demand pocket.</p>
+  <section id="price">
+    <h2>3) 평균 가격은 100만 달러, 전년 대비 4.5% 하락</h2>
+    <p>7월 GTA 평균 매매가격은 <strong>$1,003,956</strong>으로, 2025년 7월의 $1,051,600보다 4.5% 낮았습니다. MLS HPI Composite Benchmark 역시 전년 대비 4.6% 하락했습니다.</p>
+    <p>연간 비교로는 가격 조정이 계속되고 있습니다. 하지만 계절 조정 기준으로 MLS HPI는 6월보다 소폭 상승했고 평균 가격은 소폭 하락하는 데 그쳤습니다. 현재 시장은 가격이 계속 큰 폭으로 내려가는 단계라기보다, <strong>전년보다 낮은 가격대에서 안정 여부를 확인하는 구간</strong>에 가깝습니다.</p>
+    <p>평균 가격은 거래된 주택의 구성에 따라 달라질 수 있습니다. 특정 주택의 가치를 판단할 때는 GTA 평균보다 같은 지역·주택 유형·크기·상태의 최근 거래를 확인해야 합니다.</p>
+  </section>
 
-<h2>Prices remained below last year, but the monthly trend was steadier</h2>
+  <section id="types">
+    <h2>4) 주택 유형별 거래량과 평균 가격</h2>
+    <table class="market-summary-table">
+      <thead><tr><th>주택 유형</th><th>7월 거래량</th><th>평균 가격</th><th>전년 대비 가격 변화</th></tr></thead>
+      <tbody>
+        <tr><td>Detached</td><td>2,789건</td><td>$1,291,690</td><td>-5.1%</td></tr>
+        <tr><td>Semi-Detached</td><td>557건</td><td>$964,922</td><td>-7.4%</td></tr>
+        <tr><td>Townhouse</td><td>1,003건</td><td>$817,213</td><td>-3.9%</td></tr>
+        <tr><td>Condo Apartment</td><td>1,564건</td><td>$636,323</td><td>-2.3%</td></tr>
+      </tbody>
+    </table>
+    <p>Detached는 전체 거래의 46.5%를 차지했고 Condo Apartment는 26.1%를 차지했습니다. 가격대 차이가 큰 만큼 “GTA 시장이 올랐다 또는 내렸다”는 한 문장보다 내가 찾는 주택 유형의 거래량과 재고를 따로 보는 것이 중요합니다.</p>
+    <p>특히 콘도와 타운하우스는 단독주택보다 낮은 진입 가격대로 인해 첫 주택 구매자와 다운사이징 수요가 함께 움직일 수 있습니다. 반면 Detached는 지역별 가격 차이와 유지비, 모기지 부담을 함께 계산해야 합니다.</p>
+  </section>
 
-<p>The TRREB MLS® Home Price Index Composite benchmark was down <strong>4.6%</strong> year over year. The GTA average selling price was <strong>$1,003,956</strong>, a <strong>4.5% decrease</strong> from $1,051,600 in July 2025.</p>
+  <section id="regions">
+    <h2>5) 지역별로 다른 시장 온도</h2>
+    <p>7월 City of Toronto는 2,242건이 거래됐고 평균 가격은 $1,010,836이었습니다. Peel Region은 1,053건, 평균 $910,007이었으며 Durham Region은 725건, 평균 $834,312였습니다. Halton Region의 평균 가격은 $1,151,595로 GTA 전체 평균보다 높았습니다.</p>
+    <p>지역별 평균 가격 차이뿐 아니라 재고 개월 수와 체류기간도 달랐습니다. 광역 평균값만으로 특정 지역의 매수·매도 타이밍을 결정하기보다, 실제로 관심 있는 도시와 주택 유형의 최근 30~60일 거래를 기준으로 판단해야 합니다.</p>
+  </section>
 
-<p>Those annual numbers still show a softer market than a year ago. Yet the month-over-month picture was less negative: the composite HPI edged up from June on a seasonally adjusted basis, while the average selling price was only slightly lower. This is consistent with a market that may be moving toward stabilization rather than continuing to fall at the same pace.</p>
+  <section id="strategy">
+    <h2>6) 실전 해석: 매수자와 매도자는 어떻게 움직여야 할까?</h2>
+    <ul>
+      <li><strong>매수자</strong>: 선택지가 완전히 사라진 시장은 아니지만 신규 매물이 줄고 있습니다. 모기지 예산을 먼저 확정하고, 적정 가격의 좋은 매물이 나오면 신속하게 비교·판단할 준비가 필요합니다.</li>
+      <li><strong>매도자</strong>: 매물 감소만 믿고 높은 가격을 설정해서는 안 됩니다. 평균 가격은 아직 전년보다 낮고 체류기간은 길어졌습니다. 최근 거래와 경쟁 매물을 기준으로 첫 1~2주의 가격·노출 전략을 정해야 합니다.</li>
+      <li><strong>다운사이징 가구</strong>: 보유 주택과 다음에 구입할 주택의 시장 온도가 다를 수 있습니다. 예상 매도 순수익과 다음 주택의 가격·관리비·세금을 별도로 계산하는 것이 중요합니다.</li>
+      <li><strong>첫 주택 구매자</strong>: Condo Apartment와 Townhouse를 비교할 때 매매가격뿐 아니라 관리비, 상태증명서, 향후 수리비와 통근 비용까지 포함한 월 부담액을 확인해야 합니다.</li>
+    </ul>
+    <p>7월 자료가 주는 핵심 메시지는 <strong>가격은 아직 조정 구간이지만 공급 감소로 협상 환경이 바뀌기 시작했다</strong>는 것입니다. 시장 전체의 방향을 기다리기보다 내 지역과 주택 유형의 데이터를 기준으로 준비하는 편이 현실적입니다.</p>
+  </section>
 
-<h2>Which home types led July activity?</h2>
+  <section>
+    <h2>내 지역·내 주택 유형 기준으로 분석하기</h2>
+    <p>GTA 평균값은 시장의 방향을 이해하는 출발점입니다. 실제 매수 예산, 적정 매도가격, 다운사이징 계획에는 지역·주택 유형·상태·최근 거래를 반영한 별도 분석이 필요합니다.</p>
+    <p><a href="/contact/">시장 분석 상담 문의하기</a></p>
+  </section>
 
-<p>Condominium apartments accounted for <strong>1,564 sales</strong> at an average price of <strong>$636,323</strong>. Detached homes produced <strong>2,789 sales</strong> at an average price of <strong>$1,291,690</strong>, representing 46.5% of all GTA sales.</p>
+  <section id="faq">
+    <h2>자주 묻는 질문</h2>
+    <h3>Q1. 신규 매물이 크게 줄었으니 집값이 바로 오를까요?</h3>
+    <p>반드시 그렇지는 않습니다. 신규 매물 감소는 경쟁을 높일 수 있지만 평균 가격은 아직 전년보다 4.5% 낮고 평균 체류기간도 늘었습니다. 지역과 주택 유형별 수급을 함께 확인해야 합니다.</p>
+    <h3>Q2. 지금은 매수자에게 유리한 시장인가요?</h3>
+    <p>전체 재고와 체류기간만 보면 매수자가 비교하고 협상할 여지가 있습니다. 다만 적정 가격의 선호 매물은 신규 공급 감소로 경쟁이 빨라질 수 있으므로 모든 매물이 동일한 조건은 아닙니다.</p>
+    <h3>Q3. 7월 평균 가격 100만 달러를 내 집 시세로 볼 수 있나요?</h3>
+    <p>아닙니다. GTA 평균 가격은 여러 지역과 주택 유형이 합쳐진 수치입니다. 실제 시세는 같은 지역의 유사한 주택 중 최근 거래된 사례를 기준으로 산정해야 합니다.</p>
+  </section>
 
-<ul>
-<li><strong>Detached:</strong> 2,789 sales; average price $1,291,690</li>
-<li><strong>Semi-detached:</strong> 557 sales; average price $964,922</li>
-<li><strong>Townhouse:</strong> 1,003 sales; average price $817,213</li>
-<li><strong>Condo apartment:</strong> 1,564 sales; average price $636,323</li>
-</ul>
-
-<p>Affordability continues to shape the type of home buyers can realistically consider. Condo apartments and townhouses remain the most accessible entry points in many parts of the GTA, while detached homes require a significantly larger budget and often a longer planning horizon.</p>
-
-<h2>Regional snapshot: the GTA is not one market</h2>
-
-<p>July results varied considerably across the region. The City of Toronto recorded 2,242 sales at an average price of $1,010,836. Peel Region recorded 1,053 sales at an average price of $910,007, while Durham Region recorded 725 sales at an average price of $834,312. Halton Region’s average price was higher at $1,151,595, reflecting its mix of housing types and local demand.</p>
-
-<p>Even within the same region, the neighbourhood-level differences can be substantial. A GTA-wide average is useful for identifying direction, but it should never be used by itself to price a specific property or set a purchase budget.</p>
-
-<h2>What July’s numbers mean for buyers</h2>
-
-<ol>
-<li><strong>Get financing clarity first.</strong> With the Bank of Canada overnight rate at 2.3% in the report, borrowing costs still materially affect purchasing power. Confirm a comfortable payment range, not just the maximum approval.</li>
-<li><strong>Track the right comparables.</strong> Compare recent sales by home type, size, condition, and neighbourhood. A regional average can hide meaningful differences.</li>
-<li><strong>Move decisively on correctly priced homes.</strong> A home that is priced realistically and attracts several qualified buyers may not provide the same negotiation room as an overpriced listing.</li>
-<li><strong>Keep conditions aligned with the property.</strong> Inspection, financing, status certificate, and document-review conditions should reflect the actual risks of the purchase.</li>
-</ol>
-
-<h2>What July’s numbers mean for sellers</h2>
-
-<p>Sellers should not assume that fewer listings automatically means a return to peak-market pricing. The average price remains below last year, and buyers are still comparing options carefully.</p>
-
-<ul>
-<li>Price from current, local comparable sales—not from an older peak.</li>
-<li>Complete the repairs and presentation work that reduce buyer objections.</li>
-<li>Use the first days on market strategically; stale listings often lose leverage.</li>
-<li>Review the expected net proceeds after mortgage payout, selling costs, and the next purchase.</li>
-</ul>
-
-<h2>Bottom line</h2>
-
-<p>July 2026 was a market of <strong>soft prices but tightening supply</strong>. Sales were almost unchanged year over year, while new listings fell sharply. That combination suggests that the second half of the year may bring more balanced or firmer conditions if buyer confidence improves and inventory remains constrained.</p>
-
-<p>For buyers and sellers, the most useful question is not “Is the market up or down?” It is: <strong>How does today’s supply, demand, and property-specific evidence affect my next decision?</strong></p>
-
-<h3>Source and note</h3>
-
-<p>Statistics in this article are based on the Toronto Regional Real Estate Board, <em>Market Watch: July 2026</em>, released August 6, 2026. Market conditions vary by neighbourhood and property type. This article is for general information only and is not financial, legal, or mortgage advice.</p>
-
-<p><strong>Need a property-specific read?</strong> A neighbourhood-level pricing review can help you understand how the July numbers apply to your home search or selling plan.</p>
+  <footer>
+    <h2>출처</h2>
+    <p><a href="https://trreb.ca/wp-content/files/market-stats/market-watch/mw2607.pdf" rel="nofollow noopener" target="_blank">Toronto Regional Real Estate Board (TRREB), <em>Market Watch - July 2026</em></a></p>
+    <p>본 글은 공개된 시장자료를 바탕으로 한 일반 정보이며, 특정 주택의 감정평가·법률·세무·모기지 자문을 대신하지 않습니다.</p>
+  </footer>
+</article>
