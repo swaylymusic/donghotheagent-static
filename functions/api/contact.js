@@ -128,7 +128,9 @@ async function sendEmail(data, env, request) {
   });
 
   if (!response.ok) {
-    throw new Error("Email delivery failed.");
+    const detail = (await response.text()).slice(0, 1000);
+    console.error("Resend contact delivery failed", { status: response.status, detail });
+    throw new Error(`Email delivery failed with status ${response.status}.`);
   }
 
   return response.json();
@@ -193,9 +195,12 @@ export async function onRequestPost({ request, env }) {
         : "감사합니다. 상담 요청이 접수되었습니다.",
     });
   } catch (error) {
+    console.error("Contact form submission failed", {
+      message: error instanceof Error ? error.message : "Unknown error",
+    });
     return jsonResponse({
-      message: "There was an error trying to submit your form. Please try again.",
-    }, 502);
+      message: "상담 요청을 전송하지 못했습니다. 잠시 후 다시 시도해 주세요.",
+    }, 500);
   }
 }
 
