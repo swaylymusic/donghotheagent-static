@@ -426,6 +426,12 @@ main{min-height:60vh;}
 .updates-trust p{margin:0 0 8px;color:var(--muted);}
 .updates-trust h2{margin:0 0 20px;color:var(--navy);font-family:Georgia,"Times New Roman",serif;font-size:32px;}
 
+@media (max-width: 1050px){
+  .updates-hero{grid-template-columns:1fr;gap:38px;padding-top:52px;}
+  .updates-copy{max-width:760px;}
+  .subscribe-form{width:100%;max-width:680px;}
+}
+
 @media (max-width: 900px){
   .blog-content table.market-summary-table{display:block;min-width:720px;overflow-x:auto;}
   .blog-content .table-scroll table.market-summary-table{display:table;min-width:720px;overflow:visible;}
