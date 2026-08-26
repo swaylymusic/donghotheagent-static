@@ -1,0 +1,77 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+<BaseLayout title="Ontario Real Estate Email Updates | Dongho Lee" description="Receive concise Ontario real estate market updates and practical housing guides from Dongho Lee 이동호.">
+  <section class="updates-hero">
+    <div class="updates-copy">
+      <p class="page-kicker">Free Email Updates · 무료 이메일</p>
+      <h1>온타리오 부동산,<br />필요한 변화만 간단히.</h1>
+      <p class="lead">시장 숫자와 정책 변화 중 실제 주거 결정에 도움이 되는 내용만 골라 한국어 중심으로 정리해 보내드립니다.</p>
+      <ul class="updates-benefits">
+        <li>GTA와 온타리오 주요 지역 시장 흐름</li>
+        <li>매수·매도·렌트·다운사이징 실전 가이드</li>
+        <li>새로운 체크리스트와 자료가 나올 때 우선 안내</li>
+      </ul>
+      <p class="updates-frequency">월 1~2회 · 언제든 구독 취소 가능 · 광고성 대량 메일 없음</p>
+    </div>
+
+    <form class="subscribe-form" id="subscribe-form" action="/api/subscribe" method="post">
+      <input type="text" name="company" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <input type="hidden" name="source" id="subscribe-source" value="website_updates" />
+      <div><p class="page-kicker">Join The List</p><h2>무료 업데이트 받기</h2></div>
+      <label><span>이름 <small>선택</small></span><input type="text" name="firstName" autocomplete="given-name" placeholder="이름" /></label>
+      <label><span>이메일 <strong>*</strong></span><input type="email" name="email" autocomplete="email" required placeholder="you@example.com" /></label>
+      <label><span>가장 관심 있는 내용</span><select name="interest">
+        <option value="Ontario real estate updates">온타리오 시장 업데이트</option>
+        <option value="Buying a home">주택 구매</option>
+        <option value="Selling a home">주택 매도</option>
+        <option value="Downsizing and retirement">다운사이징·은퇴 주거</option>
+        <option value="Renting and newcomer guides">렌트·신규 이민자 가이드</option>
+      </select></label>
+      <label class="consent-field subscribe-consent">
+        <input type="checkbox" name="consent" value="yes" required />
+        <span class="consent-copy">
+          <span>Dongho Lee 이동호, Broker 및 HomeLife Frontier Realty Inc., Brokerage가 보내는 부동산 시장 업데이트와 가이드를 이메일로 받는 것에 명시적으로 동의합니다. 언제든 구독을 취소할 수 있습니다.</span>
+          <span class="consent-contact">7620 Yonge St #400, Thornhill, ON L4J 1V9 · 416-625-8241 · <a href="mailto:contact@donlee.realtor">contact@donlee.realtor</a></span>
+          <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy · 개인정보처리방침</a>
+        </span>
+      </label>
+      <button class="button primary" type="submit">무료 구독 시작하기</button>
+      <p class="form-status" id="subscribe-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <section class="updates-trust">
+    <p>상담이 필요한 단계가 아니라도 괜찮습니다.</p>
+    <h2>먼저 정보를 받아보고, 필요할 때 연락하세요.</h2>
+    <a class="text-link" href="/blog/">최근 부동산 글 먼저 보기 →</a>
+  </section>
+
+  <script>
+    const form = document.querySelector("#subscribe-form");
+    const status = document.querySelector("#subscribe-status");
+    const source = document.querySelector("#subscribe-source");
+    const params = new URLSearchParams(window.location.search);
+    if (source) source.value = params.get("utm_source") || params.get("source") || "website_updates";
+    form?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const button = form.querySelector("button[type='submit']");
+      const payload = Object.fromEntries(new FormData(form).entries());
+      status.textContent = "구독을 처리하고 있습니다...";
+      status.className = "form-status";
+      button.disabled = true;
+      try {
+        const response = await fetch(form.action, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.message || "구독 처리 중 오류가 발생했습니다.");
+        form.reset();
+        status.textContent = result.message;
+        status.classList.add("success");
+        window.gtag?.("event", "sign_up", { method: "real_estate_email_updates", interest: payload.interest, signup_source: payload.source });
+      } catch (error) {
+        status.textContent = error.message || "구독 처리 중 오류가 발생했습니다.";
+        status.classList.add("error");
+      } finally { button.disabled = false; }
+    });
+  </script>
+</BaseLayout>
