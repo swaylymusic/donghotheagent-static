@@ -23,6 +23,14 @@ async function addToConsumerSegment(email, segmentId, apiKey) {
   return response.ok || response.status === 409;
 }
 
+async function createContact(body, apiKey) {
+  return fetch("https://api.resend.com/contacts", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+}
+
 export async function onRequestPost({ request, env }) {
   let payload;
   try {
@@ -50,22 +58,25 @@ export async function onRequestPost({ request, env }) {
   }
 
   const segments = env.RESEND_CONSUMER_SEGMENT_ID ? [{ id: env.RESEND_CONSUMER_SEGMENT_ID }] : undefined;
-  const response = await fetch("https://api.resend.com/contacts", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      email,
-      firstName: firstName || undefined,
-      unsubscribed: false,
-      segments,
-      properties: {
-        subscriber_type: "real_estate_consumer",
-        interest,
-        signup_source: source,
-        consent_recorded_at: new Date().toISOString(),
-      },
-    }),
-  });
+  const contact = {
+    email,
+    firstName: firstName || undefined,
+    unsubscribed: false,
+    segments,
+  };
+  let response = await createContact({
+    ...contact,
+    properties: {
+      subscriber_type: "real_estate_consumer",
+      interest,
+      signup_source: source,
+      consent_recorded_at: new Date().toISOString(),
+    },
+  }, env.RESEND_API_KEY);
+
+  // Custom properties must exist in Resend before values can be saved. Keep
+  // subscriber acquisition working while those optional fields are configured.
+  if ([400, 422].includes(response.status)) response = await createContact(contact, env.RESEND_API_KEY);
 
   if (!response.ok && response.status !== 409) {
     return jsonResponse({ message: "구독 처리 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요." }, 502);
