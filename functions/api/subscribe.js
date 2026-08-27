@@ -1,8 +1,14 @@
 const JSON_HEADERS = { "Content-Type": "application/json; charset=utf-8" };
+const ALLOWED_ORIGINS = new Set(["https://donghotheagent.com", "https://www.donghotheagent.com", "https://dongholee.ca", "https://www.dongholee.ca"]);
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-function jsonResponse(body, status = 200) {
-  return new Response(JSON.stringify(body), { status, headers: JSON_HEADERS });
+function responseHeaders(request) {
+  const origin = request.headers.get("origin");
+  return origin && ALLOWED_ORIGINS.has(origin) ? { ...JSON_HEADERS, "Access-Control-Allow-Origin": origin, Vary: "Origin" } : JSON_HEADERS;
+}
+
+function jsonResponse(body, status = 200, request) {
+  return new Response(JSON.stringify(body), { status, headers: request ? responseHeaders(request) : JSON_HEADERS });
 }
 
 function clean(value, maxLength = 500) {
@@ -86,6 +92,13 @@ export async function onRequestPost({ request, env }) {
   }
 
   return jsonResponse({ ok: true, message: "구독이 완료되었습니다. 다음 시장 업데이트부터 보내드리겠습니다." });
+}
+
+export function onRequestOptions({ request }) {
+  const headers = responseHeaders(request);
+  headers["Access-Control-Allow-Methods"] = "POST, OPTIONS";
+  headers["Access-Control-Allow-Headers"] = "Content-Type";
+  return new Response(null, { status: 204, headers });
 }
 
 export function onRequestGet() {
