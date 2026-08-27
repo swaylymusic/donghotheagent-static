@@ -1,3 +1,5 @@
 /latest-posts.json
-  Access-Control-Allow-Origin: https://dongholee.ca
+  # This feed contains only public blog metadata and is embedded from both
+  # dongholee.ca and www.dongholee.ca.
+  Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=300, s-maxage=3600
