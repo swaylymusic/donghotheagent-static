@@ -83,6 +83,33 @@ async function notifyOwner(email, env) {
   if (!response.ok) throw new Error(`Owner notification failed with status ${response.status}: ${(await response.text()).slice(0, 500)}`);
 }
 
+async function notifySubscriber(email, env) {
+  const from = env.SUBSCRIPTION_FROM_EMAIL || env.CONTACT_FROM_EMAIL || "Dongho Lee <onboarding@resend.dev>";
+  const response = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      from,
+      to: email,
+      reply_to: env.CONTACT_TO_EMAIL || "contact@donlee.realtor",
+      subject: "이메일 구독이 완료되었습니다 | Dongho Lee Real Estate",
+      html: `
+        <div style="max-width:600px;margin:0 auto;font-family:Arial,'Noto Sans KR',sans-serif;color:#17283a;line-height:1.7">
+          <h1 style="color:#10243a;font-size:26px">이메일 구독이 완료되었습니다</h1>
+          <p>안녕하세요,</p>
+          <p>Dongho Lee Real Estate의 온타리오 부동산 시장 업데이트 구독이 정상적으로 완료되었습니다.</p>
+          <p>앞으로 시장 변화, 실전 가이드, 새 글 업데이트를 이메일로 보내드리겠습니다.</p>
+          <p style="margin:28px 0"><a href="https://donghotheagent.com/updates/" style="display:inline-block;background:#10243a;color:#fff;text-decoration:none;padding:13px 22px;border-radius:6px;font-weight:700">업데이트 페이지 보기</a></p>
+          <p style="font-size:13px;color:#5b6875">언제든지 이메일 하단의 구독 해지 링크를 통해 수신을 중단할 수 있습니다.</p>
+          <hr style="border:0;border-top:1px solid #dbe3ea;margin:28px 0">
+          <p style="font-size:13px;color:#5b6875">Dongho Lee 이동호, Broker, REALTOR®<br>HomeLife Frontier Realty Inc., Brokerage<br>7620 Yonge St #400, Thornhill, ON L4J 1V9<br>416-625-8241 · contact@donlee.realtor</p>
+        </div>`,
+      text: "이메일 구독이 완료되었습니다.\n\nDongho Lee Real Estate의 온타리오 부동산 시장 업데이트 구독이 정상적으로 완료되었습니다.\n\n앞으로 시장 변화, 실전 가이드, 새 글 업데이트를 이메일로 보내드리겠습니다.\n\n업데이트 페이지: https://donghotheagent.com/updates/\n\n언제든지 이메일 하단의 구독 해지 링크를 통해 수신을 중단할 수 있습니다.",
+    }),
+  });
+  if (!response.ok) throw new Error(`Subscriber notification failed with status ${response.status}: ${(await response.text()).slice(0, 500)}`);
+}
+
 export async function onRequestPost({ request, env }) {
   if (!env.RESEND_API_KEY) return jsonResponse({ message: "구독 서비스 설정이 완료되지 않았습니다." }, 503);
 
@@ -101,6 +128,7 @@ export async function onRequestPost({ request, env }) {
   try {
     await updateContact(confirmation.email, env);
     await addToSegment(confirmation.email, env);
+    await notifySubscriber(confirmation.email, env);
     await notifyOwner(confirmation.email, env);
     return jsonResponse({ ok: true, message: "이메일 구독이 확인되었습니다. 다음 업데이트부터 보내드리겠습니다." });
   } catch (error) {
