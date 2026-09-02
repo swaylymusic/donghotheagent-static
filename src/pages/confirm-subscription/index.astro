@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+<BaseLayout title="구독 확인 | Dongho Lee Real Estate" description="Confirm your Ontario real estate email subscription.">
+  <section class="updates-hero confirmation-hero">
+    <div class="updates-copy">
+      <p class="page-kicker">Email Confirmation · 이메일 확인</p>
+      <h1>마지막 단계입니다.</h1>
+      <p class="lead">아래 버튼을 눌러 온타리오 부동산 이메일 구독을 완료해 주세요.</p>
+      <button class="button primary" id="confirm-subscription" type="button">구독 확인하기</button>
+      <p class="form-status" id="confirmation-status" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <script>
+    const button = document.querySelector("#confirm-subscription");
+    const status = document.querySelector("#confirmation-status");
+    const token = new URLSearchParams(window.location.search).get("token");
+
+    if (!token) {
+      button.disabled = true;
+      status.textContent = "확인 링크가 올바르지 않습니다. 구독 페이지에서 다시 신청해 주세요.";
+      status.classList.add("error");
+    }
+
+    button?.addEventListener("click", async () => {
+      button.disabled = true;
+      status.textContent = "구독을 확인하고 있습니다...";
+      status.className = "form-status";
+      try {
+        const response = await fetch("/api/confirm-subscription", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ token }),
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.message || "구독 확인 중 오류가 발생했습니다.");
+        status.textContent = result.message;
+        status.classList.add("success");
+        button.hidden = true;
+        window.gtag?.("event", "sign_up", { method: "confirmed_real_estate_email_updates" });
+      } catch (error) {
+        status.textContent = error.message || "구독 확인 중 오류가 발생했습니다.";
+        status.classList.add("error");
+        button.disabled = false;
+      }
+    });
+  </script>
+</BaseLayout>
