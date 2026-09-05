@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 8월 GTA 시장 전년 대비 변화</title><desc id="desc">거래량 -2.1%, 신규 매물 -14.1%, Active Listings -13.4%, 평균 매매가격 -2.7%</desc>
+  <rect width="1600" height="900" fill="#f6f8fa"/>
+  <g font-family="Malgun Gothic, Arial, sans-serif"><text x="100" y="130" fill="#1c3045" font-size="52" font-weight="700">2026년 8월 GTA 시장: 전년 대비 변화</text><text x="100" y="182" fill="#5d7691" font-size="28">거래량과 공급은 감소, 평균 가격 하락 폭은 7월보다 축소</text><line x1="100" y1="210" x2="1500" y2="210" stroke="#d5dfe7" stroke-width="3"/>
+  <line x1="520" y1="250" x2="520" y2="760" stroke="#aac0d0" stroke-width="3"/>
+  <g fill="#1c3045" font-size="32" font-weight="700"><text x="110" y="320">거래량</text><text x="110" y="450">신규 매물</text><text x="110" y="580">Active Listings</text><text x="110" y="710">평균 매매가격</text></g>
+  <g fill="#e9eef2"><rect x="520" y="280" width="820" height="60" rx="20"/><rect x="520" y="410" width="820" height="60" rx="20"/><rect x="520" y="540" width="820" height="60" rx="20"/><rect x="520" y="670" width="820" height="60" rx="20"/></g>
+  <g><rect x="520" y="280" width="108" height="60" rx="20" fill="#c49a52"/><rect x="520" y="410" width="722" height="60" rx="20" fill="#1e3b59"/><rect x="520" y="540" width="686" height="60" rx="20" fill="#1e3b59"/><rect x="520" y="670" width="138" height="60" rx="20" fill="#557f9e"/></g>
+  <g fill="#1c3045" font-size="31" font-weight="700"><text x="650" y="321">-2.1%</text><text x="1265" y="451">-14.1%</text><text x="1228" y="581">-13.4%</text><text x="680" y="711">-2.7%</text></g>
+  <text x="100" y="855" fill="#5d7691" font-size="22">출처: TRREB Market Watch - August 2026</text><text x="1500" y="855" text-anchor="end" fill="#c49a52" font-size="22" font-weight="700">donghotheagent.com</text></g>
+</svg>
