@@ -132,6 +132,8 @@ main{min-height:60vh;}
 .footer-link-groups a{color:#fff;font-size:13px;line-height:1.25;}
 .legal-nav{grid-column:1 / -1;display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-top:8px;border-top:1px solid rgba(255,255,255,.12);padding-top:20px;}
 .legal-nav a{color:#fff;font-size:12px;}
+.legal-link-button,.privacy-settings-link{appearance:none;border:0;background:transparent;color:inherit;font:inherit;padding:0;text-decoration:underline;cursor:pointer;}
+.legal-link-button{color:#fff;font-size:12px;}
 .legal-nav a:not(:last-child)::after{content:"|";padding-left:10px;color:#9fb4c4;}
 .fineprint{grid-column:1 / -1;border-top:1px solid rgba(255,255,255,.12);padding-top:12px;margin:0;text-align:center;font-size:10px;color:#d4e0e9;}
 
@@ -595,6 +597,7 @@ main{min-height:60vh;}
   .legal-content p,.legal-content li{font-size:14px;}
   .legal-nav{gap:6px;}
   .legal-nav a{font-size:11px;}
+  .legal-link-button{font-size:11px;}
   .legal-nav a:not(:last-child)::after{padding-left:7px;}
   .updates-hero{padding:38px 18px 52px;}
   .updates-copy h1{font-size:34px;}

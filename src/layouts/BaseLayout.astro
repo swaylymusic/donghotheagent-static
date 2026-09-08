@@ -188,6 +188,7 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
           <a href="/privacy-policy/">Privacy Policy</a>
           <a href="/terms-and-conditions/">Terms & Conditions</a>
           <a href="/cookie-policy/">Cookie Policy</a>
+          <button type="button" class="legal-link-button" data-privacy-settings>Privacy &amp; cookie settings</button>
           <a href="/disclaimer/">Disclaimer</a>
           <a href="/consumer-information/">RECO Consumer Information</a>
         </nav>
@@ -197,6 +198,23 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
 
     <script is:inline>
       (() => {
+        const openPrivacySettings = () => {
+          const fundingChoices = window.googlefc;
+          if (
+            fundingChoices?.callbackQueue &&
+            typeof fundingChoices.showRevocationMessage === "function"
+          ) {
+            fundingChoices.callbackQueue.push(fundingChoices.showRevocationMessage);
+            return;
+          }
+
+          window.location.assign("/cookie-policy/#privacy-settings");
+        };
+
+        document.querySelectorAll("[data-privacy-settings]").forEach((control) => {
+          control.addEventListener("click", openPrivacySettings);
+        });
+
         const sendEvent = (eventName, params = {}) => {
           if (typeof window.gtag !== "function") return;
           window.gtag("event", eventName, params);
