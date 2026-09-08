@@ -12,6 +12,8 @@ featuredImage: "/uploads/2025/10/ontario-map-house.png"
 
 <p>캐나다 온타리오에서 첫 집을 구매하려면 낯선 영어 용어들이 쏟아집니다. <em>Offer</em>, <em>Closing</em>, <em>Land Transfer Tax</em>, <em>Mortgage Insurance</em> 같은 단어들이 이해되지 않으면 계약 과정에서 혼란을 겪기 쉽죠. 이 글에서는 <strong>온타리오 주에서 집을 처음 사는 사람</strong>이 반드시 알아야 할 <strong>핵심 부동산 용어 10가지</strong>를 쉽게 정리했습니다.</p>
 
+<p>용어를 익힌 뒤에는 <a href="/canada-home-buying-process-2026/">캐나다 집 구매 절차 전체</a>를 순서대로 확인해 보세요. 리얼터와의 대표계약을 검토 중이라면 <a href="/buyer-representation-agreement-explained-ontario/">Buyer Representation Agreement 안내</a>도 함께 읽는 것이 좋습니다.</p>
+
 <hr/>
 
 <h2>1. 온타리오 부동산 시장의 기본 구조 이해하기</h2>

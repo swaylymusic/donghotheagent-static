@@ -130,6 +130,8 @@ FHSA와 HBP는 함께 사용할 수 있지만 각 제도의 첫 구매자 정의
 
 온타리오에서는 서비스를 받기 전에 리얼터가 RECO Information Guide를 제공하고, 어떤 형태로 고객을 대표하는지 설명해야 합니다. 바이어가 고객으로서 중개 서비스를 받는 경우에는 일반적으로 **Buyer Representation Agreement**를 검토하게 됩니다.
 
+계약 기간, 서비스 범위, 보수, 해지와 복수대리처럼 서명 전 확인할 항목은 [온타리오 Buyer Representation Agreement 설명](/buyer-representation-agreement-explained-ontario/)에서 자세히 다룹니다.
+
 계약서에 서명하기 전에는 다음 내용을 확인하세요.
 
 - 계약 대상 지역과 주택 유형

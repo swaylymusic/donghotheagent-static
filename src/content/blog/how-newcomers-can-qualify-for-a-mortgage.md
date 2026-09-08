@@ -141,6 +141,8 @@ CMHC는 보험부 owner-occupied 대출에서 GDS 39%, TDS 44%를 주요 기준�
 
 집을 먼저 보고 마음에 드는 매물을 찾은 뒤 모기지를 확인하면 시간이 부족해질 수 있습니다. 가능하면 매물 검색 전에 모기지 전문가와 사전 상담을 하고, 리얼터와 예산·지역·클로징 일정을 함께 조율하는 것이 안전합니다.
 
+사전승인 후 실제 매물 탐색과 오퍼까지 이어지는 순서는 [캐나다 집 구매 절차 가이드](/canada-home-buying-process-2026/)에서 확인할 수 있습니다. 오퍼와 계약에서 자주 쓰는 표현은 [온타리오 첫 주택 구매 용어 정리](/ontario-first-home-buying-terms/)도 참고하세요.
+
 ## Sources
 
 - CMHC, [CMHC-Insured Financing for Borrowers With Permanent and Non-Permanent Residency Status](https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/newcomers), accessed September 3, 2026.

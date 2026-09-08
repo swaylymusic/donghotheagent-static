@@ -76,7 +76,7 @@ featuredImage: "/uploads/2025/11/Main_Sublet.png"
 
 <p>HomeLife Frontier Realty Inc., Brokerage</p>
 
-<p>📱 <strong>416-65-8241</strong><br>📧 <strong><a href="/cdn-cgi/l/email-protection">[email&#160;protected]</a></strong><br>🌐 <a href="https://www.donghotheagent.com" target="_blank" rel="noreferrer noopener">www.donghotheagent.com</a><br>📍 GTA &amp; Southwestern Ontario (Toronto, Mississauga, Oakville, Burlington, Milton, London, Brantford 등)</p>
+<p>📱 <strong>416-625-8241</strong><br>📧 <strong><a href="/cdn-cgi/l/email-protection">[email&#160;protected]</a></strong><br>🌐 <a href="/">donghotheagent.com</a><br>📍 GTA &amp; Southwestern Ontario (Toronto, Mississauga, Oakville, Burlington, Milton, London, Brantford 등)</p>
 
 <p>세입자/집주인 모두에게 공정하고 정확한 정보를 제공하기 위해 노력하고 있습니다. 온타리오 부동산·임대 관련 문의는 언제든 편하게 연락주세요.</p>
 

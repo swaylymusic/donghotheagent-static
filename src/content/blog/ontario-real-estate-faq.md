@@ -36,6 +36,8 @@ featuredImage: "/uploads/2025/12/ontario-real-estate-faq-01-consultation.jpg"
 
 <p>이렇게 먼저 준비하면, 이후에 좋은 집이 나왔을 때 빠르고 자신 있게 오퍼를 넣을 수 있습니다. 반대로 준비 없이 움직이면, 마음에 드는 집을 놓치기 쉬운 것도 사실입니다.</p>
 
+<p>예산 설정부터 오퍼와 클로징까지의 단계별 설명은 <a href="/canada-home-buying-process-2026/">캐나다 집 구매 절차 가이드</a>에서 확인할 수 있습니다. 바이어 리얼터와 계약하기 전에는 <a href="/buyer-representation-agreement-explained-ontario/">Buyer Representation Agreement의 핵심 조항</a>도 점검하세요.</p>
+
 <h3>1-2. 왜 Pre-Approval이 먼저일까요?</h3>
 
 <p>Pre-Approval은 단순한 서류가 아닙니다. 은행이 <strong>“이 정도 금액까지는 대출을 해줄 수 있다”</strong>고 확인해 주는 과정입니다.</p>

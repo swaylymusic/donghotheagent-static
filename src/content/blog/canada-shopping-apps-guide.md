@@ -137,7 +137,7 @@ featuredImage: "/uploads/2025/11/A_flat-style_digital_illustration_infographic_f
 
 <p>신규이민자·유학생·첫 주택 구매자를 위한 <strong>정착 정보와 부동산 교육 콘텐츠</strong>를 꾸준히 제공하며, “작은 거래란 없습니다. 모든 거래가 중요합니다”라는 철학을 바탕으로 한 분 한 분의 인생 계획에 맞춘 <strong>정확하고 정직한 리얼터 서비스</strong>를 제공하고 있습니다.</p>
 
-<p>📞 <strong>416-625-8241</strong><br />✉️ <a href="/cdn-cgi/l/email-protection#12717d7c6673716652767d7c7e77773c6077737e667d60"><span>[email&#160;protected]</span></a><br />🌐 <a href="https://dongholee.ca" target="_blank" rel="noreferrer noopener nofollow">donghotheagnet.com</a></p>
+<p>📞 <strong>416-625-8241</strong><br />✉️ <a href="/cdn-cgi/l/email-protection#12717d7c6673716652767d7c7e77773c6077737e667d60"><span>[email&#160;protected]</span></a><br />🌐 <a href="/">donghotheagent.com</a></p>
 </div>
 </div>
 </div>
