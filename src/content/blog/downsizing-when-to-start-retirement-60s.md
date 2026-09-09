@@ -199,11 +199,8 @@ loading="lazy" />
 
   <div>
 
-<a href="https://donghotheagent.com/retirement-financial-seminar-2026/"
-       target="_blank"
-       rel="noopener"
-      >
-       👉 세미나 상세 안내 &#038; 일정 보기
+<a href="/ontario-real-estate-retirement-strategy/">
+       👉 은퇴 후 부동산 전략과 현금흐름 알아보기
 </a>
 
 <br/><br/>
