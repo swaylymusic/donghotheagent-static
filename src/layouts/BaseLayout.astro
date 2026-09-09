@@ -158,21 +158,25 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
           <span>HomeLife Frontier Realty Inc., Brokerage</span>
         </div>
         <div class="footer-link-groups">
-          <nav aria-label="Quick links">
-            <h2>Quick Links</h2>
-            <a href="/about/">About Dongho Lee</a>
-            <a href="/services/">Services</a>
-            <a href="/blog/">Latest Articles</a>
-            <a href="/updates/">Free Email Updates</a>
-            <a href="/contact/">Contact</a>
-            <a href="https://dongholee.ca/" target="_blank" rel="noopener noreferrer">Dongho Lee Personal Site</a>
+          <nav class="footer-link-group" aria-label="Quick links">
+            <h2><button type="button" class="footer-accordion-toggle" aria-expanded="false" aria-controls="footer-quick-links">Quick Links</button></h2>
+            <div class="footer-link-list" id="footer-quick-links">
+              <a href="/about/">About Dongho Lee</a>
+              <a href="/services/">Services</a>
+              <a href="/blog/">Latest Articles</a>
+              <a href="/updates/">Free Email Updates</a>
+              <a href="/contact/">Contact</a>
+              <a href="https://dongholee.ca/" target="_blank" rel="noopener noreferrer">Dongho Lee Personal Site</a>
+            </div>
           </nav>
-          <nav aria-label="Popular guides">
-            <h2>Popular Guides</h2>
-            <a href="/category/market/">Market Updates</a>
-            <a href="/category/buying-selling/">Buying & Selling</a>
-            <a href="/category/newcomer/">Newcomer Guides</a>
-            <a href="/downsizing-when-to-start-retirement-60s/">Downsizing</a>
+          <nav class="footer-link-group" aria-label="Popular guides">
+            <h2><button type="button" class="footer-accordion-toggle" aria-expanded="false" aria-controls="footer-popular-guides">Popular Guides</button></h2>
+            <div class="footer-link-list" id="footer-popular-guides">
+              <a href="/category/market/">Market Updates</a>
+              <a href="/category/buying-selling/">Buying & Selling</a>
+              <a href="/category/newcomer/">Newcomer Guides</a>
+              <a href="/downsizing-when-to-start-retirement-60s/">Downsizing</a>
+            </div>
           </nav>
         </div>
         <div class="footer-contact">
@@ -188,7 +192,7 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
           <a href="/privacy-policy/">Privacy Policy</a>
           <a href="/terms-and-conditions/">Terms & Conditions</a>
           <a href="/cookie-policy/">Cookie Policy</a>
-          <button type="button" class="legal-link-button" data-privacy-settings>Privacy &amp; cookie settings</button>
+          <button type="button" class="legal-link-button" data-privacy-settings>Manage cookie preferences</button>
           <a href="/disclaimer/">Disclaimer</a>
           <a href="/consumer-information/">RECO Consumer Information</a>
         </nav>
@@ -213,6 +217,15 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
 
         document.querySelectorAll("[data-privacy-settings]").forEach((control) => {
           control.addEventListener("click", openPrivacySettings);
+        });
+
+        document.querySelectorAll(".footer-accordion-toggle").forEach((toggle) => {
+          toggle.addEventListener("click", () => {
+            if (!window.matchMedia("(max-width: 480px)").matches) return;
+            const group = toggle.closest(".footer-link-group");
+            const isOpen = group?.classList.toggle("is-open") ?? false;
+            toggle.setAttribute("aria-expanded", String(isOpen));
+          });
         });
 
         const sendEvent = (eventName, params = {}) => {
