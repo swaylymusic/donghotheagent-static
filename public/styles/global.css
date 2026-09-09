@@ -121,10 +121,11 @@ main{min-height:60vh;}
 .footer-brand span{display:block;margin-top:7px;font-size:12px;line-height:1.45;color:#d5e1ea;}
 .footer-menu,.footer-contact{display:flex;flex-direction:column;align-items:center;gap:7px;}
 .footer-menu h2,.footer-contact h2{font-size:11px;text-transform:uppercase;letter-spacing:.02em;margin:0 0 8px;color:#d5e1ea;}
-.footer-menu a,.footer-contact a{color:#fff;overflow-wrap:anywhere;}
+.footer-menu a,.footer-contact a{color:#fff;overflow-wrap:anywhere;text-decoration:none;}
+.footer-menu a:hover,.footer-contact a:hover{text-decoration:underline;}
 .footer-menu a,.footer-contact p{font-size:13px;line-height:1.2;margin:0;}
 .footer-contact{align-items:flex-start;justify-self:stretch;}
-.footer-contact p{display:grid;grid-template-columns:48px minmax(0,1fr);gap:10px;text-align:left;max-width:100%;}
+.footer-contact p{display:grid;grid-template-columns:48px minmax(0,1fr);gap:10px;text-align:left;max-width:100%;border:0!important;box-shadow:none!important;}
 .footer-contact span{color:#fff;}
 .footer-link-groups{display:contents;}
 .footer-link-groups nav{display:flex;flex-direction:column;align-items:flex-start;gap:8px;}
