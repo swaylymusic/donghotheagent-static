@@ -560,6 +560,31 @@ main{min-height:60vh;}
   .updates-copy h1{font-size:42px;}
 }
 
+@media (max-width: 600px){
+  .footer-inner{grid-template-columns:1fr;text-align:center;padding:26px 22px 18px;gap:16px;}
+  .footer-brand,.footer-contact,.footer-link-groups nav{align-items:center;text-align:center;}
+  .footer-brand img{margin-left:auto;margin-right:auto;}
+  .footer-link-groups,.footer-contact{display:none;}
+  .footer-mobile-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  .footer-mobile-actions a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 12px;border:1px solid rgba(255,255,255,.5);border-radius:6px;background:transparent!important;color:#fff!important;font-size:14px;font-weight:700;line-height:1.2;}
+  .footer-mobile-actions a:first-child{background:#fff!important;color:var(--deep)!important;}
+  .footer-mobile-details{display:grid;gap:8px;text-align:left;}
+  .footer-mobile-details details{border-top:1px solid rgba(255,255,255,.26);border-bottom:1px solid rgba(255,255,255,.26);}
+  .footer-mobile-details summary{display:flex;align-items:center;justify-content:space-between;min-height:46px;cursor:pointer;color:#fff!important;font-size:14px;font-weight:700;line-height:1.2;list-style:none;}
+  .footer-mobile-details summary::-webkit-details-marker{display:none;}
+  .footer-mobile-details summary::after{content:"+";font-size:20px;font-weight:400;color:#d5e1ea;}
+  .footer-mobile-details details[open] summary::after{content:"−";}
+  .footer-mobile-links{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;padding:4px 0 16px;}
+  .footer-mobile-links a{color:#fff!important;font-size:13px;line-height:1.4;font-weight:400;}
+  .footer-mobile-office{display:grid;gap:9px;padding:4px 0 16px;}
+  .footer-mobile-office p{display:grid;grid-template-columns:62px minmax(0,1fr);gap:8px;margin:0;color:#fff!important;font-size:13px;line-height:1.45;}
+  .footer-mobile-office span{color:#d5e1ea;}
+  .footer-mobile-office a{color:#fff!important;overflow-wrap:anywhere;}
+  .legal-nav{gap:6px;margin-top:2px;padding-top:16px;}
+  .legal-nav a,.legal-link-button{font-size:12px;line-height:1.45;}
+  .legal-nav a:not(:last-child)::after{padding-left:7px;}
+}
+
 @media (max-width: 480px){
   .header-inner{padding-left:14px;padding-right:14px;}
   .brand-lockup img{width:82px;}
@@ -587,25 +612,6 @@ main{min-height:60vh;}
   .contact-form-intro h2{font-size:24px;}
   .choice-row label{min-height:44px;font-size:13px;padding:10px 12px;}
   .form-footer .button{width:100%;}
-  .footer-inner{grid-template-columns:1fr;text-align:center;padding:26px 22px 18px;gap:18px;}
-  .footer-brand,.footer-contact,.footer-link-groups nav{align-items:center;text-align:center;}
-  .footer-brand img{margin-left:auto;margin-right:auto;}
-  .footer-link-groups,.footer-contact{display:none;}
-  .footer-mobile-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-  .footer-mobile-actions a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 12px;border:1px solid rgba(255,255,255,.38);border-radius:6px;color:#fff;font-size:13px;font-weight:700;}
-  .footer-mobile-actions a:first-child{background:#fff;color:var(--deep);}
-  .footer-mobile-details{display:grid;gap:8px;text-align:left;}
-  .footer-mobile-details details{border-top:1px solid rgba(255,255,255,.18);border-bottom:1px solid rgba(255,255,255,.18);}
-  .footer-mobile-details summary{display:flex;align-items:center;justify-content:space-between;min-height:44px;cursor:pointer;color:#fff;font-size:13px;font-weight:700;list-style:none;}
-  .footer-mobile-details summary::-webkit-details-marker{display:none;}
-  .footer-mobile-details summary::after{content:"+";font-size:20px;font-weight:400;color:#d5e1ea;}
-  .footer-mobile-details details[open] summary::after{content:"−";}
-  .footer-mobile-links{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;padding:4px 0 16px;}
-  .footer-mobile-links a{color:#fff;font-size:12px;line-height:1.35;}
-  .footer-mobile-office{display:grid;gap:8px;padding:4px 0 16px;}
-  .footer-mobile-office p{display:grid;grid-template-columns:58px minmax(0,1fr);gap:8px;margin:0;color:#fff;font-size:12px;line-height:1.45;}
-  .footer-mobile-office span{color:#d5e1ea;}
-  .footer-mobile-office a{color:#fff;overflow-wrap:anywhere;}
   .blog-hero h1,.blog-article-header h1{font-size:29px;}
   .featured-post-card h2{font-size:24px;}
   .compact-post-card h2,.compact-post-card h3{font-size:20px;}
