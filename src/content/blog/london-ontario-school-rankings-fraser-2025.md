@@ -15,9 +15,11 @@ London Ontario에서 자녀 학교를 알아볼 때 Fraser Institute 순위는 �
 
 ## 이 순위표는 어떻게 읽나요?
 
-Fraser Institute의 Ontario 2025 elementary·secondary 보고서는 **2023–24 EQAO 데이터**를 바탕으로 합니다. 숫자가 낮을수록 해당 보고서 안에서의 순위가 높고, `Score / 10`은 Fraser의 종합 점수입니다.
+Fraser Institute의 Ontario 2025 elementary·secondary 보고서는 **2023–24 EQAO 데이터**를 바탕으로 합니다. 숫자가 낮을수록 해당 보고서 안에서의 순위가 높고, **Score / 10**은 Fraser의 종합 점수입니다.
 
-표에서 `Not rated`인 학교는 낮은 점수를 받았다는 뜻이 아닙니다. 2025 보고서에 등재되지 않았거나, 동명이인 때문에 위치를 확정할 수 없는 학교는 이번 이미지에서 제외했습니다. 전체 필터링 표와 상태 설명은 [공유 스프레드시트](https://docs.google.com/spreadsheets/d/18Kt-pcfQmlG7H6u5_AfzmAE03KxDDFpqLfmY58PesZY/edit?gid=0#gid=0)에서 확인할 수 있습니다.
+표에서 **Not rated**인 학교는 낮은 점수를 받았다는 뜻이 아닙니다. 2025 보고서에 등재되지 않았거나, 동명이인 때문에 위치를 확정할 수 없는 학교는 이번 이미지에서 제외했습니다.
+
+전체 학교 목록을 교육청·학교급·순위·점수로 필터링하려면 [TVDSB·London Catholic 학교 순위 스프레드시트](https://docs.google.com/spreadsheets/d/18Kt-pcfQmlG7H6u5_AfzmAE03KxDDFpqLfmY58PesZY/edit?gid=0#gid=0)를 열어 보세요.
 
 ## Thames Valley District School Board
 
