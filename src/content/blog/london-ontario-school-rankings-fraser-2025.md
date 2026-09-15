@@ -5,7 +5,7 @@ pubDate: 2026-09-15
 updatedDate: 2026-09-15
 category: "Living"
 tags: ["London Ontario schools", "TVDSB", "London Catholic", "Fraser Institute ranking", "캐나다 유학", "런던 온타리오 교육"]
-featuredImage: "/uploads/2026/09/thames-valley-elementary-fraser-2025.png"
+featuredImage: "/uploads/2026/09/thames-valley-elementary-fraser-2025-v2.png"
 draft: false
 ---
 
@@ -27,21 +27,21 @@ Fraser Institute의 Ontario 2025 elementary·secondary 보고서는 **2023–24 
 
 ### Elementary schools
 
-![Thames Valley District School Board 초등학교 Fraser Institute 2025 순위표](/uploads/2026/09/thames-valley-elementary-fraser-2025.png)
+![Thames Valley District School Board 초등학교 Fraser Institute 2025 순위표](/uploads/2026/09/thames-valley-elementary-fraser-2025-v2.png)
 
 ### Secondary schools
 
-![Thames Valley District School Board 중등학교 Fraser Institute 2025 순위표](/uploads/2026/09/thames-valley-secondary-fraser-2025.png)
+![Thames Valley District School Board 중등학교 Fraser Institute 2025 순위표](/uploads/2026/09/thames-valley-secondary-fraser-2025-v2.png)
 
 ## London District Catholic School Board
 
 ### Elementary schools
 
-![London District Catholic School Board 초등학교 Fraser Institute 2025 순위표](/uploads/2026/09/london-catholic-elementary-fraser-2025.png)
+![London District Catholic School Board 초등학교 Fraser Institute 2025 순위표](/uploads/2026/09/london-catholic-elementary-fraser-2025-v2.png)
 
 ### Secondary schools
 
-![London District Catholic School Board 중등학교 Fraser Institute 2025 순위표](/uploads/2026/09/london-catholic-secondary-fraser-2025.png)
+![London District Catholic School Board 중등학교 Fraser Institute 2025 순위표](/uploads/2026/09/london-catholic-secondary-fraser-2025-v2.png)
 
 ## 자녀 학교를 고를 때 순위와 함께 볼 항목
 
