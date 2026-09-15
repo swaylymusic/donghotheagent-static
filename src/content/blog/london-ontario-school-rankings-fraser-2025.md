@@ -19,7 +19,9 @@ Fraser Institute의 Ontario 2025 elementary·secondary 보고서는 **2023–24 
 
 표에서 **Not rated**인 학교는 낮은 점수를 받았다는 뜻이 아닙니다. 2025 보고서에 등재되지 않았거나, 동명이인 때문에 위치를 확정할 수 없는 학교는 이번 이미지에서 제외했습니다.
 
-전체 학교 목록을 교육청·학교급·순위·점수로 필터링하려면 [TVDSB·London Catholic 학교 순위 스프레드시트](https://docs.google.com/spreadsheets/d/18Kt-pcfQmlG7H6u5_AfzmAE03KxDDFpqLfmY58PesZY/edit?gid=0#gid=0)를 열어 보세요.
+전체 학교 목록을 교육청·학교급·순위·점수로 필터링하려면 아래 표를 열어 보세요.
+
+<p><a href="https://docs.google.com/spreadsheets/d/18Kt-pcfQmlG7H6u5_AfzmAE03KxDDFpqLfmY58PesZY/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#0b3d3a;color:#ffffff;padding:14px 22px;border-radius:8px;font-weight:700;text-decoration:none;">전체 학교 순위표 열기 →</a></p>
 
 ## Thames Valley District School Board
 
