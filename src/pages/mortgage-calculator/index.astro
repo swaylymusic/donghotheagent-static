@@ -1,0 +1,113 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const rateCheckedOn = "September 15, 2026";
+---
+<BaseLayout
+  title="Canada Mortgage Calculator & Rate Guide | Dongho Lee Real Estate"
+  description="Estimate a Canadian mortgage payment and review a dated snapshot of advertised mortgage rates and common qualification conditions."
+>
+  <section class="mortgage-hero">
+    <p class="page-kicker">Canada mortgage planning tool · 캐나다 모기지 계획 도구</p>
+    <h1>Mortgage calculator<br /><span class="bilingual-title-ko">캐나다 모기지 계산기</span></h1>
+    <p>Estimate a payment using Canadian semi-annual compounding. Use the result to plan your budget, then confirm the loan, rate, fees, and qualification details directly with a lender or a licensed mortgage professional.</p>
+  </section>
+
+  <section class="mortgage-workspace" aria-label="Mortgage payment calculator">
+    <form class="mortgage-form" id="mortgage-calculator">
+      <h2>Estimate your payment <small>월 납입금 예상</small></h2>
+      <div class="mortgage-input-grid">
+        <label>Home price <span>주택 가격</span><div class="money-input"><b>$</b><input id="home-price" inputmode="decimal" type="number" min="0" step="1000" value="900000" /></div></label>
+        <label>Down payment <span>다운페이먼트</span><div class="money-input"><b>$</b><input id="down-payment" inputmode="decimal" type="number" min="0" step="1000" value="180000" /></div></label>
+        <label>Interest rate <span>연 이자율</span><div class="percent-input"><input id="interest-rate" inputmode="decimal" type="number" min="0" step="0.01" value="4.09" /><b>%</b></div></label>
+        <label>Amortization <span>상환 기간</span><select id="amortization"><option value="25" selected>25 years · 25년</option><option value="30">30 years · 30년</option></select></label>
+      </div>
+      <label class="frequency-label">Payment frequency <span>납입 주기</span><select id="payment-frequency"><option value="12" selected>Monthly · 매월</option><option value="26">Bi-weekly · 격주</option><option value="52">Weekly · 매주</option></select></label>
+      <button class="button primary" type="submit">Update estimate · 다시 계산</button>
+      <p class="calculator-note">This estimate excludes mortgage default insurance, lender fees, property taxes, condo fees, utilities, closing costs, and changes at renewal.</p>
+    </form>
+
+    <aside class="mortgage-result" aria-live="polite">
+      <p class="result-label">Estimated payment <span>예상 납입금</span></p>
+      <strong id="payment-result">$0</strong><span id="payment-frequency-label">per month</span>
+      <dl>
+        <div><dt>Estimated mortgage</dt><dd id="mortgage-amount">$0</dd></div>
+        <div><dt>Down payment</dt><dd id="down-payment-result">$0</dd></div>
+        <div><dt>Down payment ratio</dt><dd id="down-payment-ratio">0%</dd></div>
+      </dl>
+      <p id="insurance-message" class="result-caution"></p>
+    </aside>
+  </section>
+
+  <section class="mortgage-rate-section" aria-labelledby="rates-heading">
+    <div class="section-intro">
+      <p class="page-kicker">Rate snapshot · 금리 안내</p>
+      <h2 id="rates-heading">Advertised low-rate snapshot</h2>
+      <p>These are market-comparison figures, not a rate quote, recommendation, or an offer from Dongho Lee or HomeLife Frontier Realty Inc., Brokerage.</p>
+    </div>
+    <div class="rate-cards">
+      <article><p>5-year fixed</p><strong>4.09%</strong><span>Advertised low high-ratio rate</span></article>
+      <article><p>5-year variable</p><strong>3.30%</strong><span>Advertised low high-ratio rate</span></article>
+      <article><p>Prime rate</p><strong>4.45%</strong><span>Reference used by many variable products</span></article>
+    </div>
+    <div class="rate-disclosure">
+      <p><strong>Checked:</strong> {rateCheckedOn}. Source: <a href="https://www.ratehub.ca/best-mortgage-rates/5-year/fixed" target="_blank" rel="noopener noreferrer">Ratehub’s Canadian rate comparison</a>. Rates can change without notice and may vary by province, lender, purchase price, loan-to-value ratio, insured status, term, amortization, credit, income, property, and promotion.</p>
+      <p><strong>Common conditions:</strong> the displayed low rates commonly apply to an owner-occupied purchase with mortgage default insurance and a strong application. A down payment below 20% generally requires mortgage loan insurance; insurance eligibility and premiums are not included in this calculator. Confirm all conditions with the provider.</p>
+    </div>
+  </section>
+
+  <aside class="mortgage-ad-slot" aria-label="Advertisement">
+    <span>Advertisement</span>
+    <p>Reserved for a clearly labelled Google AdSense placement.</p>
+  </aside>
+
+  <section class="mortgage-information">
+    <div>
+      <h2>Before you act</h2>
+      <ul>
+        <li>Compare the total borrowing cost, prepayment terms, penalties, portability, and closing costs—not only the rate.</li>
+        <li>For federally regulated lenders, qualifying may use the higher of the contractual rate plus 2% or the minimum qualifying rate.</li>
+        <li>Use the official <a href="https://itools-ioutils.fcac-acfc.gc.ca/MC-CH/MCCalc-CHCalc-eng.aspx" target="_blank" rel="noopener noreferrer">FCAC mortgage calculator</a> for a payment schedule and additional scenarios.</li>
+      </ul>
+    </div>
+    <div class="mortgage-compliance-note">
+      <h2>Important disclosure <small>중요 안내</small></h2>
+      <p>This page provides general educational information only. It does not arrange, negotiate, recommend, or solicit a mortgage, and it is not financial, legal, tax, or mortgage advice. Dongho Lee is a real estate broker, not a mortgage broker or mortgage agent. For mortgage advice or a rate quote, contact a lender or a mortgage professional licensed by the Financial Services Regulatory Authority of Ontario (FSRA).</p>
+      <p>Real estate services are provided by Dongho Lee, Broker, HomeLife Frontier Realty Inc., Brokerage. <a href="/consumer-information/">Read RECO consumer information</a> or <a href="https://www.fsrao.ca/consumers/mortgage-brokering" target="_blank" rel="noopener noreferrer">learn about Ontario mortgage brokering through FSRA</a>.</p>
+    </div>
+  </section>
+
+  <script is:inline>
+    (() => {
+      const form = document.querySelector('#mortgage-calculator');
+      const currency = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+      const values = {
+        price: document.querySelector('#home-price'), down: document.querySelector('#down-payment'), rate: document.querySelector('#interest-rate'), years: document.querySelector('#amortization'), frequency: document.querySelector('#payment-frequency'),
+      };
+      const output = {
+        payment: document.querySelector('#payment-result'), frequency: document.querySelector('#payment-frequency-label'), mortgage: document.querySelector('#mortgage-amount'), down: document.querySelector('#down-payment-result'), ratio: document.querySelector('#down-payment-ratio'), insurance: document.querySelector('#insurance-message'),
+      };
+      const calculate = () => {
+        const price = Math.max(0, Number(values.price.value) || 0);
+        const down = Math.min(price, Math.max(0, Number(values.down.value) || 0));
+        const annualRate = Math.max(0, Number(values.rate.value) || 0) / 100;
+        const years = Math.max(1, Number(values.years.value) || 25);
+        const paymentsPerYear = Number(values.frequency.value) || 12;
+        const principal = Math.max(0, price - down);
+        const periodicRate = Math.pow(1 + annualRate / 2, 2 / paymentsPerYear) - 1;
+        const count = years * paymentsPerYear;
+        const payment = principal === 0 ? 0 : periodicRate === 0 ? principal / count : principal * periodicRate / (1 - Math.pow(1 + periodicRate, -count));
+        const ratio = price ? (down / price) * 100 : 0;
+        output.payment.textContent = currency.format(payment);
+        output.frequency.textContent = paymentsPerYear === 12 ? 'per month' : paymentsPerYear === 26 ? 'every two weeks' : 'per week';
+        output.mortgage.textContent = currency.format(principal);
+        output.down.textContent = currency.format(down);
+        output.ratio.textContent = `${ratio.toFixed(1)}%`;
+        output.insurance.textContent = price > 0 && ratio < 20 ? 'A down payment below 20% generally requires mortgage default insurance. Its premium is not included above.' : '';
+      };
+      form?.addEventListener('submit', (event) => { event.preventDefault(); calculate(); });
+      Object.values(values).forEach((input) => input?.addEventListener('input', calculate));
+      calculate();
+    })();
+  </script>
+</BaseLayout>
