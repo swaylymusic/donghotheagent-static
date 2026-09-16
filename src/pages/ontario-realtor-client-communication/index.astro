@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 const gumroadUrl = "https://dohlee.gumroad.com/l/ontario-realtor-client-communication";
+const productImage = "/uploads/2026/09/ontario-realtor-ai-client-communication-toolkit-cover.jpg";
 const productStructuredData = {
   "@context": "https://schema.org",
   "@type": "Product",
@@ -9,6 +10,7 @@ const productStructuredData = {
   description:
     "A practical communication toolkit for Ontario realtors who want clearer, faster, and more consistent client communication.",
   brand: { "@type": "Brand", name: "Dongho Lee" },
+  image: new URL(productImage, Astro.site ?? Astro.url).toString(),
   url: new URL("/ontario-realtor-client-communication/", Astro.site ?? Astro.url).toString(),
   offers: {
     "@type": "Offer",
@@ -24,7 +26,7 @@ const productStructuredData = {
   title="Ontario Realtor AI Client Communication Toolkit | Dongho Lee"
   description="A practical AI communication toolkit for Ontario realtors. Get clearer client messages, follow-ups, and real estate conversations with templates, prompts, and workflows."
   canonical="/ontario-realtor-client-communication/"
-  image="/uploads/2025/10/profile_dongholee.jpg"
+  image={productImage}
   structuredData={productStructuredData}
 >
   <section class="product-hero">
