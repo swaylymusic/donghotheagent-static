@@ -5,7 +5,7 @@ import { createConfirmationToken } from "../functions/api/subscribe.js";
 import { onRequestPost as confirmSubscription, verifyConfirmationToken } from "../functions/api/confirm-subscription.js";
 
 const SECRET = "test-only-confirmation-secret";
-const NOW = Date.UTC(2026, 8, 2, 12, 0, 0);
+const NOW = Date.now();
 
 test("creates a confirmation token that activates the intended address", async () => {
   const token = await createConfirmationToken("Subscriber@Example.com", SECRET, NOW);
