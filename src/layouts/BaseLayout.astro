@@ -364,6 +364,20 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
 
           const targetUrl = new URL(href, window.location.href);
 
+          const primaryNavigation = link.closest(".nav");
+          if (primaryNavigation) {
+            const dropdown = link.closest(".nav-dropdown");
+            const navigationSection = dropdown
+              ? dropdown.querySelector(".nav-dropdown-toggle")?.textContent?.trim().replace(/\s+▾?$/, "")
+              : "Primary";
+            sendEvent("navigation_click", {
+              event_category: "navigation",
+              link_url: targetUrl.href,
+              link_text: linkText,
+              navigation_section: navigationSection || "Primary",
+            });
+          }
+
           if (
             targetUrl.hostname === "dongholee.ca" &&
             targetUrl.hostname !== window.location.hostname
