@@ -412,7 +412,7 @@ main{min-height:60vh;}
 .form-compliance-note .compliance-ko{margin-top:7px;color:#40566b;}
 .compliance-link{display:inline-block;margin-top:11px;font-size:12px;font-weight:800;}
 .seller-lead-hero{max-width:980px;margin:0 auto;}
-.journey-hero-actions{justify-content:center;}
+.journey-hero-actions{width:100%;justify-content:center;}
 .journey-steps{grid-template-columns:1fr;gap:14px;padding-top:20px;}
 .journey-steps .service-card{min-height:0;padding:22px 26px;display:grid;grid-template-columns:48px minmax(220px,.7fr) minmax(0,1.5fr);column-gap:20px;align-items:center;}
 .journey-steps .service-icon{grid-row:1 / span 2;margin:0;}
