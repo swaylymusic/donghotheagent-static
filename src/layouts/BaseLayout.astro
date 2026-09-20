@@ -140,23 +140,27 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
           <a class:list={[{ active: isActive("/about/") }]} href="/about/">About</a>
           <a class:list={[{ active: isActive("/category/buying-selling/") }]} href="/category/buying-selling/">Buy</a>
           <a class:list={[{ active: isActive("/home-value/") }]} href="/home-value/">Sell</a>
-          <div class:list={["nav-dropdown", { active: isActive("/services/") || isActive("/category/newcomer/") || isActive("/category/investment/") || isActive("/category/rental-guide/") }]}>
+          <div class:list={["nav-dropdown", { active: isActive("/services/") }]}>
             <button class="nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="services-menu">
               Services <span aria-hidden="true">▾</span>
             </button>
             <div class="nav-dropdown-menu" id="services-menu">
-              <a href="/category/newcomer/">Newcomers</a>
-              <a href="/category/investment/">Investors</a>
-              <a href="/category/rental-guide/">Rentals</a>
+              <a href="/services/#buyer-representation">Buyer Representation</a>
+              <a href="/services/#seller-representation">Seller Representation</a>
+              <a href="/services/#rental-support">Rental Support</a>
+              <a href="/services/#investment-guidance">Investment Guidance</a>
             </div>
           </div>
-          <div class:list={["nav-dropdown", { active: isActive("/blog/") || isActive("/updates/") || isActive("/category/market/") }]}>
+          <div class:list={["nav-dropdown", { active: isActive("/blog/") || isActive("/category/") }]}>
             <button class="nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="insights-menu">
               Insights <span aria-hidden="true">▾</span>
             </button>
             <div class="nav-dropdown-menu" id="insights-menu">
-              <a href="/blog/">Real Estate Guides</a>
               <a href="/category/market/">Market Updates</a>
+              <a href="/category/buying-selling/">Buying &amp; Selling Guides</a>
+              <a href="/category/newcomer/">Newcomer Guides</a>
+              <a href="/category/rental-guide/">Rental Guides</a>
+              <a href="/category/investment/">Investment Insights</a>
             </div>
           </div>
           <div class:list={["nav-dropdown", { active: isActive("/mortgage-calculator/") }]}>
@@ -167,6 +171,7 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
               <a href="/mortgage-calculator/">Mortgage Calculator</a>
               <a href="/category/buying-selling/">Buyer Resources</a>
               <a href="/home-value/">Seller Resources</a>
+              <a href="/updates/">Email Updates</a>
             </div>
           </div>
           <a class:list={[{ active: isActive("/contact/") }]} href="/contact/">Contact</a>
