@@ -3,7 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
 const guides = (await getCollection("blog"))
-  .filter((post) => !post.data.draft && ["Buying/Selling", "Market"].includes(post.data.category))
+  .filter((post) => !post.data.draft && ["Buy & Sell", "Market"].includes(post.data.category))
   .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
   .slice(0, 4);
 ---
@@ -34,7 +34,7 @@ const guides = (await getCollection("blog"))
   <section class="featured-guides" aria-label="Selling guides">
     <div class="home-section-heading">
       <div><p class="page-kicker">Related Guides</p><h2>Helpful Before You Sell</h2></div>
-      <a class="text-link" href="/category/buying-selling/">모든 매매 가이드 보기</a>
+      <a class="text-link" href="/category/buy-sell/">모든 매매 가이드 보기</a>
     </div>
     <div class="home-posts">
       {guides.map((post) => (

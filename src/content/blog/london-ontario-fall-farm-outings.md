@@ -3,7 +3,7 @@ title: "런던, 온타리오 근교에서 즐기는 가을 농장 나들이: 사
 description: "런던, 온타리오 근교의 가을 농장 나들이 5곳을 소개합니다. 사과 따기, 호박밭, 체험형 농장, 농장 마켓을 취향에 맞춰 골라 보세요."
 pubDate: 2026-09-12
 updatedDate: 2026-09-12
-category: "Newcomer"
+category: "Living in Ontario"
 tags: ["런던 온타리오", "런던 근교 가을 나들이", "온타리오 사과 따기", "온타리오 호박밭", "런던 농장 마켓", "Apple Picking", "Pumpkin Patch"]
 featuredImage: "/uploads/2026/09/london-ontario-fall-farm-outings-hero.png"
 imageAlt: "호박과 사과 과수원, 붉고 금빛 단풍나무가 어우러진 가을 농장 풍경"

@@ -2,7 +2,7 @@
 title: "온타리오 시니어 주거 옵션 총정리: 콘도 vs 타운하우스 vs 55+ 커뮤니티"
 description: "은퇴를 앞두고 어떤 집을 선택해야 할까요? 콘도, 타운하우스, 작은 단독주택, 55+ 커뮤니티까지 온타리오 시니어 주거 옵션을 비교 정리했습니다."
 pubDate: "2026-02-19"
-category: "Newcomer"
+category: "Living in Ontario"
 tags: ["Newcomer", "Buying/Selling", "Investment"]
 draft: false
 originalUrl: "https://donghotheagent.com/ontario-senior-housing-options-guide/"

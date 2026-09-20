@@ -2,7 +2,7 @@
 title: "부동산 상담 시 자주 묻는 질문 총정리 | 캐나다 온타리오 부동산 완벽 가이드"
 description: "캐나다 온타리오에서 부동산을 매매하려고 하면 질문이 정말 많아집니다. 한국과 제도도 다르고, 절차도 낯설기 때문입니다. 그래서 오늘은 실제 상담에서 고객분들이 가장 많이 물어보시는 질문들을 한곳에 정리했습니다."
 pubDate: "2025-12-06"
-category: "Buying/Selling"
+category: "Buy & Sell"
 tags: ["Buying/Selling", "Newcomer"]
 draft: false
 originalUrl: "https://donghotheagent.com/ontario-real-estate-faq/"

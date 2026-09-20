@@ -2,7 +2,7 @@
 title: "온타리오 은퇴자금, 부동산에서 답을 찾다"
 description: "캐나다 온타리오에 사는 많은 한인분들이 이런 질문을 하십니다. “집 한 채 말고는 자산이 거의 없는데, 이걸로 은퇴 준비가 가능할까요?”"
 pubDate: "2025-12-12"
-category: "Investment"
+category: "Invest"
 tags: ["Mortgage", "Newcomer", "Investment"]
 draft: false
 originalUrl: "https://donghotheagent.com/ontario-real-estate-retirement-strategy/"

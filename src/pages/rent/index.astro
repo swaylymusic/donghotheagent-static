@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
-const guides = (await getCollection("blog")).filter((p) => !p.data.draft && p.data.category === "Rental Guide").slice(0, 4);
+const guides = (await getCollection("blog")).filter((p) => !p.data.draft && p.data.category === "Rent").slice(0, 4);
 ---
 <BaseLayout title="Renting in Ontario | Dongho Lee Real Estate" description="Practical Ontario rental guidance for tenants and landlords.">
   <section class="services-hero"><p class="page-kicker">Rent</p><h1>Rent with Clear Guidance</h1><p class="lead">Practical support for tenants and landlords navigating Ontario rental decisions, documents and next steps.</p><p class="lead ko">온타리오 렌트 계약과 서류, 입주와 퇴거 과정에서 필요한 내용을 명확하게 안내합니다.</p><a class="button primary" href="/contact/">렌트 상담 신청하기</a></section>
   <section class="services-grid" aria-label="Rental support"><article class="service-card"><h2>Find <span>집 찾기</span></h2><p>예산, 지역, 일정에 맞는 현실적인 렌트 전략을 세웁니다.</p></article><article class="service-card"><h2>Review <span>계약 검토</span></h2><p>계약 조건과 필요한 서류를 이해하기 쉽게 정리합니다.</p></article><article class="service-card"><h2>Protect <span>리스크 관리</span></h2><p>온타리오 임대 규정과 N-forms 관련 핵심 정보를 안내합니다.</p></article><article class="service-card"><h2>Plan <span>다음 단계</span></h2><p>입주, 퇴거, 서브렛 또는 Assignment 상황을 함께 검토합니다.</p></article></section>
-  <section class="featured-guides"><div class="home-section-heading"><div><p class="page-kicker">Related Guides</p><h2>Rental Guides</h2></div><a class="text-link" href="/category/rental-guide/">모든 렌트 가이드 보기</a></div><div class="home-posts">{guides.map((post) => <article class="post-card"><h2><a href={`/${post.slug}/`}>{post.data.title}</a></h2><p>{post.data.description}</p></article>)}</div></section>
+  <section class="featured-guides"><div class="home-section-heading"><div><p class="page-kicker">Related Guides</p><h2>Rental Guides</h2></div><a class="text-link" href="/category/rent/">모든 렌트 가이드 보기</a></div><div class="home-posts">{guides.map((post) => <article class="post-card"><h2><a href={`/${post.slug}/`}>{post.data.title}</a></h2><p>{post.data.description}</p></article>)}</div></section>
   <section class="services-cta"><div><h2>Need a clearer rental plan?</h2><p>현재 상황과 일정부터 알려주시면 필요한 다음 단계를 함께 정리해 드립니다.</p><a class="button primary" href="/contact/">상담 문의하기</a></div></section>
 </BaseLayout>

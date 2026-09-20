@@ -2,7 +2,7 @@
 title: "온타리오 렌트: Sublet(서브렛) vs Assignment(양도) 완벽 비교 가이드 (2025 최신판)"
 description: "온타리오에서 세입자가 집을 장기간 비우거나 갑작스럽게 이사를 해야 할 때 선택할 수 있는 방법은 두 가지입니다. 바로 Sublet(서브렛)과 Assignment(양도)입니다."
 pubDate: "2025-11-18"
-category: "Rental Guide"
+category: "Rent"
 tags: ["Rental Guide"]
 draft: true
 originalUrl: "https://donghotheagent.com/sublet-vs-assignment-ontario-rental-guide/"

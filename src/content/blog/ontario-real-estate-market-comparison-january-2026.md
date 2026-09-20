@@ -2,7 +2,7 @@
 title: "2026년 1월 온타리오 주요 도시 부동산 비교"
 description: "온타리오 부동산 시장 비교를 통해 2026년 1월 토론토(GTA), 런던·세인트토마스, 워털루 지역의 거래량, 가격, 재고(MOI), 시장 흐름을 한눈에 정리했습니다."
 pubDate: "2026-02-09"
-category: "Buying/Selling"
+category: "Market"
 tags: ["Buying/Selling", "Market", "Newcomer"]
 draft: false
 originalUrl: "https://donghotheagent.com/ontario-real-estate-market-comparison-january-2026/"

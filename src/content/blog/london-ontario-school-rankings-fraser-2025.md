@@ -3,7 +3,7 @@ title: "런던·남서부 온타리오 학교 순위 가이드: TVDSB·LDCSB Fra
 description: "TVDSB·LDCSB 213개 학교를 Fraser 2025 원본과 대조했습니다. 누락 37곳과 동명 학교 오류를 정정하고, 199곳의 순위·점수 및 순위 미확인 14곳을 소재지와 함께 안내합니다."
 pubDate: 2026-09-15
 updatedDate: 2026-09-16
-category: "Living"
+category: "Living in Ontario"
 tags: ["London Ontario schools", "TVDSB", "London Catholic", "Fraser Institute ranking", "캐나다 유학", "런던 온타리오 교육"]
 featuredImage: "/uploads/2026/09/thames-valley-elementary-fraser-2025-v03.png"
 draft: false

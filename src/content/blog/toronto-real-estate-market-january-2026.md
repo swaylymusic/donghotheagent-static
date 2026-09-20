@@ -2,7 +2,7 @@
 title: "토론토 부동산 시장 동향 2026년 1월: 거래량 감소 속 ‘관망 국면’, 그러나 구조적 신호는 달라지고 있다"
 description: "TRREB 2026년 1월 Market Watch로 분석한 토론토 부동산 시장 동향. 거래량 감소, 평균가격 변화, 재고(MOI), 체류기간(DOM)의 의미를 정리했습니다."
 pubDate: "2026-02-07"
-category: "Buying/Selling"
+category: "Market"
 tags: ["Buying/Selling", "Market", "Newcomer"]
 draft: false
 originalUrl: "https://donghotheagent.com/toronto-real-estate-market-january-2026/"

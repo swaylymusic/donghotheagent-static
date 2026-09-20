@@ -3,7 +3,7 @@ title: "온타리오 남서부 가을철 집관리 요령: 겨울 전 점검 체
 description: "런던·윈저·키치너-워털루 등 온타리오 남서부 주택을 위한 가을철 점검법. 배수, 난방·CO 경보기, 단열, 외부 수도, 비상 키트를 안전하게 준비하세요."
 pubDate: 2026-09-11
 updatedDate: 2026-09-11
-category: "Newcomer"
+category: "Living in Ontario"
 tags: ["온타리오 남서부", "가을 집관리", "겨울철 주택 준비", "처마 홈통", "퍼니스 점검", "일산화탄소 경보기", "런던 온타리오"]
 featuredImage: "/uploads/2026/09/ontario-fall-home-maintenance-hero.png"
 imageAlt: "가을 단풍과 낙엽이 있는 온타리오 남서부 교외 단독주택 외관"

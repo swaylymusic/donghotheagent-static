@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
-const guides = (await getCollection("blog")).filter((p) => !p.data.draft && p.data.category === "Investment").slice(0, 4);
+const guides = (await getCollection("blog")).filter((p) => !p.data.draft && p.data.category === "Invest").slice(0, 4);
 ---
 <BaseLayout title="Ontario Real Estate Investing | Dongho Lee" description="Data-informed Ontario real estate investment guidance for long-term decisions.">
   <section class="services-hero"><p class="page-kicker">Invest</p><h1>Invest with Context</h1><p class="lead">Make investment decisions with a clearer view of cash flow, risk, location and long-term goals.</p><p class="lead ko">단기 시세보다 현금흐름, 지역 성장성, 리스크와 장기 목표를 함께 살펴봅니다.</p><a class="button primary" href="/contact/">투자 상담 신청하기</a></section>
   <section class="services-grid" aria-label="Investment support"><article class="service-card"><h2>Goals <span>목표 설정</span></h2><p>투자 기간, 예산, 리스크 허용 범위를 먼저 정리합니다.</p></article><article class="service-card"><h2>Compare <span>매물 비교</span></h2><p>지역, 유형, 임대 수요와 보유 전략을 비교합니다.</p></article><article class="service-card"><h2>Analyze <span>수익 분석</span></h2><p>현금흐름과 비용, 장기 유지 가능성을 검토합니다.</p></article><article class="service-card"><h2>Execute <span>실행 지원</span></h2><p>오퍼, 협상, Assignment와 클로징까지 필요한 판단을 돕습니다.</p></article></section>
-  <section class="featured-guides"><div class="home-section-heading"><div><p class="page-kicker">Related Guides</p><h2>Investment and Long-term Planning</h2></div><a class="text-link" href="/category/investment/">모든 투자 가이드 보기</a></div><div class="home-posts">{guides.map((post) => <article class="post-card"><h2><a href={`/${post.slug}/`}>{post.data.title}</a></h2><p>{post.data.description}</p></article>)}</div></section>
+  <section class="featured-guides"><div class="home-section-heading"><div><p class="page-kicker">Related Guides</p><h2>Investment and Long-term Planning</h2></div><a class="text-link" href="/category/invest/">모든 투자 가이드 보기</a></div><div class="home-posts">{guides.map((post) => <article class="post-card"><h2><a href={`/${post.slug}/`}>{post.data.title}</a></h2><p>{post.data.description}</p></article>)}</div></section>
   <section class="services-cta"><div><h2>Build a practical investment plan.</h2><p>투자 목적과 현재 조건을 기준으로 현실적인 선택지를 함께 비교합니다.</p><a class="button primary" href="/contact/">상담 문의하기</a></div></section>
 </BaseLayout>

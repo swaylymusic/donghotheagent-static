@@ -2,7 +2,7 @@
 title: "🍁 2025 캐나다 은퇴자금 활용 전략"
 description: "RRSP · RRIF · TFSA 절세와 현금흐름 관리 가이드"
 pubDate: "2025-10-23"
-category: "Mortgage"
+category: "Invest"
 tags: ["Mortgage"]
 draft: false
 originalUrl: "https://donghotheagent.com/2025-%ec%ba%90%eb%82%98%eb%8b%a4-%ec%9d%80%ed%87%b4%ec%9e%90%ea%b8%88-%ed%99%9c%ec%9a%a9-%ec%a0%84%eb%9e%b5/"

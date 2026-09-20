@@ -2,7 +2,7 @@
 title: "온타리오 첫 집 구매, 어디서부터 시작할까요? 실전 워크북으로 준비하는 방법"
 description: "예산, 모기지, 지역 선택, 오퍼와 클로징 비용까지. 온타리오에서 첫 집을 준비하는 구매자가 순서대로 생각을 정리할 수 있도록 만든 실전 워크북을 소개합니다."
 pubDate: "2026-09-05"
-category: "Buying/Selling"
+category: "Buy & Sell"
 tags: ["첫 집 구매", "온타리오 부동산", "First-Time Home Buyer", "워크북"]
 featuredImage: "/uploads/2026/09/ontario-first-time-home-buyer-workbook-hero.png"
 imageAlt: "온타리오 첫 집 구매 준비를 위한 워크북, 집 모형, 열쇠"

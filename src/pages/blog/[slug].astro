@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { categoryByKey } from "../../data/blogCategories";
 
 export async function getStaticPaths() {
   const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
@@ -21,15 +22,9 @@ const allPosts = (await getCollection("blog"))
     return categoryScore || b.data.pubDate.getTime() - a.data.pubDate.getTime();
   });
 
-const categoryLabel = {
-  "Newcomer": "캐나다 이민 & 생활 정보",
-  "Buying/Selling": "부동산 매매 팁",
-  "Market": "시장 분석",
-  "Rental Guide": "임대 가이드",
-  "Mortgage": "모기지 정보",
-  "Investment": "투자 전략",
-  "Uncategorized": "기타",
-};
+const category = categoryByKey[post.data.category];
+const categoryLabel = category?.label || post.data.category;
+const journey = category?.journey;
 
 const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
   timeZone: "UTC",
@@ -82,10 +77,10 @@ const articleStructuredData = {
     <nav class="blog-breadcrumbs" aria-label="Breadcrumb">
       <a href="/">Home</a>
       <span>Blog</span>
-      <span>{categoryLabel[post.data.category] || post.data.category}</span>
+      <span>{categoryLabel}</span>
     </nav>
     <header class="blog-article-header">
-      <p class="page-kicker">{categoryLabel[post.data.category] || post.data.category}</p>
+      <p class="page-kicker">{categoryLabel}</p>
       <h1>{post.data.title}</h1>
       <p class="blog-meta">{formattedDate} · Dongho Lee 이동호</p>
       <p class="article-updated">{lastUpdatedLabel}</p>
@@ -95,6 +90,19 @@ const articleStructuredData = {
     <div class="blog-content">
       <Content />
     </div>
+
+    {journey && (
+      <section class="conversion-panel article-journey" aria-label="Related journey">
+        <div class="conversion-copy">
+          <p class="page-kicker">Related Journey</p>
+          <h2>{journey.label}</h2>
+          <p>{journey.description}</p>
+        </div>
+        <div class="conversion-actions">
+          <a class="button primary" href={journey.href}>Explore next steps</a>
+        </div>
+      </section>
+    )}
 
     <section class="author-box" aria-label="About the author">
       <div>
@@ -123,7 +131,7 @@ const articleStructuredData = {
           {relatedPosts.map((related) => (
             <article>
               <p class="blog-meta">
-                {categoryLabel[related.data.category] || related.data.category}
+                {categoryByKey[related.data.category]?.label || related.data.category}
               </p>
               <h3><a href={`/${related.slug}/`}>{related.data.title}</a></h3>
               <p>{related.data.description}</p>

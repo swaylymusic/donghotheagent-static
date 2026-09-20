@@ -2,7 +2,7 @@
 title: "캐나다 부동산의 혼란스러운 신호 🚨 | 2025년 11월 마지막 주 시장분석"
 description: "https://youtu.be/k7AoMlwaYuA"
 pubDate: "2025-11-26"
-category: "Mortgage"
+category: "Market"
 tags: ["Mortgage", "Market"]
 draft: false
 originalUrl: "https://donghotheagent.com/canada-housing-market-nov-last-week-2025/"

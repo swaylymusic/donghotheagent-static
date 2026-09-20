@@ -2,7 +2,7 @@
 title: "🏡 주말 오픈하우스 안내 – 121 Forest Rd, Brantford | Echo Place 단독주택"
 description: "안녕하세요! 이동호 Broker입니다. 가족 중심의 생활공간을 찾고 계신 분들께 직접 안내드리는 기회입니다."
 pubDate: "2025-10-24"
-category: "Uncategorized"
+category: "Buy & Sell"
 tags: []
 draft: false
 originalUrl: "https://donghotheagent.com/open-house-notice-121-forest-rd-brantford-echo-place/"

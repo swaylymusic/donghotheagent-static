@@ -2,7 +2,7 @@
 title: "워털루 지역 부동산 시장 동향 2026년 1월: 거래 감소 속 ‘조정 국면’, 데이터가 말하는 핵심 포인트"
 description: "ITSO 월간 리포트로 본 2026년 1월 워털루 지역 시장: 거래량(-22.2%), 중위가격(-8.0%), 재고(+2.4%), 체류기간(DOM) 증가까지 핵심 지표를 정리했습니다."
 pubDate: "2026-02-09"
-category: "Buying/Selling"
+category: "Market"
 tags: ["Buying/Selling", "Market", "Newcomer"]
 draft: false
 originalUrl: "https://donghotheagent.com/waterloo-region-real-estate-market-january-2026/"

@@ -2,7 +2,7 @@
 title: "🏡 캐나다 부동산 매매 시 알아두어야 할 최신 절차 및 법적 사항 (2025년 기준)"
 description: "캐나다에서 주택을 사고파는 과정은 법적으로 보호되는 계약 절차를 거치며, 각 주(Province)마다 세부 규정이 조금씩 다릅니다.온타리오주의 경우, 다음과 같은 절차로 진행됩니다:"
 pubDate: "2025-10-15"
-category: "Buying/Selling"
+category: "Buy & Sell"
 tags: ["Buying/Selling"]
 draft: false
 originalUrl: "https://donghotheagent.com/%ec%ba%90%eb%82%98%eb%8b%a4-%eb%b6%80%eb%8f%99%ec%82%b0-%eb%a7%a4%eb%a7%a4-%ec%a0%88%ec%b0%a8-2025/"

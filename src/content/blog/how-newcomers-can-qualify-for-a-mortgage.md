@@ -2,7 +2,7 @@
 title: "How Newcomers Can Qualify for a Mortgage: 캐나다 신규 이민자 모기지 자격 가이드"
 description: "캐나다 신규 이민자, 영주권자, 워크퍼밋 소지자가 모기지 승인을 준비할 때 확인해야 할 체류 신분, 다운페이먼트, 신용, 소득, 부채비율, 서류를 2026년 9월 기준으로 정리했습니다."
 pubDate: "2026-09-03"
-category: "Mortgage"
+category: "New to Ontario"
 tags:
   - newcomer mortgage
   - 캐나다 모기지

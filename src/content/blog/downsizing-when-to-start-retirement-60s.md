@@ -2,7 +2,7 @@
 title: "다운사이징, 언제 시작해야 할까? 60대 은퇴 전 반드시 점검해야 할 기준들"
 description: "집이 커서 부담되기 시작했다면 다운사이징을 고민할 시점입니다. 60대 은퇴 전 최적 시기, 신호, 준비 단계까지 한인 가정을 위한 현실 가이드."
 pubDate: "2026-02-03"
-category: "Investment"
+category: "Invest"
 tags: ["Buying/Selling", "Newcomer", "Investment"]
 draft: false
 originalUrl: "https://donghotheagent.com/downsizing-when-to-start-retirement-60s/"

@@ -2,7 +2,7 @@
 title: "Buyer Representation Agreement Explained: 온타리오 매수인 중개계약, 서명 전 꼭 확인할 5가지"
 description: "온타리오 Buyer Representation Agreement(BRA)의 뜻과 계약 기간, 서비스, 보수, 해지 조건, 복수대리까지 서명 전 확인할 핵심을 한국어로 정리했습니다."
 pubDate: "2026-09-08"
-category: "Buying/Selling"
+category: "Buy & Sell"
 tags: ["Buying/Selling", "Ontario Real Estate", "Home Buying", "Buyer Representation Agreement"]
 draft: false
 featuredImage: "/uploads/2025/10/real-estate-contract-signing.png"

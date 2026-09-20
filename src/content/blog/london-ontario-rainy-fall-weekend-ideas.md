@@ -3,7 +3,7 @@ title: "비 오는 날 런던, 온타리오에서 가볼 만한 실내 장소 5�
 description: "비 오는 날 런던, 온타리오에서 가볼 만한 실내 장소 5곳을 소개합니다. 전시·시장·도서관·가족 체험을 동행과 예산에 맞게 고를 수 있습니다."
 pubDate: 2026-09-11
 updatedDate: 2026-09-11
-category: "Newcomer"
+category: "Living in Ontario"
 tags: ["런던 온타리오", "런던 온타리오 비 오는 날", "런던 온타리오 실내 데이트", "London Ontario rainy day activities", "가을 주말", "런던 온타리오 가족 나들이"]
 featuredImage: "/uploads/2026/09/london-ontario-rainy-fall-weekend-hero.png"
 imageAlt: "빗방울 맺힌 창가의 따뜻한 음료와 열린 책, 창밖의 가을 풍경"

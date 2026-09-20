@@ -3,7 +3,7 @@ title: "서브렛 뜻과 Assignment 차이: 온타리오 렌트 2026 완벽 가�
 description: "서브렛·서블렛(Sublet, Sublease)의 뜻과 Assignment 차이를 온타리오 렌트 기준으로 설명합니다. 집주인 동의, 책임, 기간, 체크리스트까지 한 번에 확인하세요."
 pubDate: "2026-07-15"
 updatedDate: "2026-07-30"
-category: "Rental Guide"
+category: "Rent"
 tags:
   - 서브렛
   - 서블렛

@@ -2,7 +2,7 @@
 title: "2025년, 부동산 뉴스보다 더 중요했던 것들 | 토론토 부동산 심리 분석"
 description: "2025 Toronto Residential Neighborhood"
 pubDate: "2025-12-28"
-category: "Buying/Selling"
+category: "Buy & Sell"
 tags: ["Buying/Selling", "Market", "Newcomer", "Investment"]
 draft: false
 originalUrl: "https://donghotheagent.com/2025-toronto-real-estate-psychology/"

@@ -2,7 +2,7 @@
 title: "캐나다 온타리오에서 처음 집을 살 때 꼭 알아야 할 용어 10가지 | 초보자 필수 부동산 용어 완벽 정리"
 description: "캐나다 온타리오에서 첫 집을 구매하려면 낯선 영어 용어들이 쏟아집니다. Offer, Closing, Land Transfer Tax, Mortgage Insurance 같은 단어들이 이해되지 않으면 계약 과정에서 혼란을 겪기 쉽죠. 이 글에서는 온타리오 주에서 집을 처음 사는 사람이"
 pubDate: "2025-10-27"
-category: "Buying/Selling"
+category: "Buy & Sell"
 tags: ["Buying/Selling"]
 draft: false
 originalUrl: "https://donghotheagent.com/ontario-first-home-buying-terms/"

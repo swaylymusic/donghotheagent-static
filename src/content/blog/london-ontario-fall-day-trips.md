@@ -2,7 +2,7 @@
 title: "런던, 온타리오와 근교에서 가을을 만나는 네 가지 방법"
 description: "팬쇼 보호구역, 웨스트민스터 폰즈, 세인트토머스, 포트스탠리까지. 런던 근교에서 가볍게 즐기기 좋은 가을 산책 명소를 소개합니다."
 pubDate: 2026-09-09
-category: "Uncategorized"
+category: "Living in Ontario"
 tags: ["런던 온타리오", "가을 나들이", "포트스탠리", "세인트토머스", "온타리오 여행"]
 featuredImage: "https://commons.wikimedia.org/wiki/Special:FilePath/Westminster%20Ponds%2C%20London%2C%20Canada%20%28Unsplash%29.jpg?width=1600"
 imageAlt: "온타리오 런던 웨스트민스터 폰즈의 풍경"

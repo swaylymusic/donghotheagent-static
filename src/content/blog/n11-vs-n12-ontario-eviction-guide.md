@@ -2,7 +2,7 @@
 title: "N11 vs N12 — 온타리오 세입자를 위한 퇴거 통지 차이와 대응 가이드 (2025 최신판)"
 description: "온타리오에서 세입자가 가장 혼란스러워하는 통지 두 가지가 바로 N11(합의 퇴거)와 N12(집주인 실거주 목적 퇴거)입니다. 두 통지는 이름은 비슷하지만, 세입자가 받는 영향과 권리는 완전히 다릅니다."
 pubDate: "2025-11-18"
-category: "Rental Guide"
+category: "Rent"
 tags: ["Rental Guide"]
 draft: false
 originalUrl: "https://donghotheagent.com/n11-vs-n12-ontario-eviction-guide/"

@@ -2,7 +2,7 @@
 title: "2025년 11월 토론토 부동산 시장 동향 (TRREB Market Watch)"
 description: "토론토 부동산 협회(TRREB)가 발표한 2025년 11월 시장 보고서에 따르면, 거래량과 신규 리스팅, 평균 가격 모두 전년 대비 하락한 모습을 보였습니다. 경제 불확실성과 높은 금리가 시장 전반에 영향을 미친 것으로 분석됩니다."
 pubDate: "2025-12-12"
-category: "Buying/Selling"
+category: "Market"
 tags: ["Buying/Selling", "Market"]
 draft: false
 originalUrl: "https://donghotheagent.com/gta-real-estate-market-nov-2025/"

@@ -2,7 +2,7 @@
 title: "🇨🇦 캐나다 신규이민자·유학생·단기 방문자를 위한 쇼핑 필수앱 & 할인카드 총정리 (2025 최신)"
 description: "캐나다에 처음 도착하면 가장 먼저 체감하는 것이 바로 ‘생활비 부담’입니다.식료품·의류·생필품 가격이 한국보다 높은 만큼, 할인 앱과 포인트 카드 활용 여부가 지출을 크게 좌우합니다."
 pubDate: "2025-11-23"
-category: "Newcomer"
+category: "New to Ontario"
 tags: ["Newcomer"]
 draft: false
 originalUrl: "https://donghotheagent.com/canada-shopping-apps-guide/"

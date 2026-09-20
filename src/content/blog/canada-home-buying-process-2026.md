@@ -2,7 +2,7 @@
 title: "캐나다 집 구매 절차 완벽 정리: 오퍼부터 클로징까지 (2026 Updated)"
 description: "캐나다와 온타리오에서 집을 처음 구매할 때 필요한 예산 설정, 모기지 사전승인, 리얼터 상담, 오퍼, 인스펙션, 변호사와 클로징 절차를 2026년 기준으로 정리했습니다."
 pubDate: "2026-07-18"
-category: "Buying/Selling"
+category: "Buy & Sell"
 tags:
   - 캐나다 집 구매
   - 캐나다 부동산
