@@ -2,7 +2,7 @@
 title: "Bill 60 분석: 임대인·세입자가 반드시 알아야 할 변화"
 description: "온타리오 주정부는 주거 공급 확대와 임대 시장 효율화를 목표로 Bill 60(2025)을 통과시켰습니다. 그러나 이 법안은 실제로 임차인의 보호 장치를 약화시키고, 임대인의 절차적 권한을 강화하는 방향으로 평가되며 다양한 전문가·단체·언론에서 서로 다른 시각을 제시하고 있습니다."
 pubDate: "2025-11-26"
-category: "Market"
+category: "Rent"
 tags: ["Market", "Rental Guide"]
 draft: false
 originalUrl: "https://donghotheagent.com/ontario-bill-60-rental-law-analysis/"
