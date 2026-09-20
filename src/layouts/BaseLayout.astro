@@ -140,17 +140,7 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
           <a class:list={[{ active: isActive("/about/") }]} href="/about/">About</a>
           <a class:list={[{ active: isActive("/category/buying-selling/") }]} href="/category/buying-selling/">Buy</a>
           <a class:list={[{ active: isActive("/home-value/") }]} href="/home-value/">Sell</a>
-          <div class:list={["nav-dropdown", { active: isActive("/services/") }]}>
-            <button class="nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="services-menu">
-              Services <span aria-hidden="true">▾</span>
-            </button>
-            <div class="nav-dropdown-menu" id="services-menu">
-              <a href="/services/#buyer-representation">Buyer Representation</a>
-              <a href="/services/#seller-representation">Seller Representation</a>
-              <a href="/services/#rental-support">Rental Support</a>
-              <a href="/services/#investment-guidance">Investment Guidance</a>
-            </div>
-          </div>
+          <a class:list={[{ active: isActive("/services/") }]} href="/services/">Services</a>
           <div class:list={["nav-dropdown", { active: isActive("/blog/") || isActive("/category/") }]}>
             <button class="nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="insights-menu">
               Insights <span aria-hidden="true">▾</span>
