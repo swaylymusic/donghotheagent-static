@@ -20,7 +20,10 @@ const formatDate = (date) => date.toLocaleDateString("en-CA", {
     <h1>Buy with a Clear Plan</h1>
     <p class="lead">Whether this is your first home, your next move, or a new start in Canada, we turn the buying process into practical next steps. From financing and neighbourhood choices to offers and closing, each decision stays connected to your timeline and priorities.</p>
     <p class="lead ko">첫 주택 구매, 이사, 신규 이민 후 정착까지 - 예산과 지역, 오퍼와 클로징 과정을 이해하기 쉽게 함께 정리합니다. 현재 상황과 일정에 맞춰 무엇부터 결정할지 분명하게 안내합니다.</p>
-    <a class="button primary" href="/contact/">구매 상담 신청하기</a>
+    <div class="hero-actions journey-hero-actions">
+      <a class="button primary" href="/contact/?source=buy_consultation">무료 구매 상담 신청하기</a>
+      <a class="button secondary" href="tel:14166258241">Call · 전화 416-625-8241</a>
+    </div>
   </section>
 
   <section class="conversion-panel" aria-label="How Dongho helps home buyers">
@@ -30,7 +33,7 @@ const formatDate = (date) => date.toLocaleDateString("en-CA", {
       <p>We begin with your timeline, budget, financing and preferred areas. From there, you get a clear search strategy, current market context and support through offer, conditions and closing.</p>
     </div>
     <div class="conversion-actions">
-      <a class="button primary" href="/contact/">무료 상담 신청하기</a>
+      <a class="button primary" href="/contact/?source=buy_consultation">무료 구매 상담 신청하기</a>
       <span>한국어 · English 상담 가능</span>
     </div>
   </section>
@@ -83,7 +86,7 @@ const formatDate = (date) => date.toLocaleDateString("en-CA", {
       <p class="page-kicker">Next Step</p>
       <h2>Not sure where to begin?</h2>
       <p>Tell us your timing, budget and priorities. We will help you identify the most useful next step.</p>
-      <a class="button primary" href="/contact/">상담 문의하기</a>
+      <a class="button primary" href="/contact/?source=buy_consultation">구매 상담 시작하기</a>
     </div>
   </section>
 </BaseLayout>
