@@ -138,32 +138,12 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
         </button>
         <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
           <a class:list={[{ active: isActive("/about/") }]} href="/about/">About</a>
-          <a class:list={[{ active: isActive("/category/buying-selling/") }]} href="/category/buying-selling/">Buy</a>
+          <a class:list={[{ active: isActive("/buy/") }]} href="/buy/">Buy</a>
           <a class:list={[{ active: isActive("/home-value/") }]} href="/home-value/">Sell</a>
-          <a class:list={[{ active: isActive("/services/") }]} href="/services/">Services</a>
-          <div class:list={["nav-dropdown", { active: isActive("/blog/") || isActive("/category/") }]}>
-            <button class="nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="insights-menu">
-              Insights <span aria-hidden="true">▾</span>
-            </button>
-            <div class="nav-dropdown-menu" id="insights-menu">
-              <a href="/category/market/">Market Updates</a>
-              <a href="/category/buying-selling/">Buying &amp; Selling Guides</a>
-              <a href="/category/newcomer/">Newcomer Guides</a>
-              <a href="/category/rental-guide/">Rental Guides</a>
-              <a href="/category/investment/">Investment Insights</a>
-            </div>
-          </div>
-          <div class:list={["nav-dropdown", { active: isActive("/mortgage-calculator/") }]}>
-            <button class="nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="resources-menu">
-              Resources <span aria-hidden="true">▾</span>
-            </button>
-            <div class="nav-dropdown-menu" id="resources-menu">
-              <a href="/mortgage-calculator/">Mortgage Calculator</a>
-              <a href="/category/buying-selling/">Buyer Resources</a>
-              <a href="/home-value/">Seller Resources</a>
-              <a href="/updates/">Email Updates</a>
-            </div>
-          </div>
+          <a class:list={[{ active: isActive("/rent/") }]} href="/rent/">Rent</a>
+          <a class:list={[{ active: isActive("/invest/") }]} href="/invest/">Invest</a>
+          <a class:list={[{ active: isActive("/blog/") || isActive("/category/") }]} href="/blog/">Guides</a>
+          <a class:list={[{ active: isActive("/tools/") || isActive("/mortgage-calculator/") || isActive("/updates/") }]} href="/tools/">Tools</a>
           <a class:list={[{ active: isActive("/contact/") }]} href="/contact/">Contact</a>
         </nav>
         <a class="nav-cta" href="/contact/">상담 신청</a>

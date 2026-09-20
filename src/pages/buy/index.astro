@@ -1,0 +1,89 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const guides = (await getCollection("blog"))
+  .filter((post) => !post.data.draft && post.data.category === "Buying/Selling")
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 4);
+
+const formatDate = (date) => date.toLocaleDateString("en-CA", {
+  timeZone: "UTC", month: "long", day: "numeric", year: "numeric"
+});
+---
+<BaseLayout
+  title="Buy a Home in Ontario | Dongho Lee Real Estate"
+  description="Clear, practical guidance for buying a home in Ontario - from planning and mortgage preparation to offers and closing."
+>
+  <section class="services-hero">
+    <p class="page-kicker">Buy a Home</p>
+    <h1>Buy with a Clear Plan</h1>
+    <p class="lead">Whether this is your first home, your next move, or a new start in Canada, we turn the buying process into practical next steps.</p>
+    <p class="lead ko">첫 주택 구매, 이사, 신규 이민 후 정착까지 - 예산과 지역, 오퍼와 클로징 과정을 이해하기 쉽게 함께 정리합니다.</p>
+    <a class="button primary" href="/contact/">구매 상담 신청하기</a>
+  </section>
+
+  <section class="conversion-panel" aria-label="How Dongho helps home buyers">
+    <div class="conversion-copy">
+      <p class="page-kicker">Start Here</p>
+      <h2>Buying a home is more than finding a listing.</h2>
+      <p>We begin with your timeline, budget, financing and preferred areas. From there, you get a clear search strategy, current market context and support through offer, conditions and closing.</p>
+    </div>
+    <div class="conversion-actions">
+      <a class="button primary" href="/contact/">무료 상담 신청하기</a>
+      <span>한국어 · English 상담 가능</span>
+    </div>
+  </section>
+
+  <section class="services-grid" aria-label="Home buying support">
+    <article class="service-card">
+      <div class="service-icon">01</div>
+      <h2>Plan <span>구매 준비</span></h2>
+      <h3>Budget, financing and priorities</h3>
+      <p>예산, 모기지 준비, 원하는 지역과 생활 조건을 함께 정리합니다.</p>
+    </article>
+    <article class="service-card">
+      <div class="service-icon">02</div>
+      <h2>Search <span>매물 탐색</span></h2>
+      <h3>A focused home search</h3>
+      <p>지역·학군·시세를 바탕으로 실제 선택 가능한 매물을 비교합니다.</p>
+    </article>
+    <article class="service-card">
+      <div class="service-icon">03</div>
+      <h2>Offer <span>오퍼 전략</span></h2>
+      <h3>Confident decisions and negotiation</h3>
+      <p>비교 매물과 조건을 검토해 무리 없는 오퍼와 협상 전략을 세웁니다.</p>
+    </article>
+    <article class="service-card">
+      <div class="service-icon">04</div>
+      <h2>Close <span>클로징</span></h2>
+      <h3>Support through possession</h3>
+      <p>인스펙션, 변호사, 최종 확인과 입주까지 필요한 다음 단계를 안내합니다.</p>
+    </article>
+  </section>
+
+  <section class="featured-guides" aria-label="Home buying guides">
+    <div class="home-section-heading">
+      <div><p class="page-kicker">Related Guides</p><h2>Helpful Before You Buy</h2></div>
+      <a class="text-link" href="/category/buying-selling/">모든 구매 가이드 보기</a>
+    </div>
+    <div class="home-posts">
+      {guides.map((post) => (
+        <article class="post-card">
+          <p class="post-date">{formatDate(post.data.pubDate)}</p>
+          <h2><a href={`/${post.slug}/`}>{post.data.title}</a></h2>
+          <p>{post.data.description}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="services-cta">
+    <div>
+      <p class="page-kicker">Next Step</p>
+      <h2>Not sure where to begin?</h2>
+      <p>Tell us your timing, budget and priorities. We will help you identify the most useful next step.</p>
+      <a class="button primary" href="/contact/">상담 문의하기</a>
+    </div>
+  </section>
+</BaseLayout>
