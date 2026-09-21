@@ -87,6 +87,12 @@ const articleStructuredData = {
       <p class="blog-description">{post.data.description}</p>
     </header>
 
+    {post.data.featuredImage && (
+      <figure class="blog-featured-image">
+        <img src={post.data.featuredImage} alt={post.data.imageAlt ?? ""} loading="eager" decoding="async" />
+      </figure>
+    )}
+
     <div class="blog-content">
       <Content />
     </div>

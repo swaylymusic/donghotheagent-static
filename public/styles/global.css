@@ -349,6 +349,8 @@ main{min-height:60vh;}
 .blog-article-header h1{font-family:Georgia,"Times New Roman",serif;font-size:44px;line-height:1.14;color:var(--navy);margin:0 0 14px;word-break:keep-all;overflow-wrap:anywhere;}
 .article-updated{display:inline-flex;align-items:center;border:1px solid var(--border);border-radius:999px;background:#f8fbfd;padding:7px 12px;color:var(--navy);font-size:12px;font-weight:800;margin:0 0 16px;}
 .blog-description{max-width:760px;margin:0 auto;font-size:16px;line-height:1.75;color:#17283a;}
+.blog-featured-image{margin:0 0 34px;overflow:hidden;border:1px solid var(--border);border-radius:10px;box-shadow:0 12px 26px rgba(15,23,42,.05);}
+.blog-featured-image img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;}
 .blog-content{border-top:1px solid var(--border);padding-top:34px;}
 .blog-content h1,.blog-content h2,.blog-content h3{font-family:Georgia,"Times New Roman",serif;color:var(--navy);line-height:1.18;}
 .blog-content h2{font-size:30px;margin:38px 0 14px;}
