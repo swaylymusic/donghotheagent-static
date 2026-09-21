@@ -451,6 +451,12 @@ main{min-height:60vh;}
 .updates-trust h2{margin:0 0 20px;color:var(--navy);font-family:Georgia,"Times New Roman",serif;font-size:32px;}
 
 @media (max-width: 1050px){
+  .header-inner{gap:18px;padding-left:16px;padding-right:16px;}
+  .nav{gap:13px;}
+  .nav a{font-size:13px;}
+  .nav-cta{padding:0 16px;font-size:13px;}
+  .footer-inner{padding-left:38px;padding-right:38px;gap:26px;}
+  .footer-link-groups a{line-height:1.45;}
   .updates-hero{grid-template-columns:1fr;gap:38px;padding-top:52px;}
   .updates-copy{max-width:760px;}
   .subscribe-form{width:100%;max-width:680px;}
