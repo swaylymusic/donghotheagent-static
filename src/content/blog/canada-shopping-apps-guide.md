@@ -133,7 +133,7 @@ featuredImage: "/uploads/2025/11/A_flat-style_digital_illustration_infographic_f
 <hr />
 <h3>About the Author – Dongho Lee</h3>
 
-<p>이동호(Dongho Lee)는 <strong>HomeLife Frontier Realty Inc.</strong>에서 활동 중인 <strong>온타리오 부동산 중개인(Realtor®)</strong>으로, GTA 및 Southwestern Ontario 지역(런던·코모카·브랜트퍼드 등)을 중심으로 12년간 다양한 구매·판매·투자·임대 프로젝트를 진행해왔습니다.</p>
+<p>이동호(Dongho Lee)는 <strong>HomeLife Frontier Realty Inc., Brokerage</strong> 소속 <strong>온타리오 Broker, REALTOR®</strong>로서 GTA와 Southwestern Ontario 지역의 구매·판매·투자·임대 관련 상담을 돕고 있습니다.</p>
 
 <p>신규이민자·유학생·첫 주택 구매자를 위한 <strong>정착 정보와 부동산 교육 콘텐츠</strong>를 꾸준히 제공하며, “작은 거래란 없습니다. 모든 거래가 중요합니다”라는 철학을 바탕으로 한 분 한 분의 인생 계획에 맞춘 <strong>정확하고 정직한 리얼터 서비스</strong>를 제공하고 있습니다.</p>
 
