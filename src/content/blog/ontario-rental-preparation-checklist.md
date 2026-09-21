@@ -15,14 +15,16 @@ draft: false
 
 ## 먼저 확인할 한 페이지 체크리스트
 
-- [ ] 월 rent뿐 아니라 utilities, parking, tenant insurance, 인터넷, 이사비를 포함한 월 예산을 적었다.
-- [ ] 첫 달과 입주 전 필요한 자금을 별도로 계산했다.
-- [ ] 최근 pay stub 또는 소득을 설명할 자료를 준비했다.
-- [ ] credit check가 필요할 경우를 대비해 내 credit report를 먼저 확인했다.
-- [ ] 이전 landlord 또는 personal/professional reference에게 연락 가능 여부를 물었다.
-- [ ] 신분 확인 자료는 필요 범위에서만 준비했고, SIN은 일반 서류 묶음에 넣지 않았다.
-- [ ] unit마다 요청 항목과 제출 날짜를 기록했다.
-- [ ] lease를 받으면 rent, 포함 항목, term, 입주일, parking을 다시 확인할 계획을 세웠다.
+<ul class="article-checklist">
+  <li><strong>월 예산</strong><span>rent뿐 아니라 utilities, parking, tenant insurance, 인터넷, 이사비를 포함해 적었습니다.</span></li>
+  <li><strong>입주 초기 비용</strong><span>첫 달과 입주 전 필요한 자금을 별도로 계산했습니다.</span></li>
+  <li><strong>소득 자료</strong><span>최근 pay stub 또는 소득을 설명할 자료를 준비했습니다.</span></li>
+  <li><strong>신용 확인</strong><span>credit check에 대비해 내 credit report를 먼저 확인했습니다.</span></li>
+  <li><strong>추천인</strong><span>이전 landlord 또는 personal/professional reference에게 연락 가능 여부를 물었습니다.</span></li>
+  <li><strong>개인정보</strong><span>신분 확인 자료는 필요 범위에서만 준비했고, SIN은 일반 서류 묶음에 넣지 않았습니다.</span></li>
+  <li><strong>신청 기록</strong><span>unit마다 요청 항목과 제출 날짜를 기록했습니다.</span></li>
+  <li><strong>Lease 확인</strong><span>rent, 포함 항목, term, 입주일, parking을 다시 확인할 계획을 세웠습니다.</span></li>
+</ul>
 
 ## 1. 예산은 advertised rent보다 넓게 잡으세요
 
