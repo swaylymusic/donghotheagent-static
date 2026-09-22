@@ -22,7 +22,7 @@ Tribunals Ontario에 따르면, **9월 21일 이후 제공되는 N4 (rent non-pa
 
 Tenanted property를 매매하는 경우에는 이 변경만으로 vacant possession이 보장되지 않습니다. lease, 실제 입주 계획, 통지 시점, compensation 및 closing 조건을 계약 전에 함께 검토하세요. 기초 용어와 절차는 [N11과 N12 비교 가이드](/n11-vs-n12-ontario-eviction-guide/) 및 [Ontario 임대차 법 변경 가이드](/ontario-bill-60-rental-law-analysis/)에서 확인할 수 있습니다.
 
-## 2. 반복적인 임대료 지연: 새 기준은 예시이지 자동 결론이 아닙니다
+## 2. 반복적인 임대료 지연
 
 Ontario Regulation 241/26은 RTA s.58의 persistent late payment와 관련해, **6개월 안에 최소 3회, 각 회차에서 due date 후 7일 이내에도 rent가 지급되지 않은 경우**를 포함하는 기준으로 정했습니다. 단, landlord가 그 기간에 받은 rent payment를 arrears 등 다른 채무에 충당했기 때문에 발생한 경우는 제외됩니다.
 
