@@ -6,8 +6,14 @@ category: "Invest"
 tags: ["Ontario real estate investment", "investment property", "rental property", "cash flow", "real estate checklist"]
 draft: false
 originalUrl: "https://donghotheagent.com/investment-property-pre-start-checklist-ontario/"
+featuredImage: "/uploads/2026/09/investment-property-start-checklist-ontario.png"
 imageAlt: "투자 부동산 계획표와 예산을 검토하는 모습"
 ---
+
+<figure>
+  <img src="/uploads/2026/09/investment-property-start-checklist-ontario.png" alt="투자 부동산 계획표와 예산을 검토하는 모습" />
+  <figcaption>투자용 부동산은 매물보다 먼저 목표, 자금, 보유 기간과 리스크를 함께 점검하는 것이 중요합니다.</figcaption>
+</figure>
 
 첫 투자 부동산을 알아볼 때 가장 먼저 보이는 것은 매물 가격과 예상 월세입니다. 하지만 실제 결정은 그보다 앞에서 시작됩니다. **왜 사는지, 얼마를 안전하게 투입할 수 있는지, 얼마나 오래 보유할지, 예상과 다른 상황을 어떻게 버틸지**를 정해 두어야 매물 비교도 흔들리지 않습니다.
 
