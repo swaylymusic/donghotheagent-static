@@ -5,6 +5,8 @@ pubDate: 2026-09-21
 updatedDate: 2026-09-21
 category: "Market"
 tags: ["Ontario real estate", "Ontario rental rules", "GTA market", "London Ontario real estate", "RTA", "RECO"]
+featuredImage: "/uploads/2026/09/ontario-real-estate-weekly-brief-september-21-2026-hero.png"
+imageAlt: "Toronto skyline and Ontario homes in early autumn, representing the September 2026 Ontario real estate weekly brief"
 draft: false
 ---
 
