@@ -1,12 +1,12 @@
 ---
 title: "런던 온타리오 동네 선택 가이드: 생활권 5곳을 비교하는 방법"
-description: "런던 온타리오로 이주하거나 집을 구할 때 다섯 생활권을 비교하는 방법을 정리합니다. 공식 동네 지도, 버스, 캠퍼스와 주소별 확인사항을 살펴보세요."
+description: "런던 온타리오로 이주하거나 집을 구할 때 동네 이름 지도와 생활권 5곳을 살펴보고, 버스·캠퍼스·주소별 확인사항을 비교해 보세요."
 pubDate: 2026-09-22
 updatedDate: 2026-09-23
 category: "Living in Ontario"
 tags: ["London Ontario", "London Ontario neighbourhoods", "London Ontario housing", "Newcomer", "Living in Ontario"]
-featuredImage: "/uploads/2026/09/london-ontario-neighbourhoods-guide.png"
-imageAlt: "초가을의 캐나다 중소도시 주거 거리와 버스 정류장을 표현한 대표 이미지"
+featuredImage: "/uploads/2026/09/london-ontario-neighbourhood-map.png"
+imageAlt: "런던 온타리오 주요 동네 이름과 참고용 보라색 구역선을 표시한 지도"
 draft: false
 ---
 
@@ -20,11 +20,7 @@ draft: false
 
 따라서 아래 구역은 편의를 위한 비교 틀입니다. 공식 경계나 학교 배정 구역, 주택 가치 순위로 이해하면 안 됩니다. 시의 [Neighbourhood Profiles](https://london.ca/living-london/community-services/neighbourhood-profiles)에서 2021 Census 기반 지역 정보를 보고, 개별 주소·시설은 [City Map](https://maps.london.ca/WebDocuments/MapGallery/MapGallery/Index)에서 따로 확인하세요.
 
-동네 이름이 아직 낯설다면 아래 지도를 참고해 주요 이름부터 익혀 보세요. 보라색 선과 구역 표시는 이해를 돕기 위한 참고용이며, 시의 공식 neighbourhood·planning 경계, 학교 배정 구역 또는 주택 가격 순위를 나타내지 않습니다.
-
-![런던 온타리오의 주요 동네 이름을 익히기 위한 참고 지도](/uploads/2026/09/london-ontario-neighbourhood-map.png)
-
-*지도는 동네 명칭을 익히기 위한 참고 자료입니다. 특정 주소의 공식 경계·학교 배정·시설 정보는 위의 City of London 자료에서 확인하세요.*
+위 지도는 런던의 주요 동네 이름을 익히기 위한 참고 자료입니다. 보라색 선과 구역 표시는 시의 공식 neighbourhood·planning 경계, 학교 배정 구역 또는 주택 가격 순위가 아닙니다. 특정 주소의 공식 경계·학교 배정·시설 정보는 위의 City of London 자료에서 확인하세요.
 
 ## 런던의 다섯 생활권을 비교하는 출발점
 
