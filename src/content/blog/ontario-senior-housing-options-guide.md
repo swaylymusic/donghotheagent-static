@@ -7,6 +7,7 @@ tags: ["Newcomer", "Buying/Selling", "Investment"]
 draft: false
 originalUrl: "https://donghotheagent.com/ontario-senior-housing-options-guide/"
 featuredImage: "/uploads/2026/02/ontario-senior-housing-options-hero.jpg"
+imageAlt: "콘도, 타운하우스, 작은 단독주택 등 시니어 주거 옵션을 비교하는 이미지"
 ---
 <article>
 
@@ -16,14 +17,6 @@ featuredImage: "/uploads/2026/02/ontario-senior-housing-options-hero.jpg"
       다운사이징을 결심한 뒤 가장 많이 받는 질문입니다.
 </p>
   </header>
-
-  
-  <figure>
-<img decoding="async" src="/uploads/2026/02/ontario-senior-housing-options-hero.jpg"
-         alt="콘도, 타운하우스, 작은 단독주택 등 시니어 주거 옵션을 비교하는 이미지"
-         loading="lazy" />
-<figcaption>정답은 하나가 아닙니다. “나에게 맞는 선택”이 핵심입니다.</figcaption>
-  </figure>
 
   <hr/>
 
