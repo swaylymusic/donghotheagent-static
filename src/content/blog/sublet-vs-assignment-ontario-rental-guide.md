@@ -8,8 +8,6 @@ draft: true
 originalUrl: "https://donghotheagent.com/sublet-vs-assignment-ontario-rental-guide/"
 featuredImage: "/uploads/2025/11/Main_Sublet.png"
 ---
-<figure><img fetchpriority="high" decoding="async" width="1024" height="1024" src="/uploads/2025/11/Main_Sublet.png" alt=""   /></figure>
-
 <h2>🔥 Sublet(서브렛) &amp; Assignment(양도) — 온타리오 세입자 완벽 가이드</h2>
 
 <p>온타리오에서 세입자가 집을 장기간 비우거나 갑작스럽게 이사를 해야 할 때 선택할 수 있는 방법은 두 가지입니다. 바로 <strong>Sublet(서브렛)</strong>과 <strong>Assignment(양도)</strong>입니다.</p>

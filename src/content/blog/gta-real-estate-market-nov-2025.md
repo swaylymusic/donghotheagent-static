@@ -24,8 +24,6 @@ featuredImage: "/uploads/2025/12/IMAGE_TRREB_PAGE1_OVERVIEW-1.jpg"
 
 <h2>📉 11월 GTA 부동산 시장 주요 요약</h2>
 
-<figure><img fetchpriority="high" decoding="async" width="1536" height="1024" src="/uploads/2025/12/IMAGE_TRREB_PAGE1_OVERVIEW-1.jpg" alt=""   /><figcaption>TRREB 11월 Market Watch 주요 지표</figcaption></figure>
-
 <ul>
 <li><strong>총 거래량:</strong> 5,010건 (전년 대비 -15.8%)</li>
 

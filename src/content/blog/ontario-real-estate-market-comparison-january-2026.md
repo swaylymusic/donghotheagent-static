@@ -31,18 +31,6 @@ featuredImage: "/uploads/2026/02/ontario-gta-real-estate-infographic-jan-2026.jp
   <section>
 <h2>1. 광역 토론토(GTA) 부동산 시장 요약 (2026년 1월)</h2>
 
-<figure>
-<img decoding="async"
-        src="/uploads/2026/02/ontario-gta-real-estate-infographic-jan-2026.jpg"
-        alt="2026년 1월 광역 토론토 GTA 부동산 시장 인포그래픽"
-        loading="lazy"
- />
-<figcaption>
-        광역 토론토(GTA) 시장 요약:
-        거래량·평균 가격·신규 리스팅·주택 유형별 가격
-</figcaption>
-</figure>
-
 <p>
       토론토 시장은 거래량과 가격이 모두 감소했지만,
       지역·주택 유형별 격차가 가장 크게 나타난 시장입니다.

@@ -10,8 +10,6 @@ featuredImage: "/uploads/2025/11/hero.png"
 ---
 <h2>🔥 N11 vs N12 — 온타리오 세입자가 꼭 알아야 할 퇴거 통지의 차이 (2025 최신판)</h2>
 
-<figure><img fetchpriority="high" decoding="async" width="1024" height="1024" src="/uploads/2025/11/hero.png" alt=""   /></figure>
-
 <p>온타리오에서 세입자가 가장 혼란스러워하는 통지 두 가지가 바로 <strong>N11(합의 퇴거)</strong>와 <strong>N12(집주인 실거주 목적 퇴거)</strong>입니다. 두 통지는 이름은 비슷하지만, 세입자가 받는 영향과 권리는 완전히 다릅니다.</p>
 
 <hr/>

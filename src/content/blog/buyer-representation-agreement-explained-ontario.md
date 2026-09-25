@@ -9,8 +9,6 @@ featuredImage: "/uploads/2025/10/real-estate-contract-signing.png"
 imageAlt: "온타리오 주택 구매자가 부동산 중개계약서를 검토하는 모습"
 ---
 
-<figure><img fetchpriority="high" decoding="async" width="1024" height="1024" src="/uploads/2025/10/real-estate-contract-signing.png" alt="온타리오 주택 구매자가 부동산 중개계약서를 검토하는 모습" /></figure>
-
 매수인 중개계약은 단순한 방문 예약 서류가 아닙니다. 어떤 중개 서비스를 받고, 계약이 언제까지 유효하며, 보수와 이해상충 상황을 어떻게 처리할지 정하는 문서입니다. 서명 전 아래 다섯 가지를 확인하면 내 상황에 맞는 선택을 훨씬 차분하게 할 수 있습니다.
 
 ## BRA란 무엇인가요?

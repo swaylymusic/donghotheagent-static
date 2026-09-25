@@ -9,15 +9,6 @@ originalUrl: "https://donghotheagent.com/2025-toronto-real-estate-psychology/"
 featuredImage: "/uploads/2025/12/toronto-real-estate-market-2025-residential-neighborhood.jpg"
 ---
 <article>
-<img
-       
-        src="/uploads/2025/12/toronto-real-estate-market-2025-residential-neighborhood.jpg"
-        alt="2025년 토론토 주택가 전경: 주거 지역을 내려다본 항공 사진"
-        loading="eager"
-        decoding="async"
-    >
-<p>2025 Toronto Residential Neighborhood</p>
-
 <h2>숫자는 말하지 못한 한 해의 진짜 이야기</h2>
 
 <p>금리가 내려갔습니다. TRREB 리포트는 매달 업데이트됐고, 평균 매매가는 등락을 반복했습니다. 하지만 2025년 토론토 부동산 시장을 가장 정확하게 설명하는 단어는 통계가 아니었습니다.</p>

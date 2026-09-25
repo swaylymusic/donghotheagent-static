@@ -28,17 +28,6 @@ imageAlt: "온타리오 아파트에서 서브렛 계약서를 확인하며 열�
 
 > 이 글은 온타리오의 일반적인 주거용 임대차 정보를 설명하기 위한 것이며, 개별 상황에 대한 법률 자문은 아닙니다.
 
-<figure>
-  <img
-    src="/uploads/2026/07/ontario-sublet-guide.webp"
-    alt="온타리오 아파트에서 서브렛 계약서를 확인하며 열쇠를 전달하는 모습"
-    width="1672"
-    height="941"
-    loading="eager"
-    decoding="async"
-  />
-</figure>
-
 ## 목차
 
 - [서브렛, 서블렛, Sublet은 모두 같은 뜻인가요?](#서브렛-서블렛-sublet은-모두-같은-뜻인가요)

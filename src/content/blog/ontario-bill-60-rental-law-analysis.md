@@ -10,8 +10,6 @@ featuredImage: "/uploads/2025/11/bill60_ontario_justice_header.jpg"
 ---
 <h3>— 출처 기반 전문 분석 보고서 (2025년 11월 24일 기준)</h3>
 
-<figure><img fetchpriority="high" decoding="async" width="1024" height="1024" src="/uploads/2025/11/bill60_ontario_justice_header.jpg" alt=""   /></figure>
-
 <p>온타리오 주정부는 주거 공급 확대와 임대 시장 효율화를 목표로 <strong>Bill 60(2025)</strong>을 통과시켰습니다. 그러나 이 법안은 실제로 <strong>임차인의 보호 장치를 약화시키고, 임대인의 절차적 권한을 강화하는 방향</strong>으로 평가되며 다양한 전문가·단체·언론에서 서로 다른 시각을 제시하고 있습니다.</p>
 
 <p>본 글은 아래 출처들에 기반하여 <strong>각 문서에서 제시한 해석을 원문 근거와 함께 요약</strong>하고, 마지막에 <strong>임대 시장 전반에 미칠 영향과 임대인·세입자의 대응 전략</strong>을 종합적으로 분석합니다.</p>

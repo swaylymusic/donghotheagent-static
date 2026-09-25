@@ -10,8 +10,6 @@ featuredImage: "/uploads/2025/10/happy-retired-couple.png"
 ---
 <p><strong>RRSP · RRIF · TFSA 절세와 현금흐름 관리 가이드</strong></p>
 
-<figure><img fetchpriority="high" decoding="async" width="1024" height="1024" src="/uploads/2025/10/happy-retired-couple.png" alt=""   /></figure>
-
 <p>은퇴자금은 모으는 것보다 <strong>운용 방법</strong>이 더 중요합니다. 이 글은 RRSP→RRIF 전환, TFSA 활용, 소득 분리, OAS 환수금 대비 전략을 간단히 정리합니다.</p>
 
 <h2>핵심 요약</h2>

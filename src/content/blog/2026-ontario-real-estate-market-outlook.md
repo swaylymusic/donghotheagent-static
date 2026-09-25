@@ -59,16 +59,6 @@ featuredImage: "/uploads/2026/01/2026-ontario-real-estate-market-forecast-toront
 </section>
 
     
-<figure>
-<img
-        src="/uploads/2026/01/2026-ontario-real-estate-market-forecast-toronto-skyline.jpg"
-        alt="토론토 스카이라인과 2026 온타리오 부동산 시장 전망을 표현한 대표 이미지"
-        loading="lazy"
-        decoding="async"
-      >
-<figcaption>대표 이미지: 2026년 온타리오·GTA 시장은 ‘급반등’보다 ‘완만한 회복’ 가능성이 큽니다.</figcaption>
-</figure>
-
 <section>
 <h2>1) 거래 회복: 펜트업 수요에 의한 점진적 반등</h2>
 <p>

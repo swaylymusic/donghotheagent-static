@@ -56,8 +56,6 @@ featuredImage: "/uploads/2025/09/IMG_1935.png"
 
 <p>더 많은 사진이나 영상 투어, 또는 개인 설명회를 원하시면 언제든지 연락 주세요.<br>리스팅 에이전트: 이동호 Broker<br>회사: HomeLife Frontier Realty Inc., Brokerage<br>전화: 416-625-8241<br>이메일: <a href="/cdn-cgi/l/email-protection">[email&#160;protected]</a></p>
 
-<div><figure><img loading="lazy" decoding="async"   src="/uploads/2025/09/IMG_1935.png" alt="" width="820" height="360" title="IMG_1935" loading="lazy" role="img" /></figure></div>
-
 <p></p>
 
 <p>작은 거래란 없습니다. 모든 거래가 중요합니다.<br>No Deal Is Too Small. Every Deal Matters.</p>

@@ -10,10 +10,6 @@ featuredImage: "/uploads/2026/02/downsizing-hero.jpg"
 ---
 <article>
 
-<img decoding="async" src="/uploads/2026/02/downsizing-hero.jpg"
-alt="은퇴를 앞둔 한인 부부가 다운사이징을 상의하는 모습"
-loading="lazy" />
-
 <p>
 “집이 너무 커졌어요.”<br/>
 “관리하는 게 점점 부담이 되네요.”

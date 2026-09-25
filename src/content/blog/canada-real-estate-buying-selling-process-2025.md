@@ -70,8 +70,6 @@ featuredImage: "/uploads/2025/10/suburban-house.png"
 <p>⚠️ <strong>2025년 업데이트:</strong><br>캐나다 부동산 협회(CREA)는 최근 <strong>&#8220;Multiple Offer Transparency&#8221; 제도</strong>를 시범 도입했습니다.<br>일부 지역에서는 <strong>다른 오퍼의 금액 및 조건 공개</strong>가 가능해져, <strong>공정 거래</strong>가 강화되고 있습니다.</p>
 </blockquote>
 
-<div><figure><img loading="lazy" decoding="async"   src="/uploads/2025/10/suburban-house.png" alt="" width="1024" height="1024" title="suburban house" loading="lazy" role="img" /></figure></div>
-
 <hr/>
 
 <h2>3️⃣ 판매자 관점에서의 단계별 설명</h2>

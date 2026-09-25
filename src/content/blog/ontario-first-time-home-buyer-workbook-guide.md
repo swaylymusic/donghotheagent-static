@@ -9,11 +9,6 @@ imageAlt: "온타리오 첫 집 구매 준비를 위한 워크북, 집 모형, �
 draft: false
 ---
 
-<figure>
-  <img fetchpriority="high" decoding="async" src="/uploads/2026/09/ontario-first-time-home-buyer-workbook-hero.png" alt="온타리오 첫 집 구매 준비를 위한 워크북, 집 모형, 열쇠" />
-  <figcaption>첫 집 구매의 중요한 기준과 질문을 한곳에 정리해 보세요.</figcaption>
-</figure>
-
 온타리오에서 첫 집을 산다는 것은 단순히 마음에 드는 집을 찾는 일보다 훨씬 넓은 준비를 뜻합니다. 예산은 어느 정도가 편안한지, 모기지는 언제 알아봐야 하는지, 어떤 지역이 내 생활에 맞는지, 오퍼를 넣기 전 무엇을 확인해야 하는지까지—결정할 일이 한꺼번에 찾아옵니다.
 
 정보를 많이 읽는 것도 도움이 되지만, 내 상황에 맞는 답을 한곳에 정리해 두면 다음 단계가 훨씬 선명해집니다. 그래서 **Ontario First-Time Home Buyer Workbook**을 만들었습니다. 복잡한 구매 과정을 내 속도에 맞춰 생각하고 기록할 수 있도록 돕는 실전용 워크북입니다.

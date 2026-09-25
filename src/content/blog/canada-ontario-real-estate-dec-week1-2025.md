@@ -14,8 +14,6 @@ featuredImage: "/uploads/2025/03/TM_SouthernOntarioHomes-1-1.jpg"
 
 <h2>1️⃣ 남부 온타리오 주택 착공 급감 — 공급 위축 신호</h2>
 
-<figure><img decoding="async" src="/uploads/2025/03/TM_SouthernOntarioHomes-1-1.jpg" alt="남부 온타리오 지역 주택 공사 현장" /><figcaption>이미지 출처: Construction Canada – <a href="https://www.constructioncanada.net/canada-invests-in-building-more-homes-in-southern-ontario/" target="_blank" rel="noreferrer noopener nofollow">Canada invests in building more homes in southern Ontario</a> (Photo © Jim Parkin / Dreamstime.com)</figcaption></figure>
-
 <p>2025년 들어 <strong>남부 온타리오(Southern Ontario)의 주택 착공이 크게 감소</strong>했다는 분석이 여러 리포트에서 공통적으로 등장하고 있습니다. 사용자가 제공한 기사에 따르면, 2025년 대부분 기간 동안 남부 온타리오의 주택 착공은 이전 4년 평균과 비교해 뚜렷한 감소세를 보이고 있습니다.</p>
 
 <p>건설비 상승, 고금리 환경, 개발 승인 지연 등 복합적인 요인이 <strong>신규 프로젝트의 지연 또는 보류</strong>로 이어지면서, 특히 타운홈 및 콘도 프로젝트에서 착공 둔화가 두드러졌다는 내용입니다. 단기적으로는 거래량 둔화와 프로젝트 연기가 나타나겠지만, <strong>중장기적으로는 공급 부족을 통해 가격이 쉽게 떨어지지 않는 구조</strong>를 만들 수 있습니다.</p>

@@ -44,10 +44,6 @@ imageAlt: "2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가�
       </tbody>
     </table>
     </div>
-    <figure>
-      <img src="/uploads/2026/08/gta-july-2026-yoy-change.png" alt="2026년 7월 GTA 거래량, 신규 매물, 재고, 평균 매매가격의 전년 대비 변화 그래프" loading="lazy" decoding="async" />
-      <figcaption>그래프 1. 거래량은 전년과 비슷했지만 신규 매물과 전체 재고는 두 자릿수 감소했습니다.</figcaption>
-    </figure>
     <p>이번 달의 핵심은 거래량 감소 폭보다 <strong>신규 매물과 전체 재고의 감소 폭이 훨씬 컸다는 점</strong>입니다. 수요가 크게 줄지 않은 상황에서 공급이 빠르게 감소하면, 잘 준비되고 적정 가격에 나온 매물부터 협상력이 달라질 수 있습니다.</p>
   </section>
 

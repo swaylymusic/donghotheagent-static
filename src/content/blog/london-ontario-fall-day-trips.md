@@ -23,8 +23,6 @@ draft: false
 
 ## 2. Westminster Ponds: 도심 가까이에서 만나는 고요
 
-![초록빛 나무와 산책로가 어우러진 웨스트민스터 폰즈](https://commons.wikimedia.org/wiki/Special:FilePath/Westminster%20Ponds%2C%20London%2C%20Canada%20%28Unsplash%29.jpg?width=1600)
-
 바쁜 일상 중에도 잠시 숲으로 들어가고 싶다면 Westminster Ponds가 제격입니다. 런던 남쪽에 자리한 이 자연 지역은 도심과 가깝지만, 몇 걸음만 안으로 들어가면 소음이 한결 멀어진 듯한 느낌을 줍니다. 연못과 습지, 나무가 어우러진 풍경은 화려하다기보다 차분하고 깊습니다.
 
 가을에는 물가의 나무들이 색을 바꾸고 길 위에는 낙엽이 차곡차곡 쌓입니다. 천천히 걷고, 잠깐 멈춰 물 위의 풍경을 바라보고, 새소리에 귀를 기울이는 것만으로도 충분한 산책이 됩니다. City of London 안내에는 여러 진입점이 소개되어 있고, 696 Wellington Road 구간에는 산책로와 보드워크가 있습니다. 출발 전 [공원 안내](https://london.ca/living-london/parks-facilities/parks/parks-london)에서 원하는 접근 지점을 확인해 보세요.

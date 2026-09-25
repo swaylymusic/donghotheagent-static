@@ -50,8 +50,6 @@ draft: false
 
 ### TVDSB 초등학교
 
-![TVDSB 초등학교 전체 학교의 Fraser 2025 순위·점수·소재지와 순위 미확인 항목](/uploads/2026/09/thames-valley-elementary-fraser-2025-v03.png)
-
 <details>
 <summary>전체 학교명·소재지·순위 텍스트 펼치기</summary>
 
