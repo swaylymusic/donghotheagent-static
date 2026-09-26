@@ -9,8 +9,6 @@ featuredImage: "/uploads/2026/09/downsizing-financial-planning-hero.png"
 imageAlt: "온타리오의 한인 시니어 부부가 식탁에서 계산기와 빈 예산표를 보며 다운사이징 비용을 함께 검토하는 모습"
 ---
 <article>
-<figure><img src="/uploads/2026/09/downsizing-financial-planning-hero.png" alt="온타리오의 한인 시니어 부부가 식탁에서 계산기와 빈 예산표를 보며 다운사이징 비용을 함께 검토하는 모습" width="1672" height="944" fetchpriority="high" /><figcaption>다운사이징은 집값 차이와 매달의 주거비를 함께 비교해야 합니다.</figcaption></figure>
-
 <p>집을 팔고 더 작은 집으로 옮기면 얼마가 남을까요? 매도가에서 새 집값을 빼는 것만으로는 실제로 사용할 수 있는 돈을 알기 어렵습니다. 모기지 상환액, 양쪽 거래 비용, 이사와 초기 수리비를 반영하고, 이사 뒤 매달 나갈 돈까지 따로 비교해야 합니다.</p>
 
 <p>이번 글은 앞선 <a href="/downsizing-when-to-start-retirement-60s/">다운사이징을 언제 준비할지</a>와 <a href="/ontario-senior-housing-options-guide/">온타리오 시니어 주거 옵션 비교</a>에 이어, 결정을 재촉하지 않고 숫자를 정리하는 방법을 안내합니다. 아래 금액 예시는 계산 구조를 보여주기 위한 가정이며 실제 견적이나 개인 재정 조언이 아닙니다.</p>
