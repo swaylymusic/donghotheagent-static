@@ -1,5 +1,6 @@
 https://www.donghotheagent.com/* https://donghotheagent.com/:splat 301
 https://donghotheagent-static.pages.dev/* https://donghotheagent.com/:splat 301
+/blog/ /guides/ 301
 /blog/:slug/ /:slug/ 301
 /feed/ /blog/ 301
 /:splat/feed/ /:splat/ 301

@@ -248,7 +248,7 @@ featuredImage: "/uploads/2025/12/toronto-real-estate-market-2025-residential-nei
 <a href="https://donghotheagent.com/contact/">
                 부동산 상담 요청하기
 </a>
-<a href="https://donghotheagent.com/blog/">
+<a href="https://donghotheagent.com/guides/">
                 다른 글 더 읽어보기
 </a>
 </div>

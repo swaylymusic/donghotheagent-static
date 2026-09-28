@@ -5,6 +5,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://donghotheagent.com',
   redirects: {
+    '/blog/': '/guides/',
     '/category/buying-selling/': '/category/buy-sell/',
     '/category/rental-guide/': '/category/rent/',
     '/category/investment/': '/category/invest/',

@@ -212,7 +212,7 @@ featuredImage: "/uploads/2026/02/202601_TRREB.jpg"
 
 <h2>관련 글</h2>
 <ul>
-<li><a href="/blog/">토론토 부동산 인사이트 더 보기</a></li>
+<li><a href="/guides/">토론토 부동산 인사이트 더 보기</a></li>
 <li><a href="/services/">구매/매도/다운사이징 서비스 안내</a></li>
 <li><a href="/contact/">상담 문의</a></li>
 </ul>
