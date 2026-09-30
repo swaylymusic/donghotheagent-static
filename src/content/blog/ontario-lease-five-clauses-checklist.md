@@ -15,10 +15,10 @@ draft: false
 
 | 항목 | 계약서에서 확인할 것 | 서명 전에 물어볼 질문 |
 | --- | --- | --- |
-| 보증금 | §8 Rent deposit, §9 Key deposit의 금액·용도 | 마지막 렌트 기간에 어떻게 적용되나요? |
-| 기간 | §4 입주일, fixed term 시작·종료일 | 기간이 끝난 뒤 계속 거주하면 어떻게 되나요? |
-| 유틸리티 | §6 Heat, hydro, water별 부담자 | 별도 청구라면 계산 방식과 계량 방식은 무엇인가요? |
-| 주차 | §2 공간 수·위치, §5 별도 요금 | 지정 주차 공간과 월 비용이 서면에 있나요? |
+| 보증금 | section 8 Rent deposit, section 9 Key deposit의 금액·용도 | 마지막 렌트 기간에 어떻게 적용되나요? |
+| 기간 | section 4 입주일, fixed term 시작·종료일 | 기간이 끝난 뒤 계속 거주하면 어떻게 되나요? |
+| 유틸리티 | section 6 Heat, hydro, water별 부담자 | 별도 청구라면 계산 방식과 계량 방식은 무엇인가요? |
+| 주차 | section 2 공간 수·위치, section 5 별도 요금 | 지정 주차 공간과 월 비용이 서면에 있나요? |
 | 해지 | 표준 계약서 부록과 LTB 안내의 통지 규칙 | 이사할 때 어떤 LTB 양식을 언제 전달해야 하나요? |
 
 Ontario의 [Standard Lease 안내](https://www.ontario.ca/page/guide-ontarios-standard-lease)에 따르면 대부분의 2018년 4월 30일 이후 신규 주거 임대차에는 표준 계약서가 사용됩니다. 계약서의 추가 조항도 Residential Tenancies Act에 따른 권리를 없앨 수 없습니다. 계약서의 숫자와 말로 들은 조건이 다르면, 서명 전에 수정된 서면을 요청하세요.
