@@ -56,7 +56,7 @@ const articleStructuredData = {
   datePublished: post.data.pubDate.toISOString(),
   dateModified: updatedDate.toISOString(),
   ...(featuredImageUrl ? { image: featuredImageUrl } : {}),
-  inLanguage: ["en-CA", "ko-CA"],
+  inLanguage: post.data.language ?? "ko-CA",
   author: {
     "@id": new URL("/#realestateagent", Astro.site ?? Astro.url).toString(),
   },
@@ -70,6 +70,7 @@ const articleStructuredData = {
   title={`${post.data.title} | Dongho Lee Real Estate`}
   description={post.data.description}
   canonical={canonicalUrl}
+  language={post.data.language ?? "ko-CA"}
   image={post.data.featuredImage}
   structuredData={articleStructuredData}
 >

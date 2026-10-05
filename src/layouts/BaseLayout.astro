@@ -3,10 +3,12 @@ const {
   title = "Dongho Lee Real Estate",
   description = "Toronto real estate blog and services.",
   canonical,
+  language = "ko-CA",
   noindex = false,
   image = "/uploads/2025/01/Dongho-The-realtor-Facebook-Cover.png",
   structuredData = [],
 } = Astro.props;
+const htmlLang = language.startsWith("en") ? "en" : language.startsWith("ko") ? "ko" : language;
 
 const canonicalUrl =
   canonical ??
@@ -67,7 +69,7 @@ const isActive = (href) =>
 const gaMeasurementId = "G-H1TPFXTMXJ";
 ---
 <!doctype html>
-<html lang="ko">
+<html lang={htmlLang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
