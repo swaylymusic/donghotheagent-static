@@ -1,5 +1,5 @@
 ---
-title: "온타리오 신규 이민자 주간 주택 브리프: 렌트부터 할지, 집을 볼지 정하는 법"
+title: "Ontario Real Estate Weekly Brief | 신규 이민자 렌트·주택 구매 준비 — 2026년 10월 5일"
 description: "2026년 10월 5일 온타리오 신규 이민자 주택 브리프. 확인된 London·Western Ontario 시장 흐름, Bank of Canada 일정, 렌트·구매 준비 체크리스트를 정리했습니다."
 pubDate: 2026-10-05
 updatedDate: 2026-10-05
