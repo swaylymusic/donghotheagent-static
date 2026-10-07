@@ -1,7 +1,7 @@
 ---
 title: "온타리오 시니어 다운사이징 집 보기 체크리스트: 면적보다 먼저 볼 7가지"
 description: "다운사이징할 집을 보러 갈 때 출입 동선, 계단, 욕실, 일상 편의시설, 관리 책임과 콘도 서류를 어떻게 확인할지 정리했습니다."
-pubDate: "2026-10-06"
+pubDate: "2026-10-07"
 category: "Living in Ontario"
 language: "ko-CA"
 tags: ["Buying/Selling", "Retirement", "Downsizing"]
@@ -51,4 +51,5 @@ imageAlt: "한인 시니어 부부와 성인 딸이 밝은 콘도 내부를 함�
 
 <p><small>이 글은 일반적인 주택 탐색 정보입니다. 접근성 개조 가능성, 콘도 문서의 법적 의미 및 계약 조건은 해당 전문가와 확인하세요. 공식 자료는 2026년 10월 6일 확인했습니다.</small></p>
 </article>
+
 
