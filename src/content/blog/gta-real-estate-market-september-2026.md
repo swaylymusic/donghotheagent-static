@@ -5,8 +5,8 @@ pubDate: "2026-10-09"
 category: "Market"
 tags: ["Buying/Selling", "Market", "Newcomer"]
 draft: false
-featuredImage: "/uploads/2026/10/gta-september-2026-market-hero-v02.png"
-imageAlt: "2026년 9월 GTA 주택시장 인포그래픽: 거래 5,040건, 신규 매물 16,500건, 평균 매매가 1,006,409달러와 토론토 스카이라인"
+featuredImage: "/uploads/2026/10/gta-september-2026-market-hero.png"
+imageAlt: "2026년 9월 GTA 주택시장 인포그래픽: 거래 5,040건(전년 대비 9.0% 감소), 신규 매물 16,500건(14.4% 감소), 평균 매매가 1,006,409달러(5.1% 하락)"
 ---
 
 <article>
