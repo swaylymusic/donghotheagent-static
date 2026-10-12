@@ -26,21 +26,22 @@ const category = categoryByKey[post.data.category];
 const categoryLabel = category?.label || post.data.category;
 const journey = category?.journey;
 
-const formattedDate = post.data.pubDate.toLocaleDateString("en-US", {
+const dateLocale = (post.data.language ?? "ko-CA").startsWith("ko") ? "ko-KR" : "en-US";
+const formattedDate = post.data.pubDate.toLocaleDateString(dateLocale, {
   timeZone: "UTC",
-  month: "long",
-  day: "numeric",
-  year: "numeric",
+  ...(dateLocale === "ko-KR"
+    ? { year: "numeric", month: "long", day: "numeric" }
+    : { month: "long", day: "numeric", year: "numeric" }),
 });
 
 const updatedDate = post.data.updatedDate ?? post.data.pubDate;
-const formattedUpdatedDate = updatedDate.toLocaleDateString("en-US", {
+const formattedUpdatedDate = updatedDate.toLocaleDateString(dateLocale, {
   timeZone: "UTC",
-  month: "long",
-  day: "numeric",
-  year: "numeric",
+  ...(dateLocale === "ko-KR"
+    ? { year: "numeric", month: "long", day: "numeric" }
+    : { month: "long", day: "numeric", year: "numeric" }),
 });
-const lastUpdatedLabel = `Updated: ${formattedUpdatedDate}`;
+const lastUpdatedLabel = dateLocale === "ko-KR" ? `수정일: ${formattedUpdatedDate}` : `Updated: ${formattedUpdatedDate}`;
 const relatedPosts = allPosts.slice(0, 3);
 const canonicalUrl = new URL(`/${post.slug}/`, Astro.site ?? Astro.url).toString();
 const featuredImageUrl = post.data.featuredImage
@@ -72,6 +73,7 @@ const articleStructuredData = {
   canonical={canonicalUrl}
   language={post.data.language ?? "ko-CA"}
   image={post.data.featuredImage}
+  ogType="article"
   structuredData={articleStructuredData}
 >
   <article class="blog-article">
@@ -84,7 +86,7 @@ const articleStructuredData = {
       <p class="page-kicker">{categoryLabel}</p>
       <h1>{post.data.title}</h1>
       <p class="blog-meta">{formattedDate} · Dongho Lee 이동호</p>
-      <p class="article-updated">{lastUpdatedLabel}</p>
+      {post.data.updatedDate && <p class="article-updated">{lastUpdatedLabel}</p>}
       <p class="blog-description">{post.data.description}</p>
     </header>
 

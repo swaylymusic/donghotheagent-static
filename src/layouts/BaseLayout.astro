@@ -6,6 +6,7 @@ const {
   language = "ko-CA",
   noindex = false,
   image = "/uploads/2025/01/Dongho-The-realtor-Facebook-Cover.png",
+  ogType = "website",
   structuredData = [],
 } = Astro.props;
 const htmlLang = language.startsWith("en") ? "en" : language.startsWith("ko") ? "ko" : language;
@@ -78,7 +79,7 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
     <meta name="naver-site-verification" content="2b82a73df2d2576a4979e5c3fa8b00c6ec9e8d4e" />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonicalUrl} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content="Dongho Lee Real Estate" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
