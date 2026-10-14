@@ -7,6 +7,14 @@ const staticRoutes = [
   "/",
   "/about/",
   "/services/",
+  "/buy/",
+  "/home-value/",
+  "/rent/",
+  "/invest/",
+  "/tools/",
+  "/updates/",
+  "/consumer-information/",
+  "/ontario-realtor-client-communication/",
   "/guides/",
   "/contact/",
   "/mortgage-calculator/",
@@ -33,7 +41,7 @@ export async function GET() {
   const postRoutes = posts.map((post) => (
     {
       path: `/${post.slug}/`,
-      lastmod: normalizeDate(post.data.pubDate),
+      lastmod: normalizeDate(post.data.updatedDate ?? post.data.pubDate),
       priority: "0.8",
     }
   ));
@@ -44,14 +52,15 @@ export async function GET() {
     )
     .map((category) => ({
       path: `/category/${category.slug}/`,
-      lastmod: normalizeDate(new Date()),
+      lastmod: normalizeDate(new Date(Math.max(...posts
+        .filter((post) => post.data.category === category.key)
+        .map((post) => (post.data.updatedDate ?? post.data.pubDate).getTime())))),
       priority: "0.6",
     }));
 
   const routes = [
     ...staticRoutes.map((path) => ({
       path,
-      lastmod: normalizeDate(new Date()),
       priority: path === "/" ? "1.0" : "0.7",
     })),
     ...categoryRoutes,
@@ -64,7 +73,7 @@ ${routes
   .map(
     (route) => `  <url>
     <loc>${escapeXml(new URL(route.path, site).toString())}</loc>
-    <lastmod>${route.lastmod}</lastmod>
+${"lastmod" in route ? `    <lastmod>${route.lastmod}</lastmod>` : ""}
     <priority>${route.priority}</priority>
   </url>`,
   )

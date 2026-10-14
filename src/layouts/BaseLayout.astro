@@ -5,7 +5,7 @@ const {
   canonical,
   language = "ko-CA",
   noindex = false,
-  image = "/uploads/2025/01/Dongho-The-realtor-Facebook-Cover.png",
+  image = "/uploads/2026/01/Dongho-The-realtor-Facebook-Cover.png",
   ogType = "website",
   structuredData = [],
 } = Astro.props;
@@ -303,7 +303,10 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
 
         const sendEvent = (eventName, params = {}) => {
           if (typeof window.gtag !== "function") return;
-          window.gtag("event", eventName, params);
+          window.gtag("event", eventName, {
+            site_hostname: window.location.hostname,
+            ...params,
+          });
         };
 
         document.addEventListener("click", (event) => {
@@ -332,6 +335,14 @@ const gaMeasurementId = "G-H1TPFXTMXJ";
           }
 
           const targetUrl = new URL(href, window.location.href);
+
+          if (["open.kakao.com", "pf.kakao.com", "talk.naver.com"].includes(targetUrl.hostname)) {
+            sendEvent("messaging_click", {
+              event_category: "lead_interest",
+              messaging_platform: targetUrl.hostname.includes("kakao") ? "kakao" : "naver_talk",
+              page_path: window.location.pathname,
+            });
+          }
 
           const primaryNavigation = link.closest(".nav");
           if (primaryNavigation) {

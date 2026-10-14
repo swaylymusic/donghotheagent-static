@@ -1,8 +1,8 @@
 ---
-title: "서브렛 뜻과 Assignment 차이: 온타리오 렌트 2026 완벽 가이드"
+title: "서블렛 뜻: 온타리오 Sublet·Assignment 차이와 계약 전 확인사항"
 description: "서브렛·서블렛(Sublet, Sublease)의 뜻과 Assignment 차이를 온타리오 렌트 기준으로 설명합니다. 집주인 동의, 책임, 기간, 체크리스트까지 한 번에 확인하세요."
 pubDate: "2026-07-15"
-updatedDate: "2026-07-30"
+updatedDate: "2026-10-13"
 category: "Rent"
 tags:
   - 서브렛
@@ -19,6 +19,8 @@ imageAlt: "온타리오 아파트에서 서브렛 계약서를 확인하며 열�
 ---
 
 **서브렛(Sublet)이란 기존 세입자가 임대계약을 유지한 상태에서 일정 기간 집을 비우고, 그동안 다른 사람에게 해당 주택을 다시 빌려주는 것을 말합니다.**
+
+뜻만 확인하려면 위 정의를 먼저 읽으세요. 실제 계약을 검토한다면 **잠시 집을 비운 뒤 돌아올지, 계약을 넘기고 완전히 이사할지**를 구분하는 것이 출발점입니다. 아래 Sublet·Assignment 비교표와 기간·집주인 동의 항목을 함께 확인하세요.
 
 예를 들어 대학생이 여름방학 동안 다른 도시로 가거나, 직장 문제로 몇 달간 집을 비우면서 그 기간에만 다른 사람을 거주하게 하는 경우가 대표적인 서브렛입니다.
 
@@ -59,7 +61,7 @@ imageAlt: "온타리오 아파트에서 서브렛 계약서를 확인하며 열�
 2. 다른 사람이 정해진 기간 동안 해당 주택에 거주합니다.
 3. 기존 세입자의 원래 임대계약은 그대로 유지됩니다.
 4. 서브렛 기간이 끝나면 기존 세입자가 다시 돌아옵니다.
-5. 서브렛 기간은 기존 세입자의 임대 기간을 초과할 수 없습니다.
+5. 서브렛은 기존 세입자의 임대 기간 또는 임대차 주기가 끝나기 전에 종료되어야 합니다.
 
 즉, 기존 세입자가 계약에서 완전히 빠지는 것이 아니라 **임대계약을 유지하면서 일정 기간만 다른 사람에게 거주권을 주는 방식**입니다.
 
@@ -177,9 +179,9 @@ Assignment는 기존 세입자가 임대계약상의 지위를 새로운 세입�
 
 ## 서브렛 기간은 얼마나 설정할 수 있나요?
 
-서브렛 기간은 기존 세입자의 원래 임대 기간을 넘어설 수 없습니다.
+LTB 해석 지침 21은 서브렛이 기존 세입자의 임대 기간 또는 임대차 주기가 끝나기 **전에** 종료되어야 한다고 설명합니다. 원래 계약의 종료일과 같은 날까지 설정해도 된다고 가정하지 마세요.
 
-예를 들어 기존 세입자의 임대계약이 8월 31일에 끝난다면, 서브렛 계약을 9월 이후까지 설정해서는 안 됩니다.
+예를 들어 기존 세입자의 임대 기간이 8월 31일에 끝난다면, 서브렛 종료일은 그보다 앞서 정해야 합니다. 월 단위 임대차에서도 몇 달간의 서브렛이 자동으로 가능한 것은 아니므로, 실제 계약과 날짜를 변호사 또는 Paralegal에게 확인하세요.
 
 기존 세입자가 서브렛 종료 후 다시 주택으로 돌아와야 한다는 점도 중요합니다.
 
@@ -459,7 +461,7 @@ Assignment는 기존 세입자가 임대계약상의 지위를 새로운 세입�
 
 ## 참고 자료
 
-- Ontario Residential Tenancies Act, 2006
-- Ontario Landlord and Tenant Board: A Guide to the Residential Tenancies Act
-- Ontario Standard Lease Guide
-- Tribunals Ontario: Interpretation Guideline 21
+- [Ontario Residential Tenancies Act, 2006](https://www.ontario.ca/laws/statute/06r17)
+- [Ontario Landlord and Tenant Board: A Guide to the Residential Tenancies Act](https://tribunalsontario.ca/documents/ltb/Brochures/Guide%20to%20RTA%20(English).html)
+- [Ontario Standard Lease Guide](https://www.ontario.ca/page/guide-ontarios-standard-lease)
+- [Tribunals Ontario: Interpretation Guideline 21](https://tribunalsontario.ca/documents/ltb/Interpretation%20Guidelines/21%20-%20Landlords%20Tenants%20Occupants%20and%20Residential%20Tenancies.html)
