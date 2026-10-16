@@ -100,10 +100,10 @@ main{min-height:60vh;}
 .home-section-heading h2{font-family:Georgia,"Times New Roman",serif;font-size:32px;line-height:1.14;color:var(--navy);margin:0;}
 .home-posts{max-width:var(--container);margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:4px;}
 .post-card{min-height:198px;background:#fff;border:1px solid var(--border);border-radius:8px;padding:26px 24px;box-shadow:0 15px 32px rgba(15,23,42,.06);}
-.post-card h2{font-family:Georgia,"Times New Roman",serif;font-size:19px;line-height:1.26;margin:0 0 10px;font-weight:800;word-break:keep-all;overflow-wrap:anywhere;}
+.post-card h2{font-family:"Noto Serif KR",Georgia,serif;font-size:19px;line-height:1.45;margin:0 0 10px;font-weight:600;word-break:keep-all;overflow-wrap:break-word;font-variant-numeric:lining-nums;}
 .post-card h2 a{color:var(--navy);}
 .post-date{font-size:11px;color:#5f7489;margin:0 0 12px;}
-.post-card p{font-size:13px;line-height:1.75;color:#17324c;margin:0;}
+.post-card p{font-size:13px;line-height:1.75;color:#17324c;margin:0;word-break:keep-all;overflow-wrap:break-word;}
 
 .awards{max-width:var(--container);margin:0 auto;padding:12px 18px 34px;text-align:center;}
 .awards h2{font-family:Georgia,"Times New Roman",serif;font-size:24px;line-height:1.2;color:var(--navy);margin:0 0 24px;}
