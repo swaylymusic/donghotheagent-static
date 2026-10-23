@@ -76,7 +76,7 @@ const articleStructuredData = {
   ogType="article"
   structuredData={articleStructuredData}
 >
-  <article class="blog-article">
+  <article class:list={["blog-article", post.slug === "midlife-parents-child-purchase-funding-timeline" && "parent-funding-timeline"]}>
     <nav class="blog-breadcrumbs" aria-label="Breadcrumb">
       <a href="/">Home</a>
       <a href="/guides/">Guides</a>
