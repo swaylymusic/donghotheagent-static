@@ -368,9 +368,9 @@ main{min-height:60vh;}
 .blog-content figcaption{font-size:12px;color:var(--muted);margin-top:8px;}
 .blog-content table{width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;display:block;overflow-x:auto;}
 .parent-funding-timeline .blog-content table{display:table;table-layout:fixed;overflow:visible;}
-.parent-funding-timeline .blog-content th:nth-child(1),.parent-funding-timeline .blog-content td:nth-child(1){width:11%;}
-.parent-funding-timeline .blog-content th:nth-child(2),.parent-funding-timeline .blog-content td:nth-child(2){width:36%;}
-.parent-funding-timeline .blog-content th:nth-child(3),.parent-funding-timeline .blog-content td:nth-child(3){width:53%;}
+.parent-funding-timeline .blog-content th:nth-child(1),.parent-funding-timeline .blog-content td:nth-child(1){width:15%;white-space:nowrap;}
+.parent-funding-timeline .blog-content th:nth-child(2),.parent-funding-timeline .blog-content td:nth-child(2){width:35%;}
+.parent-funding-timeline .blog-content th:nth-child(3),.parent-funding-timeline .blog-content td:nth-child(3){width:50%;}
 .parent-funding-timeline .blog-content td{word-break:keep-all;overflow-wrap:anywhere;}
 .blog-content table.market-summary-table{display:table;width:100%;table-layout:fixed;overflow:visible;font-size:14px;}
 .blog-content table.market-summary-table th:nth-child(1),.blog-content table.market-summary-table td:nth-child(1){width:16%;}
