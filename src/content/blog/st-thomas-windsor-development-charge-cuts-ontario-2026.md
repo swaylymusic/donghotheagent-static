@@ -17,6 +17,8 @@ draft: false
 
 이번 주에는 신축주택 개발비와 금리 발표, 두 가지를 확인합니다. St. Thomas와 Windsor는 개발부담금(Development Charges, DC)을 낮추는 대신 도로·상하수도 등 주택 공급을 뒷받침하는 기반시설 지원을 받게 됐습니다. 한편 Bank of Canada는 10월 28일 기준금리를 발표할 예정입니다. 개발비 인하가 곧바로 집값 인하를 뜻하는지, 금리 발표 전 무엇을 점검하면 좋을지 차례로 살펴보겠습니다.
 
+지난주 GTA와 London의 거래 흐름은 [10월 19일 주간 브리프](/ontario-real-estate-weekly-brief-october-19-2026/)에서 이어서 확인할 수 있습니다.
+
 *대표 이미지: St. Thomas City Hall. 사진: Adam Bishop / Wikimedia Commons, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [원본 파일](https://commons.wikimedia.org/wiki/File:St._Thomas_Ontario_City_Hall.jpg).*
 
 ## 1. Development Charges는 무엇이고, 왜 낮추나요?
