@@ -380,6 +380,9 @@ main{min-height:60vh;}
 .blog-content table.market-summary-table.market-summary-table--four th:nth-child(1),.blog-content table.market-summary-table.market-summary-table--four td:nth-child(1){width:18%;}
 .blog-content table.market-summary-table.market-summary-table--four th:nth-child(2),.blog-content table.market-summary-table.market-summary-table--four td:nth-child(2),.blog-content table.market-summary-table.market-summary-table--four th:nth-child(3),.blog-content table.market-summary-table.market-summary-table--four td:nth-child(3){width:18%;white-space:nowrap;}
 .blog-content table.market-summary-table.market-summary-table--four th:nth-child(4),.blog-content table.market-summary-table.market-summary-table--four td:nth-child(4){width:46%;white-space:normal;word-break:keep-all;overflow-wrap:anywhere;}
+.blog-content table.market-summary-table.market-summary-table--overview-three th:nth-child(1),.blog-content table.market-summary-table.market-summary-table--overview-three td:nth-child(1){width:40%;white-space:normal;}
+.blog-content table.market-summary-table.market-summary-table--overview-three th:nth-child(2),.blog-content table.market-summary-table.market-summary-table--overview-three td:nth-child(2){width:30%;white-space:nowrap;}
+.blog-content table.market-summary-table.market-summary-table--overview-three th:nth-child(3),.blog-content table.market-summary-table.market-summary-table--overview-three td:nth-child(3){width:30%;white-space:normal;}
 .blog-content .table-scroll{width:100%;margin:24px 0;overflow-x:auto;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;}
 .blog-content .table-scroll table{margin:0;}
 .blog-content th,.blog-content td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top;}
